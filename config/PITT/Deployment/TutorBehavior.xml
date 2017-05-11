@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Behavior>
+  <Task>
+    <Condition condition="Case Start"/>
+    <Action receiver="FeedbackModule" action="feedbackMode" input="hint" />
+  </Task>
+
+ <Task>
+	<Condition condition="Expression" operation="or">
+		<Condition condition="User Action" operation="=" input="type:Hint"/>
+		<Condition condition="Expression" operation="and">
+			<Condition condition="User Action" operation="=" input="type:Diagnosis"/>
+			<Condition condition="Tutor Response" operation="=" input="Failure"/>
+		</Condition>
+	</Condition>
+	<Action receiver="FeedbackModule" action="feedbackMode" input="all" />	
+ </Task>
+ 
+ <Task>
+	<Condition condition="Expression" operation="and">
+		<Condition condition="User Action" operation="=" input="type:Done"/>
+		<Condition condition="Tutor Response" operation="=" input="Confirm"/>
+	</Condition>
+	<Action receiver="Tutor" action="finishCase" input=""/> 
+ </Task>
+
+ <Task>
+	<Condition condition="Expression" operation="and">
+		<Condition condition="User Action" operation="=" input="type:Done"/>
+		<Condition condition="Tutor Response" operation="=" input="Failure"/>
+	</Condition>
+	<Action receiver="Tutor" action="promptUser" input="It looks like you have not solved this case yet.&lt;p&gt;Would you like to see the results and go to the next case?[prompt|yes;no]"/> 
+ </Task>
+ <Task>
+	<Condition condition="User Action" operation="=" input="label:It looks like you have not solved this case yet.&lt;p&gt;Would you like to see the results and go to the next case? = yes"/>
+	<Action receiver="FeedbackModule" action="autoHint" input="instant" />
+	<Action receiver="Tutor" action="finishCase" input=""/> 
+ </Task>
+ 
+
+</Behavior>

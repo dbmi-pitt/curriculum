@@ -1,0 +1,559 @@
+[CASE]
+name=dino4
+status=complete
+domain=http://slidetutor.upmc.edu/curriculum/owl/dinosaur/PITT/DinosaurInstances.owl#
+creator=kayse (PITT)
+
+[REPORT]
+PATIENT HISTORY:
+The patient is 65-68 million years old.
+
+FINAL DIAGNOSIS:
+Tyrannosaurus Rex
+two short forelimbs
+short neck
+two digits
+two hindlimbs
+large body
+tail length 0.20 mm
+cretaceous
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+This is a dinosaur!
+
+MICROSCOPIC:
+
+
+[DIAGNOSES]
+TYRANNOSAURUS_REX
+
+[DIAGNOSTIC_FINDINGS]
+Two_Short_Forelimbs
+Short_Neck
+Tail
+Two_Digits
+Two_Hindlimbs
+Large_Body
+
+[PROGNOSTIC_FINDINGS]
+Anatomic_Location
+Cretaceous
+Two_Short_Forelimbs
+Short_Neck
+Two_Digits
+Two_Hindlimbs
+Large_Body
+Tail_Length_Number_Mm
+
+[CLINICAL_FINDINGS]
+Anatomic_Location
+
+[ANCILLARY_STUDIES]
+
+[SLIDES]
+Tyrannosaurus-rex.jpg
+
+[TYRANNOSAURUS_REX]
+#Tue Jul 13 09:43:43 EDT 2010
+locations=[]
+name=TYRANNOSAURUS_REX
+is.asserted=true
+is.absent=false
+TYRANNOSAURUS_REX.example=null
+parts=[]
+
+[Two_Short_Forelimbs]
+#Tue Jul 13 09:43:43 EDT 2010
+is.asserted=true
+name=Two_Short_Forelimbs
+parts=[]
+Number.example=Arrow18
+Short.example=Arrow18
+is.absent=false
+locations=[two short forelimbs, two short forelimbs]
+Forelimbs.example=Arrow18
+Two.example=Arrow18
+
+[Short_Neck]
+#Tue Jul 13 09:43:43 EDT 2010
+Short.example=Arrow15
+locations=[short neck, short neck]
+name=Short_Neck
+is.asserted=true
+is.absent=false
+parts=[]
+Neck.example=Arrow15
+
+[Tail]
+#Tue Jul 13 09:43:43 EDT 2010
+locations=[tail]
+name=Tail
+is.asserted=true
+Tail.example=Arrow13
+is.absent=false
+parts=[]
+
+[Two_Digits]
+#Tue Jul 13 09:43:43 EDT 2010
+locations=[two digits, two digits]
+name=Two_Digits
+is.asserted=true
+is.absent=false
+Number.example=Arrow11
+Digits.example=Arrow11
+parts=[]
+Two.example=Arrow11
+
+[Two_Hindlimbs]
+#Tue Jul 13 09:43:43 EDT 2010
+locations=[two hindlimbs, two hindlimbs]
+Hindlimbs.example=Arrow7
+name=Two_Hindlimbs
+is.asserted=true
+is.absent=false
+Number.example=Arrow7
+parts=[]
+Two.example=Arrow7
+
+[Large_Body]
+#Tue Jul 13 09:43:43 EDT 2010
+locations=[large body, large body]
+Large.example=Arrow4
+name=Large_Body
+is.asserted=true
+is.absent=false
+Body.example=Arrow4
+parts=[]
+
+[Anatomic_Location]
+#Tue Jul 13 09:43:43 EDT 2010
+locations=[]
+Anatomic_Location.example=null
+name=Anatomic_Location
+is.asserted=false
+resource.link=http\://slidetutor.upmc.edu/curriculum/owl/AnatomicalSites.owl\#Digits
+is.absent=false
+parts=[]
+
+[Cretaceous]
+#Tue Jul 13 09:43:43 EDT 2010
+locations=[]
+name=Cretaceous
+is.asserted=true
+is.absent=false
+parts=[]
+Cretaceous.example=null
+
+[Two_Short_Forelimbs]
+#Tue Jul 13 09:43:43 EDT 2010
+is.asserted=true
+name=Two_Short_Forelimbs
+parts=[]
+Number.example=Arrow18
+Short.example=Arrow18
+is.absent=false
+locations=[two short forelimbs, two short forelimbs]
+Forelimbs.example=Arrow18
+Two.example=Arrow18
+
+[Short_Neck]
+#Tue Jul 13 09:43:43 EDT 2010
+Short.example=Arrow15
+locations=[short neck, short neck]
+name=Short_Neck
+is.asserted=true
+is.absent=false
+parts=[]
+Neck.example=Arrow15
+
+[Two_Digits]
+#Tue Jul 13 09:43:43 EDT 2010
+locations=[two digits, two digits]
+name=Two_Digits
+is.asserted=true
+is.absent=false
+Number.example=Arrow11
+Digits.example=Arrow11
+parts=[]
+Two.example=Arrow11
+
+[Two_Hindlimbs]
+#Tue Jul 13 09:43:43 EDT 2010
+locations=[two hindlimbs, two hindlimbs]
+Hindlimbs.example=Arrow7
+name=Two_Hindlimbs
+is.asserted=true
+is.absent=false
+Number.example=Arrow7
+parts=[]
+Two.example=Arrow7
+
+[Large_Body]
+#Tue Jul 13 09:43:43 EDT 2010
+locations=[large body, large body]
+Large.example=Arrow4
+name=Large_Body
+is.asserted=true
+is.absent=false
+Body.example=Arrow4
+parts=[]
+
+[Tail_Length_Number_Mm]
+#Tue Jul 13 09:43:43 EDT 2010
+Tail_Length.example=Ruler20
+is.asserted=true
+name=Tail_Length_Number_Mm
+numeric.value=0.20
+parts=[]
+Number.example=null
+Mm.example=Ruler20
+is.absent=false
+locations=[tail length]
+
+[Anatomic_Location]
+#Tue Jul 13 09:43:43 EDT 2010
+locations=[]
+Anatomic_Location.example=null
+name=Anatomic_Location
+is.asserted=true
+resource.link=http\://slidetutor.upmc.edu/curriculum/owl/AnatomicalSites.owl\#Digits
+is.absent=false
+parts=[]
+
+[Tyrannosaurus-rex.jpg]
+#Tue Jul 13 09:43:43 EDT 2010
+part=null
+slide.name=Tyrannosaurus-rex.jpg
+is.primary=true
+path=dinosaurs
+server=http\://op-image-tutor.upmc.com/servlet/OpenSlideServlet
+block=null
+stain=null
+level=null
+
+[Arrow11]
+#Tue Jul 13 09:43:43 EDT 2010
+y.points=[]
+end.x=292
+name=Arrow11
+width=-30
+x.points=[]
+image=Tyrannosaurus-rex.jpg
+view.y=0
+view.x=-779
+color=GREEN
+view.zoom=0.7138889
+type=Arrow
+start.y=393
+height=133
+start.x=322
+end.y=526
+tag=two digits
+
+[Arrow13]
+#Tue Jul 13 09:43:43 EDT 2010
+y.points=[]
+end.x=994
+name=Arrow13
+width=105
+x.points=[]
+image=Tyrannosaurus-rex.jpg
+view.y=0
+view.x=-779
+color=GREEN
+view.zoom=0.7138889
+type=Arrow
+start.y=254
+height=-116
+start.x=889
+end.y=138
+tag=tail
+
+[Arrow15]
+#Tue Jul 13 09:43:43 EDT 2010
+y.points=[]
+end.x=404
+name=Arrow15
+width=60
+x.points=[]
+image=Tyrannosaurus-rex.jpg
+view.y=0
+view.x=-779
+color=GREEN
+view.zoom=0.7138889
+type=Arrow
+start.y=147
+height=-90
+start.x=344
+end.y=57
+tag=
+
+[Arrow18]
+#Tue Jul 13 09:43:43 EDT 2010
+y.points=[]
+end.x=168
+name=Arrow18
+width=-188
+x.points=[]
+image=Tyrannosaurus-rex.jpg
+view.y=0
+view.x=-779
+color=GREEN
+view.zoom=0.7138889
+type=Arrow
+start.y=361
+height=-31
+start.x=356
+end.y=330
+tag=two short forelimbs
+
+[Arrow4]
+#Tue Jul 13 09:43:43 EDT 2010
+y.points=[]
+end.x=683
+name=Arrow4
+width=144
+x.points=[]
+image=Tyrannosaurus-rex.jpg
+view.y=0
+view.x=-779
+color=GREEN
+view.zoom=0.7138889
+type=Arrow
+start.y=215
+height=-117
+start.x=539
+end.y=98
+tag=large body
+
+[Arrow7]
+#Tue Jul 13 09:43:43 EDT 2010
+y.points=[]
+end.x=806
+name=Arrow7
+width=159
+x.points=[]
+image=Tyrannosaurus-rex.jpg
+view.y=0
+view.x=-779
+color=GREEN
+view.zoom=0.7138889
+type=Arrow
+start.y=423
+height=-66
+start.x=647
+end.y=357
+tag=two hindlimbs
+
+[Polygon10]
+#Tue Jul 13 09:43:43 EDT 2010
+y.points=[360, 357, 355, 355, 355, 355, 357, 358, 361, 362, 367, 371, 371, 367, 362, 360, 358, 358, 360, 360, 357, 352, 350, 347, 343, 340, 338, 336, 336, 334, 334, 334, 334, 334, 334, 336, 340, 344, 348, 351]
+end.x=518
+name=Polygon10
+width=69
+x.points=[449, 452, 456, 460, 465, 469, 473, 477, 481, 486, 487, 488, 493, 495, 495, 500, 504, 509, 514, 518, 518, 515, 511, 507, 504, 500, 495, 491, 487, 483, 479, 474, 470, 466, 462, 458, 456, 456, 455, 451]
+image=Tyrannosaurus-rex.jpg
+view.y=0
+view.x=-779
+color=BLUE
+view.zoom=0.7138889
+type=Polygon
+start.y=334
+height=37
+start.x=449
+end.y=371
+tag=two digits
+
+[Polygon12]
+#Tue Jul 13 09:43:43 EDT 2010
+y.points=[212, 218, 222, 226, 233, 238, 243, 247, 252, 256, 260, 264, 268, 273, 277, 281, 285, 289, 294, 298, 302, 306, 310, 315, 319, 323, 327, 331, 336, 340, 344, 348, 352, 354, 354, 354, 354, 354, 354, 354, 352, 352, 351, 348, 347, 344, 341, 338, 338, 337, 337, 336, 336, 334, 333, 331, 329, 327, 327, 326, 324, 323, 323, 320, 319, 319, 317, 316, 315, 315, 313, 313, 312, 312, 312, 312, 310, 310, 310, 310, 310, 310, 310, 310, 310, 310, 310, 310, 310, 310, 310, 310, 310, 310, 310, 310, 310, 310, 310, 313, 313, 315, 315, 319, 323, 324, 326, 327, 329, 330, 330, 331, 333, 337, 340, 344, 347, 351, 355, 361, 364, 367, 369, 369, 369, 369, 369, 369, 369, 367, 362, 358, 354, 350, 345, 341, 338, 334, 331, 327, 323, 320, 316, 315, 312, 308, 305, 301, 296, 294, 291, 287, 282, 281, 278, 275, 273, 271, 267, 264, 264, 261, 259, 257, 254, 253, 250, 249, 246, 245, 243, 240, 239, 238, 236, 235, 233, 232, 231, 229, 229, 229, 229, 229, 229, 229, 229, 229, 229, 229, 228, 225, 225, 224, 222, 221, 219, 219, 218, 217, 217, 217, 217, 214, 214, 214, 214, 214, 214, 214, 214, 214, 214, 214, 214, 214, 214, 214, 214, 214, 214, 214, 214, 214, 214, 214, 214, 214, 214, 214, 214, 214, 212, 212, 212, 212, 212, 212, 212, 212]
+end.x=1196
+name=Polygon12
+width=481
+x.points=[715, 715, 715, 715, 718, 720, 720, 721, 721, 722, 722, 724, 724, 727, 727, 727, 727, 727, 728, 729, 731, 732, 735, 736, 736, 736, 736, 736, 738, 738, 738, 739, 741, 745, 749, 755, 759, 763, 767, 773, 777, 781, 785, 790, 794, 798, 805, 811, 815, 819, 825, 832, 836, 841, 846, 850, 854, 858, 862, 867, 871, 875, 879, 885, 889, 893, 897, 903, 907, 911, 916, 920, 927, 934, 939, 946, 952, 956, 962, 966, 970, 974, 979, 983, 987, 991, 995, 1000, 1004, 1011, 1015, 1021, 1025, 1029, 1033, 1037, 1042, 1046, 1050, 1056, 1060, 1064, 1068, 1072, 1081, 1087, 1091, 1095, 1099, 1103, 1108, 1112, 1116, 1126, 1131, 1137, 1143, 1144, 1147, 1151, 1157, 1161, 1165, 1171, 1175, 1179, 1183, 1187, 1192, 1196, 1196, 1196, 1193, 1189, 1186, 1183, 1179, 1176, 1172, 1166, 1164, 1159, 1155, 1151, 1147, 1144, 1140, 1136, 1131, 1127, 1123, 1120, 1116, 1112, 1108, 1103, 1098, 1094, 1089, 1085, 1081, 1077, 1072, 1067, 1063, 1058, 1053, 1049, 1044, 1040, 1036, 1032, 1028, 1022, 1018, 1012, 1008, 1002, 997, 993, 988, 984, 979, 974, 970, 966, 962, 958, 952, 948, 944, 939, 935, 931, 925, 921, 917, 913, 909, 903, 899, 895, 889, 883, 876, 872, 868, 864, 860, 855, 851, 847, 843, 839, 834, 830, 825, 820, 816, 812, 808, 802, 795, 790, 785, 781, 777, 771, 767, 763, 759, 755, 750, 746, 742, 738, 734, 729, 725, 721]
+image=Tyrannosaurus-rex.jpg
+view.y=0
+view.x=-779
+color=BLUE
+view.zoom=0.7138889
+type=Polygon
+start.y=212
+height=157
+start.x=715
+end.y=369
+tag=tail
+
+[Polygon14]
+#Tue Jul 13 09:43:43 EDT 2010
+y.points=[264, 263, 261, 260, 259, 257, 257, 254, 252, 247, 246, 242, 239, 235, 231, 229, 225, 221, 215, 211, 207, 203, 197, 193, 186, 179, 172, 168, 162, 158, 154, 149, 145, 142, 140, 135, 133, 131, 128, 126, 124, 120, 119, 114, 110, 107, 103, 100, 96, 96, 96, 99, 100, 105, 109, 113, 117, 121, 124, 128, 134, 138, 142, 147, 151, 155, 159, 163, 168, 172, 176, 180, 183, 187, 191, 193, 196, 200, 204, 208, 212, 217, 221, 225, 225, 225, 225, 225, 225, 226, 228, 229, 231, 232, 233, 238, 242, 243, 247, 252, 256, 261]
+end.x=399
+name=Polygon14
+width=156
+x.points=[310, 319, 324, 330, 336, 343, 347, 351, 355, 358, 362, 367, 371, 376, 381, 385, 388, 392, 395, 396, 396, 396, 396, 396, 396, 397, 397, 397, 397, 397, 399, 399, 399, 393, 389, 385, 381, 376, 372, 368, 364, 361, 357, 352, 350, 345, 343, 338, 336, 331, 327, 323, 319, 316, 313, 310, 309, 308, 303, 301, 298, 296, 294, 291, 288, 285, 284, 280, 277, 273, 270, 267, 263, 259, 256, 252, 247, 245, 243, 243, 243, 243, 243, 243, 247, 253, 259, 263, 267, 271, 275, 280, 284, 289, 294, 298, 303, 308, 312, 313, 316, 317]
+image=Tyrannosaurus-rex.jpg
+view.y=0
+view.x=-779
+color=BLUE
+view.zoom=0.7138889
+type=Polygon
+start.y=96
+height=168
+start.x=243
+end.y=264
+tag=short neck
+
+[Polygon16]
+#Tue Jul 13 09:43:43 EDT 2010
+y.points=[382, 379, 375, 372, 368, 364, 358, 355, 351, 347, 343, 340, 336, 333, 330, 326, 322, 322, 317, 316, 315, 313, 313, 313, 313, 315, 317, 317, 322, 326, 330, 334, 338, 341, 341, 341, 341, 343, 345, 350, 354, 357, 358, 362, 367, 371, 375, 379, 383, 383, 383, 383, 383, 383]
+end.x=386
+name=Polygon16
+width=73
+x.points=[365, 367, 374, 378, 378, 379, 382, 386, 386, 386, 383, 379, 375, 371, 367, 362, 360, 357, 354, 350, 345, 341, 337, 333, 329, 324, 320, 316, 313, 313, 313, 313, 315, 319, 323, 327, 331, 336, 340, 341, 340, 336, 331, 330, 330, 330, 331, 333, 336, 340, 345, 352, 357, 360]
+image=Tyrannosaurus-rex.jpg
+view.y=0
+view.x=-779
+color=BLUE
+view.zoom=0.7138889
+type=Polygon
+start.y=313
+height=70
+start.x=313
+end.y=383
+tag=two short forelimbs
+
+[Polygon17]
+#Tue Jul 13 09:43:43 EDT 2010
+y.points=[327, 324, 320, 316, 312, 308, 303, 302, 301, 301, 301, 302, 305, 309, 313, 317, 323, 327, 333, 337, 341, 345, 350, 354, 358, 360, 362, 361, 360, 357, 354, 350, 345, 341, 337, 333, 329, 324]
+end.x=470
+name=Polygon17
+width=45
+x.points=[458, 456, 455, 455, 456, 456, 456, 452, 448, 444, 439, 435, 431, 428, 425, 425, 425, 427, 428, 430, 430, 432, 434, 437, 438, 442, 446, 451, 456, 458, 462, 465, 467, 470, 470, 467, 463, 460]
+image=Tyrannosaurus-rex.jpg
+view.y=0
+view.x=-779
+color=BLUE
+view.zoom=0.7138889
+type=Polygon
+start.y=301
+height=61
+start.x=425
+end.y=362
+tag=two short forelimbs
+
+[Polygon3]
+#Tue Jul 13 09:43:43 EDT 2010
+y.points=[386, 383, 381, 381, 379, 378, 376, 375, 374, 371, 369, 367, 365, 362, 360, 357, 352, 347, 341, 337, 333, 329, 324, 319, 309, 303, 298, 292, 288, 284, 278, 273, 267, 261, 256, 250, 243, 238, 232, 226, 222, 218, 214, 210, 205, 201, 197, 193, 189, 184, 182, 177, 176, 173, 170, 169, 166, 165, 162, 158, 158, 156, 155, 152, 149, 148, 145, 144, 140, 138, 137, 135, 134, 134, 133, 131, 131, 130, 128, 127, 126, 124, 123, 123, 123, 123, 123, 123, 123, 123, 123, 123, 123, 123, 123, 123, 123, 123, 123, 123, 123, 123, 123, 123, 123, 123, 123, 124, 124, 124, 126, 126, 128, 133, 137, 141, 142, 147, 151, 156, 161, 166, 170, 175, 180, 186, 190, 196, 200, 204, 208, 214, 221, 226, 232, 236, 242, 247, 252, 256, 260, 263, 267, 270, 274, 278, 282, 285, 289, 294, 298, 302, 306, 310, 315, 319, 323, 327, 331, 336, 340, 344, 348, 350, 350, 350, 350, 351, 352, 354, 354, 355, 355, 358, 362, 364, 365, 365, 365, 365, 367, 368, 368, 368, 368, 369, 371, 372, 375, 376, 378, 381, 381, 381, 382, 383, 383, 383, 385, 388, 389, 392, 395, 397, 402, 406, 409, 413, 414, 416, 416, 417, 417, 418, 420, 420, 420, 421, 421, 421, 421, 421, 420, 417, 416, 413, 410, 409, 404, 402, 399, 397, 397, 396, 395, 393, 392, 392]
+end.x=736
+name=Polygon3
+width=434
+x.points=[665, 668, 672, 676, 683, 689, 693, 698, 704, 708, 712, 717, 721, 725, 729, 731, 734, 736, 736, 736, 736, 736, 736, 736, 736, 736, 736, 736, 735, 735, 734, 734, 734, 734, 734, 734, 734, 734, 732, 729, 728, 727, 725, 721, 718, 715, 711, 707, 703, 700, 696, 693, 689, 683, 679, 675, 670, 665, 659, 655, 651, 647, 641, 637, 633, 628, 624, 619, 613, 609, 605, 600, 596, 591, 586, 582, 578, 572, 565, 560, 556, 550, 546, 540, 533, 529, 525, 521, 515, 511, 507, 502, 498, 494, 490, 486, 480, 476, 472, 467, 462, 458, 453, 449, 444, 439, 434, 427, 421, 416, 411, 407, 403, 400, 396, 392, 388, 383, 381, 378, 378, 378, 378, 378, 375, 374, 371, 369, 367, 364, 362, 360, 355, 350, 347, 343, 338, 334, 331, 329, 326, 322, 320, 316, 312, 312, 309, 305, 303, 302, 302, 303, 303, 303, 305, 306, 308, 308, 309, 309, 310, 312, 316, 320, 324, 329, 333, 337, 341, 345, 350, 354, 358, 362, 369, 376, 381, 385, 390, 395, 399, 403, 407, 411, 416, 420, 424, 428, 432, 437, 441, 445, 449, 453, 458, 462, 466, 470, 474, 479, 483, 487, 491, 495, 498, 500, 504, 509, 514, 518, 522, 526, 532, 540, 544, 551, 556, 561, 565, 571, 575, 579, 585, 589, 595, 599, 603, 607, 613, 619, 626, 631, 635, 640, 647, 651, 655, 659]
+image=Tyrannosaurus-rex.jpg
+view.y=0
+view.x=-779
+color=BLUE
+view.zoom=0.7138889
+type=Polygon
+start.y=123
+height=298
+start.x=302
+end.y=421
+tag=large body
+
+[Polygon5]
+#Tue Jul 13 09:43:43 EDT 2010
+y.points=[324, 329, 334, 340, 348, 355, 361, 368, 374, 378, 382, 386, 390, 396, 400, 404, 409, 411, 416, 418, 423, 427, 431, 435, 439, 444, 448, 452, 458, 462, 469, 474, 479, 483, 487, 491, 495, 500, 504, 508, 512, 516, 521, 526, 530, 535, 539, 544, 550, 554, 558, 563, 567, 572, 577, 581, 585, 589, 595, 599, 603, 610, 614, 620, 624, 630, 634, 638, 642, 648, 654, 658, 662, 666, 670, 675, 679, 683, 689, 693, 697, 701, 704, 707, 707, 707, 707, 707, 707, 707, 707, 707, 707, 707, 707, 707, 705, 704, 703, 701, 701, 698, 697, 697, 696, 691, 687, 683, 679, 673, 669, 666, 663, 659, 655, 651, 648, 644, 640, 635, 631, 628, 624, 619, 614, 610, 606, 602, 598, 593, 589, 585, 581, 575, 570, 564, 560, 554, 549, 544, 540, 535, 530, 526, 522, 518, 512, 507, 501, 497, 494, 488, 484, 480, 476, 472, 466, 462, 456, 452, 446, 442, 438, 431, 427, 423, 418, 414, 410, 406, 402, 397, 392, 388, 383, 378, 374, 369, 364, 357, 352, 345, 340, 336, 331, 326, 322, 317, 313, 309, 305, 301, 296, 291, 287, 282, 278, 274, 270, 266, 260, 256, 249, 245, 239, 235, 231, 225, 219, 214, 211, 207, 203, 200, 197, 196, 196, 196, 196, 196, 198, 200, 203, 207, 212, 217, 221, 226, 232, 236, 240, 245, 249, 254, 259, 263, 268, 273, 277, 281, 285, 289]
+end.x=722
+name=Polygon5
+width=166
+x.points=[684, 682, 679, 676, 673, 670, 666, 665, 663, 663, 663, 663, 663, 663, 665, 669, 672, 676, 679, 683, 684, 687, 691, 693, 696, 697, 697, 698, 698, 698, 698, 698, 698, 698, 700, 700, 701, 704, 705, 707, 708, 708, 710, 711, 711, 711, 711, 711, 711, 711, 711, 711, 711, 711, 711, 711, 711, 711, 712, 712, 712, 714, 714, 714, 715, 717, 720, 721, 721, 722, 722, 722, 722, 722, 722, 722, 722, 722, 722, 722, 721, 718, 714, 708, 703, 697, 693, 686, 680, 676, 670, 665, 661, 655, 651, 647, 641, 637, 631, 626, 621, 617, 613, 609, 603, 599, 596, 596, 596, 596, 596, 600, 606, 610, 614, 617, 621, 626, 630, 633, 637, 641, 644, 645, 645, 645, 645, 644, 644, 642, 642, 641, 640, 640, 637, 634, 634, 633, 633, 633, 633, 633, 631, 630, 628, 627, 626, 623, 620, 619, 614, 610, 609, 605, 603, 600, 599, 596, 593, 591, 588, 585, 584, 581, 578, 577, 574, 571, 568, 565, 563, 560, 557, 557, 556, 556, 556, 556, 556, 556, 556, 556, 556, 556, 556, 557, 557, 557, 557, 557, 557, 557, 557, 557, 557, 558, 558, 558, 558, 558, 560, 561, 565, 568, 570, 572, 577, 581, 585, 589, 595, 599, 606, 612, 619, 623, 627, 631, 637, 642, 647, 652, 656, 661, 668, 673, 676, 680, 682, 683, 684, 687, 689, 691, 694, 696, 697, 697, 697, 697, 697, 697]
+image=Tyrannosaurus-rex.jpg
+view.y=0
+view.x=-779
+color=BLUE
+view.zoom=0.7138889
+type=Polygon
+start.y=196
+height=511
+start.x=556
+end.y=707
+tag=two hindlimbs
+
+[Polygon6]
+#Tue Jul 13 09:43:43 EDT 2010
+y.points=[390, 397, 403, 407, 411, 414, 420, 424, 428, 432, 437, 441, 444, 449, 453, 458, 462, 466, 470, 473, 477, 481, 484, 487, 488, 490, 493, 497, 501, 505, 509, 514, 518, 522, 526, 532, 536, 540, 544, 549, 553, 557, 561, 565, 570, 574, 578, 582, 586, 591, 595, 599, 603, 605, 609, 614, 619, 623, 627, 631, 637, 642, 648, 652, 658, 661, 665, 665, 665, 665, 663, 663, 662, 661, 659, 659, 659, 655, 652, 649, 645, 641, 637, 633, 628, 624, 620, 616, 612, 607, 602, 598, 591, 586, 582, 577, 571, 565, 561, 557, 551, 547, 543, 537, 532, 525, 521, 516, 512, 508, 504, 500, 495, 491, 487, 484, 480, 476, 472, 467, 462, 458, 455, 451, 446, 442, 438, 434, 430, 425, 421, 416, 411, 407, 409, 411, 413, 414, 414, 416, 416, 417, 417, 417, 417, 417, 414, 411, 407, 404, 400, 397, 395, 392]
+end.x=645
+name=Polygon6
+width=172
+x.points=[473, 473, 476, 477, 479, 483, 487, 490, 493, 495, 500, 504, 509, 514, 516, 516, 521, 523, 526, 530, 536, 542, 546, 551, 556, 560, 564, 567, 570, 571, 571, 571, 571, 571, 571, 571, 571, 571, 571, 570, 567, 564, 560, 557, 554, 551, 551, 551, 551, 551, 551, 551, 549, 544, 542, 537, 536, 533, 533, 533, 533, 533, 535, 537, 542, 546, 551, 556, 561, 565, 571, 575, 581, 585, 591, 596, 600, 606, 610, 614, 617, 620, 623, 626, 626, 627, 627, 627, 627, 627, 627, 630, 631, 633, 635, 638, 642, 645, 645, 645, 645, 645, 645, 645, 645, 645, 645, 642, 638, 635, 634, 630, 627, 624, 621, 617, 614, 609, 607, 605, 599, 598, 593, 591, 588, 585, 582, 581, 579, 577, 575, 571, 568, 567, 561, 557, 553, 547, 543, 539, 535, 530, 526, 521, 514, 509, 505, 501, 495, 491, 488, 484, 480, 476]
+image=Tyrannosaurus-rex.jpg
+view.y=0
+view.x=-779
+color=BLUE
+view.zoom=0.7138889
+type=Polygon
+start.y=390
+height=275
+start.x=473
+end.y=665
+tag=two hindlimbs
+
+[Polygon9]
+#Tue Jul 13 09:43:43 EDT 2010
+y.points=[386, 392, 396, 400, 402, 404, 409, 413, 417, 421, 424, 424, 423, 418, 414, 411, 416, 417, 418, 420, 423, 423, 420, 416, 411, 407, 403, 399, 395, 392, 389, 385, 381, 379, 376, 375, 374, 374, 372, 372, 372, 372, 374, 378]
+end.x=358
+name=Polygon9
+width=70
+x.points=[358, 358, 355, 354, 350, 345, 344, 341, 341, 340, 336, 331, 327, 323, 322, 317, 313, 309, 305, 301, 296, 292, 288, 288, 288, 288, 288, 289, 292, 296, 301, 305, 309, 313, 317, 322, 326, 330, 336, 340, 344, 348, 352, 355]
+image=Tyrannosaurus-rex.jpg
+view.y=0
+view.x=-779
+color=BLUE
+view.zoom=0.7138889
+type=Polygon
+start.y=372
+height=52
+start.x=288
+end.y=424
+tag=two digits
+
+[Rectangle21]
+#Tue Jul 13 09:43:43 EDT 2010
+y.points=[182, 288, 445, 341]
+end.x=1241
+name=Rectangle21
+width=539
+x.points=[739, 1241, 1204, 702]
+image=Tyrannosaurus-rex.jpg
+view.y=2
+view.x=-778
+color=GREEN
+view.zoom=0.7140865
+type=Parallelogram
+start.y=182
+height=263
+start.x=702
+end.y=445
+tag=tail length
+
+[Ruler20]
+#Tue Jul 13 09:43:43 EDT 2010
+y.points=[]
+end.x=743
+name=Ruler20
+width=-447
+x.points=[]
+image=Tyrannosaurus-rex.jpg
+view.y=2
+view.x=-778
+color=ORANGE
+view.zoom=0.7140865
+type=Ruler
+start.y=296
+height=-19
+start.x=1190
+end.y=277
+tag=tail length
+

@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+    xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+    xmlns:radiology="http://slidetutor.upmc.edu/curriculum/owl/breast/UPMC/Radiology.owl#"
+    xmlns="http://slidetutor.upmc.edu/curriculum/owl/breast/UPMC/RadiologyInstances.owl#"
+    xmlns:j.0="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+    xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://slidetutor.upmc.edu/curriculum/owl/breast/UPMC/RadiologyInstances.owl">
+  <owl:Ontology rdf:about="">
+    <owl:imports rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/breast/UPMC/Radiology.owl"/>
+  </owl:Ontology>
+  <radiology:Round_Mass rdf:ID="no_round_mass">
+    <j.0:isAbsent rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</j.0:isAbsent>
+  </radiology:Round_Mass>
+  <radiology:ATYPICAL_HYPERPLASIA rdf:ID="test">
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dicom/HB0000001808/f8.dcm</j.0:hasImage>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dicom/HB0000001808/f7.dcm</j.0:hasImage>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+    <j.0:hasFinding>
+      <radiology:Assymmetry rdf:ID="assymmetry"/>
+    </j.0:hasFinding>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >test</rdfs:label>
+    <j.0:hasFinding>
+      <radiology:Isolated_Microcalcification rdf:ID="isolated_microcalcification"/>
+    </j.0:hasFinding>
+    <j.0:hasPrognostic>
+      <radiology:Bi-rads_5 rdf:ID="bi-rads_5">
+        <j.0:hasNumericValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+        >5.0</j.0:hasNumericValue>
+      </radiology:Bi-rads_5>
+    </j.0:hasPrognostic>
+    <j.0:hasFinding>
+      <radiology:Mass rdf:ID="mass"/>
+    </j.0:hasFinding>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >eugene (UPMC)</dc:creator>
+  </radiology:ATYPICAL_HYPERPLASIA>
+  <j.0:CASES rdf:ID="f10">
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/breast/UPMC/Radiology.owl#BENIGN_HYPERPLASIA"/>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dicom/HB0000001808/f10.dcm</j.0:hasImage>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >f10</rdfs:label>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >incomplete</j.0:hasStatus>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+    <j.0:hasFinding>
+      <radiology:Round_Mass rdf:ID="round_mass"/>
+    </j.0:hasFinding>
+    <j.0:hasFinding>
+      <radiology:Spiculation rdf:ID="spiculation"/>
+    </j.0:hasFinding>
+  </j.0:CASES>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.4.4, Build 579)  http://protege.stanford.edu -->

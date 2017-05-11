@@ -1,0 +1,2669 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+    xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+    xmlns="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/SquamousCellNeoplasm.owl#"
+    xmlns:knowledgebase="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+    xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/SquamousCellNeoplasm.owl">
+  <owl:Ontology rdf:about="">
+    <owl:imports rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl"/>
+  </owl:Ontology>
+  <owl:Class rdf:ID="Paraneuro_Invasion">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >paraneuro invasion</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Thickened_Epithelium">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >thickened epithelium</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Superficial_Type">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >superficial type</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Cup_Shaped_Lesion">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >cup shaped lesion</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES">
+        <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >low</knowledgebase:power>
+      </rdf:Description>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Full_Thickness_Dysplasia">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >high</knowledgebase:power>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Dysplastic_Epithelium"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >full thickness dysplasia</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Degenerated_Epithelial_Cells">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >degenerated epithelial cells</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Irregularly_Epidermal_Proliferation">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >irregularly epidermal proliferation</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Large_Nuclei">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >large nuclei</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></knowledgebase:power>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Cytological_Atypia"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="no_Granular_Layer">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >no granular layer</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:ID="MUCIN_PRODUCING_SQUAMOUS_CELL_CARCINOMA">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="SQUAMOUSCELLNEOPLASM"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >MUCIN PRODUCING SQUAMOUS CELL CARCINOMA</rdfs:label>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Mucin_Producing_Squamous_Cell"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:ID="Near_Ulceration">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >near ulceration</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="LARGE_CELL_ACATHOMA">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#SQUAMOUSCELLNEOPLASM"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >LARGE CELL ACATHOMA</rdfs:label>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Large_Keratinocytes_in_Well-demarcated_Area_in_Epidermis"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Large_Nuclei"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:ID="Predominant_Eosinophils">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >predominant eosinophils</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#OTHER_FEATURES"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Well_Demarcated_Base_Above_Sweat_Glands">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >well demarcated base above sweat glands</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="ERUPTIVE_VELLUS_HAIR_CYST">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Cystic_Hair_Follicle"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Small_Vellus_Hair_Shafts"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ERUPTIVE VELLUS HAIR CYST</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#SQUAMOUSCELLNEOPLASM"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Nerve_Invasion">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#OTHER_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >nerve invasion</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Minimum">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Basement_Membrane_Intact">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >basement membrane intact</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Plug_of_Keratinous_Material">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >plug of keratinous material</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Irregular_Cellular_Boundaries_around_Vacuolization">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >irregular cellular boundaries around vacuolization</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Acantholytic_Cells">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Refers to an epithelial cell that has undergone dyshesion (i.e separation from another epithelial cell) by dissolution of intercellular bridges and has consequently become round.
+
+</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >acantholytic cells</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="STUCCO_KERATOSIS">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Horn_Cyst"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Basaloid_Cells"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#SQUAMOUSCELLNEOPLASM"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >STUCCO KERATOSIS</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Parakeratosis">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >parakeratosis</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Cystic_Hair_Follicle">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >cystic hair follicle</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Swollen_Epithelial_Cells">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >swollen epithelial cells</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Scant">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Homogenous_Eosinophilic_Material_in_Cyst">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >homogenous eosinophilic material in cyst</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:ID="Keratin_Filled_Epidermis">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >keratin filled epidermis</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Thick_Homogenous_Eosinophilic_Horny_Layer">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >thick homogenous eosinophilic horny layer</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Poorly_Differentiated">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >poorly differentiated</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Differentiation"/>
+    </rdfs:subClassOf>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >high</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:ID="ORAL_FLORID_PAPILLOMAMATOSIS">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#SQUAMOUSCELLNEOPLASM"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >oral florid papillomamatosis</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="NODULAR_TYPE">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="BASAL_CELL_CARCINOMA"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >NODULAR TYPE</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Proliferal_Palisading_of_Tumour_Cell_Nuclei">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >proliferal palisading of tumour cell nuclei</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Mitotic_Activity">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >mitotic activity</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Goblet_Cells">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >goblet cells</rdfs:label>
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CYTOLOGIC_FEATURES">
+        <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >high</knowledgebase:power>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >high</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:ID="Laminated_Keratin_in_Cyst">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >laminated keratin in cyst</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:ID="Focal_Parakeratosis">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >focal parakeratosis</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Minimum_Cytological_Atypia">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="#Minimum"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Cytological_Atypia"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >minimum cytological atypia</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Celiated_Luminated_Surface">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >celiated luminated surface</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="ISOLATED_AND_DISSEMINATED_ACANTHOLYTIC_ACANTHOMA">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#SQUAMOUSCELLNEOPLASM"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ISOLATED AND DISSEMINATED ACANTHOLYTIC ACANTHOMA</rdfs:label>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Acantholysis"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:ID="Celiated">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >celiated</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="EOSINOPHILIC_ULCER_OF_THE_TONGUE">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#SQUAMOUSCELLNEOPLASM"/>
+    </rdfs:subClassOf>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Tongue"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Dense_Mixed_Inflammation"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Predominant_Eosinophils"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >EOSINOPHILIC ULCER OF THE TONGUE</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Squamous_Cells">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >squamous cells</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Band_like_Infiltrate_of_Inflammatory_Cells">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >bend like infiltrate of plasma cells</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Papillomatosis">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >papillomatosis</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:ID="Focal_Suprabasal_Cleft">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >focal suprabasal cleft</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Moderately_Diifferentiated">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Differentiation"/>
+    </rdfs:subClassOf>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >high</knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >moderately diifferentiated</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Clear_Cells">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CYTOLOGIC_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >clear cells</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >high</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:ID="POROKERATOTIC_ECCRINE_OSTIAL_AND_DERMALDUCT_NEVUS">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#SQUAMOUSCELLNEOPLASM"/>
+    </rdfs:subClassOf>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Invagination_of_Eccrine_Duct"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Dilated_Eccrine_Duct"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Parakeratotic_Plug"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >POROKERATOTIC ECCRINE OSTIAL AND DERMALDUCT NEVUS</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Intracellular_Edema_of_the_Epidermal_Cells">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >intracellular edema of the epidermal cells</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="ACANTHOLYTIC_SQUAMOUS_CELL_CARCINOMA">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#SQUAMOUSCELLNEOPLASM"/>
+    </rdfs:subClassOf>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                <owl:someValuesFrom>
+                  <owl:Class rdf:about="#Acantholysis"/>
+                </owl:someValuesFrom>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:someValuesFrom>
+                  <owl:Class rdf:ID="Irregular_Nest_of_Squamous_Cell_in_Dermis"/>
+                </owl:someValuesFrom>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:someValuesFrom>
+                  <owl:Class rdf:ID="Marked_Cytological_Atypia"/>
+                </owl:someValuesFrom>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                <owl:someValuesFrom>
+                  <owl:Class rdf:ID="Mitotic_Figures"/>
+                </owl:someValuesFrom>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                <owl:someValuesFrom>
+                  <owl:Class rdf:ID="Well_Differentiated"/>
+                </owl:someValuesFrom>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                <owl:someValuesFrom rdf:resource="#Moderately_Diifferentiated"/>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:someValuesFrom rdf:resource="#Poorly_Differentiated"/>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:someValuesFrom rdf:resource="#Nerve_Invasion"/>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                <owl:someValuesFrom>
+                  <owl:Class rdf:ID="Acantholytic_Squamous_Cell_Carcinoma"/>
+                </owl:someValuesFrom>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                <owl:someValuesFrom>
+                  <owl:Class rdf:ID="Lympho_Vascular_Invasion"/>
+                </owl:someValuesFrom>
+              </owl:Restriction>
+            </owl:intersectionOf>
+          </owl:Class>
+        </owl:unionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ACANTHOLYTIC SQUAMOUS CELL CARCINOMA</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Predominant_Basal_Cell_Morphology">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >predominant basal cell morphology</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="LINGUA_GEOGRAPHICA">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >LINGUA GEOGRAPHICA</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#SQUAMOUSCELLNEOPLASM"/>
+    </rdfs:subClassOf>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#no_Granular_Layer"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Hyperplasia"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Neutrophilic_Inflammatory_Infiltrate_in_Epithelium"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                  <owl:Class rdf:about="#Degenerated_Epithelial_Cells"/>
+                  <owl:Class rdf:ID="Thinned_Epithelium"/>
+                </owl:unionOf>
+              </owl:Class>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Kogoj_S_Spongiform_Pustules"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="no_Horny_Layer"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:ID="Severe">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Sharply_Demarcated_Plaques">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >sharply demarcated plaques</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Kogojs_Spongiform_Pustules">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kogojs spongiform pustules</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Bend_like_Infiltrate_of_Plasma_Cells">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >The process of the diffusion or 
+accumulation in a tissue or cells of
+A type of  white blood cell that produces 
+antibodies not normal to it or in 
+amounts above normal. </rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C0332448</knowledgebase:code>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >bend like infiltrate of plasma cells</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Irregular_Nest_of_Squamous_Cells_in_Dermis">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >irregular nest of squamous cell in dermis</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:ID="Moderate_Cytological_Atypia">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Moderate"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Cytological_Atypia"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >moderate cytological atypia</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:ID="Glassy_Cytoplasm">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CYTOLOGIC_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >glassy cytoplasm</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Granular_Degeneration">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >granular degeneration</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="NEVOID_HYPERKERATOSIS_OF_NIPPLE_AND_AREOLA">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#SQUAMOUSCELLNEOPLASM"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >NEVOID HYPERKERATOSIS OF NIPPLE AND AREOLA</rdfs:label>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Sharply_Demarcated_Papules"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Sharply_Demarcated_Plaques"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Hyperkeratosis"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Acanthosis"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Papillomatosis"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:ID="Deep_Invagination_of_Epidermis">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >deep invagination of epidermis</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Mouth">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >mouth</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Eosinophilic_Cytoplasm">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >high</knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >eosinophilic cytoplasm</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CYTOLOGIC_FEATURES"/>
+  </owl:Class>
+  <owl:Class rdf:ID="VERRUCOUS_CARCINOMA">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#SQUAMOUSCELLNEOPLASM"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VERRUCOUS CARCINOMA</rdfs:label>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Carcinoma_of_Oral_Cavity"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#ORAL_FLORID_PAPILLOMAMATOSIS"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Carcinoma_of_Genital_Region"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Giant"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:ID="Mucinous_Cell">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >mucinous cell</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Increased_Number_of_Irregularly_Shaped_Large_Keratinocytes">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >increased number of irregularly shaped large keratinocytes</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Course_Keratohylaine_Granules">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >high</knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >course keratohylaine granules</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CYTOLOGIC_FEATURES"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Acantholysis">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >acantholysis</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:ID="Columnar_Epithelial_Cells">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >high</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CYTOLOGIC_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >columnar epithelial cells</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Simple_Cyst">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >simple cyst</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Severe_Cytological_Atypia">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >severe cytological atypia</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="#Severe"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Cytological_Atypia"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Hyperplasia">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >hyperplasia</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+  </owl:Class>
+  <owl:Class rdf:about="#SQUAMOUSCELLNEOPLASM">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >SQUAMOUSCELLNEOPLASM</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A squamous cell carcinoma is a skin cancer that originates from squamous keratinocytes in the epidermis, the top layer of the skin. Squamous is a term that indicates a surface with a scaly nature.
+
+</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSES"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Penis">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >penis</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Compact_Hyperkaratosis">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >compact hyperkaratosis</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:about="#Lympho_Vascular_Invasion">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lympho vascular invasion</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="PAGETS_DISEASE">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PAGETS DISEASE</rdfs:label>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Large_Rounded_Cells_in_Epidermis"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Large_Nucleas"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Ample_Cytoplasm"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Dermal_Inflammation"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Lymphatic_Invasion"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Breast_Region"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:subClassOf rdf:resource="#SQUAMOUSCELLNEOPLASM"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Dyskeratotic_Cell">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CYTOLOGIC_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dyskeratotic cell</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >high</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:ID="Compact_Hyperkaratosis_in_the_Stratum_Corneum">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >compact hyperkaratosis in the stratum corneum</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Hyperplastic_Epithelium">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >hyperplastic epithelium</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Intercellular_Bridges_in_Epithelial_Cells">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CYTOLOGIC_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >intercellular bridges in epithelial cells</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >high</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:about="#Carcinoma_of_Oral_Cavity">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >carcinoma of oral cavity</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Tongue">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tongue</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Downward_Extentions_of_Club_Shaped_Epithelium">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >downward extentions of club shaped epithelium</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="LEUKOEDEMA_OF_THE_ORAL_MUCOSA">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Marked_Intracellular_Edema_in_Suprabasal_Epithelial_Cells"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Small_Nuclei"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:subClassOf rdf:resource="#SQUAMOUSCELLNEOPLASM"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >LEUKOEDEMA OF THE ORAL MUCOSA</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Irregular_Nest_of_Squamous_Cell_in_Dermis">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >irregular nest of squamous cell in dermis</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Neutrophilic_Inflammatory_Infiltrate">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >neutrophilic inflammatory infiltrate</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:ID="Marked_Intracellular_Edema_in_Epithelial_Cells">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >focal marked intracellular edema in epithelial cells</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:ID="NEVUS_COMEDONICUS">
+    <rdfs:subClassOf rdf:resource="#SQUAMOUSCELLNEOPLASM"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nevus comedonicus (also known as a "Comedo nevus"[1]) is characterized by closely arranged, grouped, often linear, slightly elevated papules that have at their center keratinous plugs resembling comedones.</rdfs:comment>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Deep_Invagination_of_Epidermis"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Keratin_Filled_Epidermis"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >NEVUS COMEDONICUS</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Suprabasalar_Clefting">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >suprabasalar clefting</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Spindle_Cell_Nest_in_Dermis">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >spindle cell nest in dermis</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Thick_Cell_Layers_Lined_by_Stratified_Epithelium">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >thick cell layers lined by stratified epithelium</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Ballooning">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ballooning</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Abundant_Melanin_Pigment">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Abundant"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Melanin_Pigmentation"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >abundant melanin pigment</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Dense_Mixed_Inflammation">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#OTHER_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dense mixed inflammation</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Carcinoma_of_Genital_Region">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >carcinoma of genital region</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Mitotic_Figures">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >mitotic figures</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >high</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CYTOLOGIC_FEATURES"/>
+  </owl:Class>
+  <owl:Class rdf:ID="INFILTRATIVE_TYPE">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >infiltrative type</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#BASAL_CELL_CARCINOMA"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Spongiosis">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >spongiosis</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="SEBORRHEIC_KERATOSIS">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="#Hyperkeratosis"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="#Acanthosis"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Papillomatosis"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:subClassOf rdf:resource="#SQUAMOUSCELLNEOPLASM"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >SEBORRHEIC KERATOSIS</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="ISOLATED_AND_DISSEMINATED_EPIDERMOLYTIC_ACANTHOMA">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Granular_Degeneration"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Papillomatosis"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Intracellular_Edema_of_the_Epidermal_Cells"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Intercellular_Edema_of_the_Epidermal_Cells"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Course_Keratohylaine_Granules"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:subClassOf rdf:resource="#SQUAMOUSCELLNEOPLASM"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ISOLATED AND DISSEMINATED EPIDERMOLYTIC ACANTHOMA</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="SQUAMOUS_ITRAEPITHELIAL_NEOPLASIA">
+    <rdfs:subClassOf rdf:resource="#SQUAMOUSCELLNEOPLASM"/>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Dysplasia_in_Epidermis"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Thickened_Epithelium"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Parakeratosis"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >SQUAMOUS ITRAEPITHELIAL NEOPLASIA</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Dysplasia_in_Epidermis">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dysplasia in epidermis</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Neck">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >neck</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Ample_Cytoplasm">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CYTOLOGIC_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ample cytoplasm</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >high</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:ID="Mucinous_Stroma">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >mucinous stroma</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:ID="Full_Thickness_Epidermal_Dysplasia">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >full thickness epidermal dysplasia</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Mucin_Producing_Squamous_Cell">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#OTHER_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >mucin producing squamous cell</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Matured_Epidermal_Appendages_in_Cyst">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >matured epidermal appendages in cyst</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:ID="Nuclear_Dust">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >nuclear dust</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >high</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CYTOLOGIC_FEATURES"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Neutrophilic_Inflammatory_Infiltrate_in_Epithelium">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >neutrophilic inflammatory infiltrate in epithelium</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Large_Keratinocytes_in_Well-demarcated_Area_in_Epidermis">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >large keratinocytes in well-demarcated area in epidermis</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:ID="Oral_Cavity">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#OTHER_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >carcinoma of oral cavity</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="KERATOACANTHOMA">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >KERATOACANTHOMA</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#SQUAMOUSCELLNEOPLASM"/>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Eosinophilic_Cytoplasm"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Irregularly_Epidermal_Proliferation"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Glassy_Cytoplasm"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Eosinophilic_Cytoplasm"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Well_Demarcated_Base_Above_Sweat_Glands"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Dense_Inflammatory_Infiltrate_at_Base"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:ID="Acantholytic">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >acantholytic</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Acanthosis">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >acanthosis</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="DERMATOSIS_PAPULOSA_NIGRA">
+    <rdfs:subClassOf rdf:resource="#SQUAMOUSCELLNEOPLASM"/>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Acanthosis"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Squamous_Cells"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="#Horn_Cyst"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="#Melanin_Pigmentation"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Few_Basaloid_Cells"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >DERMATOSIS PAPULOSA NIGRA</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Dermal_Inflammation">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dermal inflammation</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:about="#Dense_Inflammatory_Infiltrate_at_Base">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dense inflammatory infiltrate at base</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="INCIDENTAL_EPIDERMOLYTIC_HYPERKERATOSIS">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Focal_Perinuclear_Vacuolization_in_the_Stratum_Spinosum"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Focal_Perinuclear_Vacuolization_in_the_Stratum_Granulosum"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Focal_Irregular_Cellular_Boundaries_around_Vacuolization"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Focal_Increased_Number_of_Irregularly_Shaped_Large_Keratinocytes"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Focal_Compact_Hyperkaratosis_in_the_Stratum_Corneum"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:subClassOf rdf:resource="#SQUAMOUSCELLNEOPLASM"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >INCIDENTAL EPIDERMOLYTIC HYPERKERATOSIS</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Palisade">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >palisade</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Sharply_Demarcation">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >sharply demarcated papules</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Palisaded_Basal_Layer">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >palisaded basal layer</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Few_Basaloid_Cells">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >few basaloid cells</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="ORAL_WHITE_SPONGE_NEVUS">
+    <rdfs:subClassOf rdf:resource="#SQUAMOUSCELLNEOPLASM"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ORAL WHITE SPONGE NEVUS</rdfs:label>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Hyperplasia"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Focal_Marked_Intracellular_Edema_in_Epithelial_Cells"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="#Small_Nuclei"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Parakeratosis"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:ID="PILAR_CYST">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+            <owl:someValuesFrom rdf:resource="#Intercellular_Bridges_in_Epithelial_Cells"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Palisade"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Swollen_Epithelial_Cells"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Pale_Cytoplasm_in_Epithelial_Cells"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Cyst"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Homogenous_Eosinophilic_Material_in_Cyst"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PILAR CYST</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#SQUAMOUSCELLNEOPLASM"/>
+  </owl:Class>
+  <owl:Class rdf:ID="VERRUCOUS_HYPERPLASIA_OF_ORAL_MUCOSA">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Mouth"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Hyperplastic_Epithelium"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Verrucous_Change"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:subClassOf rdf:resource="#SQUAMOUSCELLNEOPLASM"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VERRUCOUS HYPERPLASIA OF ORAL MUCOSA</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="EXTRAMAMMARY_PAGETS_DISEASE">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="#Large_Rounded_Cells_in_Epidermis"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="#Large_Nucleas"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Ample_Cytoplasm"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Dermal_Inflammation"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="#Lymphatic_Invasion"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >EXTRAMAMMARY PAGETS DISEASE</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#SQUAMOUSCELLNEOPLASM"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Breast_Region">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#OTHER_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >breast region</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Basoloid_Cell_Morphology">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >predominant basal cell morphology</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CYTOLOGIC_FEATURES"/>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >high</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:ID="Perineural_Invasion">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >paraneuro invasion</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Nerve_Invasion"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Apoptotic_Body">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >apoptotic body</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Few_Granular_Cells">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >few granular cells</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Focal_Marked_Intracellular_Edema_in_Epithelial_Cells">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >focal marked intracellular edema in epithelial cells</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Nuclear_Palisading">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >nuclear palisading</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Prominent_Sebaceous_Gland_Lobules">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >flattened sebaceous gland lobules</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:ID="WARTY_DYSKERATOMA">
+    <rdfs:subClassOf rdf:resource="#SQUAMOUSCELLNEOPLASM"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >WARTY DYSKERATOMA</rdfs:label>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Cup_Shaped_Lesion"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Plug_of_Keratinous_Material"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Suprabasalar_Clefting"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Acantholytic"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Dyskeratotic_Cells"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="#Dysplastic_Epithelium">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >high</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CYTOLOGIC_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dysplastic epithelium</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Clefting_Artifect">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >clefting artifect</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:about="#Acantholytic_Squamous_Cell_Carcinoma">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >pseudoglandular epidermoid carcinoma</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >adenoid squamous cell carcinoma</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >adenoid squamous carcinoma</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >acantholytic squamous cell carcinoma</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >pseudoglandular squamous cell carcinoma</rdfs:label>
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C0334250</knowledgebase:code>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A squamous cell carcinoma characterized by the formation of gland-like structures.</rdfs:comment>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="INVASIVE_SQUAMOUS_CELL_CARCINOMA"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >pseudoglandular epidermoid cell carcinoma</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >squamous cell carcinoma, acantholytic</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >pseudoglandular squamous carcinoma</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="SQUMOUS_CELL_CARCINOMA_INSITU">
+    <rdfs:subClassOf rdf:resource="#SQUAMOUSCELLNEOPLASM"/>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Full_Thickness_Dysplasia"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Basement_Membrane_Intact"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >SQUMOUS CELL CARCINOMA INSITU</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="BOWENS_DISEASE">
+    <rdfs:subClassOf rdf:resource="#SQUAMOUSCELLNEOPLASM"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >BOWEN S DISEASE</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >BOWENS DISEASE</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Intercellular_Edema_of_the_Epidermal_Cells">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >intercellular edema of the epidermal cells</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Kogoj_S_Spongiform_Pustules">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kogoj s spongiform pustules</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Hyperkeratosis">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >hyperkeratosis</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="STEATOCYSTOMA_MULTIPLEX">
+    <rdfs:subClassOf rdf:resource="#SQUAMOUSCELLNEOPLASM"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >STEATOCYSTOMA MULTIPLEX</rdfs:label>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Flattened_Sebaceous_Gland_Lobules"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Intricate_Folds_of_Epithelial_Cells"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Palisaded_Basal_Layer"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Ballooning"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Thick_Homogenous_Eosinophilic_Horny_Layer"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Granular_Layer"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="#Large_Nucleas">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >large nucleas</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >high</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CYTOLOGIC_FEATURES"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Melanin_Pigmentation">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melanin pigmentation</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#OTHER_FEATURES"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Verrucous_Change">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >verrucous change</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Genital_Region">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >carcinoma of genital region</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#OTHER_FEATURES"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Giant">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >giant</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="BRONCHOGENIC_CYST">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Celiated_Luminated_Surface"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Simple_Cyst"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Goblet_Cells"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Neck"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:subClassOf rdf:resource="#SQUAMOUSCELLNEOPLASM"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >BRONCHOGENIC CYST</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Dilated_Capillaries_in_Papillary_Dermis">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dilated capillaries in papillary dermis</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CUTANEOUS_CILIATED_CYST">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CUTANEOUS CILIATED CYST</rdfs:label>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Simple_Cyst"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Cuboidal_Epithelial_Cells"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Columnar_Epithelial_Cells"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Celiated"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:subClassOf rdf:resource="#SQUAMOUSCELLNEOPLASM"/>
+  </owl:Class>
+  <owl:Class rdf:ID="DERMOID_CYST">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >DERMOID CYST</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#SQUAMOUSCELLNEOPLASM"/>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Matured_Epidermal_Appendages_in_Cyst"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Hairs_in_Cyst_Lumen"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:ID="LINEAR_EPIDERMAL_NEVUS">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >LINEAR EPIDERMAL NEVUS</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#SQUAMOUSCELLNEOPLASM"/>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                <owl:someValuesFrom rdf:resource="#Hyperkeratosis"/>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:someValuesFrom rdf:resource="#Papillomatosis"/>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                <owl:someValuesFrom rdf:resource="#Acanthosis"/>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:someValuesFrom>
+                  <owl:Class rdf:ID="Elongated_Rete_Ridges"/>
+                </owl:someValuesFrom>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+              </owl:Restriction>
+            </owl:intersectionOf>
+          </owl:Class>
+          <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                <owl:someValuesFrom rdf:resource="#Hyperkeratosis"/>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:someValuesFrom rdf:resource="#Papillomatosis"/>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:someValuesFrom rdf:resource="#Acanthosis"/>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                <owl:someValuesFrom>
+                  <owl:Class rdf:about="#Elongated_Rete_Ridges"/>
+                </owl:someValuesFrom>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:someValuesFrom>
+                  <owl:Class rdf:ID="Perinuclear_Vacuolization_in_the_Stratum_Spinosum"/>
+                </owl:someValuesFrom>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                <owl:someValuesFrom>
+                  <owl:Class rdf:ID="Perinuclear_Vacuolization_in_the_Stratum_Granulosum"/>
+                </owl:someValuesFrom>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                <owl:someValuesFrom rdf:resource="#Irregular_Cellular_Boundaries_around_Vacuolization"/>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:someValuesFrom rdf:resource="#Increased_Number_of_Irregularly_Shaped_Large_Keratinocytes"/>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:someValuesFrom rdf:resource="#Compact_Hyperkaratosis_in_the_Stratum_Corneum"/>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+              </owl:Restriction>
+            </owl:intersectionOf>
+          </owl:Class>
+        </owl:unionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:ID="VERRUCOUS_CARCINOMA_OF_ORAL_MUCOSA">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Verrucous_Epithelium"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Downward_Extentions_of_Round_Shaped_Epithelium"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Downward_Extentions_of_Club_Shaped_Epithelium"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Minimum_Cytological_Atypia"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VERRUCOUS CARCINOMA OF ORAL MUCOSA</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#SQUAMOUSCELLNEOPLASM"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Infundibular_Epidermis_in_Cyst">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >infundibular epidermis in cyst</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Granular_Layer">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >granular layer</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Flattened_Sebaceous_Gland_Lobules">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >flattened sebaceous gland lobules</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Nodular_Type">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >nodular type</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#BASAL_CELL_CARCINOMA">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Predominant_Basal_Cell_Morphology"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Proliferal_Palisading_of_Tumour_Cell_Nuclei"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Mucinous_Stroma"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Clefting_Artifect"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Mitotic_Activity"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Apoptotic_Body"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Superficial_Type"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Nodular_Type"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#INFILTRATIVE_TYPE"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >BASAL CELL CARCINOMA</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#SQUAMOUSCELLNEOPLASM"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Scant_Melanin_Pigment">
+    <rdfs:subClassOf rdf:resource="#Scant"/>
+    <rdfs:subClassOf rdf:resource="#Melanin_Pigmentation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >scant melanin pigment</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Endonerual_Invasion">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >endonerual invasion</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Nerve_Invasion"/>
+  </owl:Class>
+  <owl:Class rdf:ID="MEDIAN_RAPHE_CYST_OF_THE_PENIS">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >MEDIAN RAPHE CYST OF THE PENIS</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#SQUAMOUSCELLNEOPLASM"/>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Simple_Cyst"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Pseudostratified_Columnar_Epithelium"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Mucinous_Cell"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Penis"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="#Abundant">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Downward_Extentions_of_Round_Shaped_Epithelium">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >downward extentions of round shaped epithelium</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Chronic_Dermal_Inflammation">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >chronic dermal inflammation</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Cytological_Atypia">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >cytological atypia</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CYTOLOGIC_FEATURES"/>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:about="#Sharply_Demarcated_Papules">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >sharply demarcated papules</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Elongated_Rete_Ridge">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >elongated rete ridge</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:about="#Marked_Cytological_Atypia">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >marked cytological atypia</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Irregular_Nested_Squamous_Cells_in_Dermis">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >irregular nested squamous cells in dermis</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="BALANITIS_CIRCUMSCRIPTA_PLASMACELLULARIS">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Thin_Epidermis"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Bend_like_Infiltrate_of_Plasma_Cells"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:subClassOf rdf:resource="#SQUAMOUSCELLNEOPLASM"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >BALANITIS CIRCUMSCRIPTA PLASMACELLULARIS</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Focal_Increased_Number_of_Irregularly_Shaped_Large_Keratinocytes">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >focal increased number of irregularly shaped large keratinocytes</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Suprabasal_Cleft">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >focal suprabasal cleft</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Horn_Cyst">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >horn cyst</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:ID="PSEUDOCARCINOMATOUS_HYPERPLASIA">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PSEUDOCARCINOMATOUS HYPERPLASIA</rdfs:label>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Near_Ulceration"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Epithelial_Hyperplasia"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Irregular_Nested_Squamous_Cells_in_Dermis"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Cytological_Atypia"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Paraneuro_Invasion"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:subClassOf rdf:resource="#SQUAMOUSCELLNEOPLASM"/>
+  </owl:Class>
+  <owl:Class rdf:ID="MILIA">
+    <rdfs:subClassOf rdf:resource="#SQUAMOUSCELLNEOPLASM"/>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Small_Cyst"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Thick_Cell_Layers_Lined_by_Stratified_Epithelium"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Concentric_Lamellae_of_Keratin"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >MILIA</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Milia are tiny white bumps or small cysts on the skin that are almost always seen in newborn babies. </rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Large_Pigmented_Hair_Shafts">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >large pigmented hair shafts</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Focal_Compact_Hyperkaratosis_in_the_Stratum_Corneum">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >focal compact hyperkaratosis in the stratum corneum</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Large_Rounded_Cells_in_Epidermis">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >large rounded cells in epidermis</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Pale_Cytoplasm">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CYTOLOGIC_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >pale cytoplasm in epithelial cells</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >high</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:about="#Thinned_Epithelium">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >thinned epithelium</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Well_Differentiated">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Differentiation"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >well differentiated</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >high</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:about="#Small_Cyst">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >small cyst</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Cyst">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >cyst</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Perinuclear_Vacuolization_in_the_Epidermisstratum_Granulosum">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >high</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CYTOLOGIC_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >perinuclear vacuolization in the epidermisstratum granulosum</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Lymphatic_Invasion">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lymphatic invasion</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="ACTINIC_KERATOSIS">
+    <rdfs:subClassOf rdf:resource="#SQUAMOUSCELLNEOPLASM"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ACTINIC KERATOSIS</rdfs:label>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Focal_Parakeratosis"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Dysplastic_Epithelium"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Chronic_Dermal_Inflammation"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="#Dyskeratotic_Cells">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dyskeratotic cells</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Epithelial_Hyperplasia">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >epithelial hyperplasia</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Focal_Irregular_Cellular_Boundaries_around_Vacuolization">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >focal irregular cellular boundaries around vacuolization</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Hairs_in_Cyst_Lumen">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >hairs in cyst lumen</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:ID="Spinde_Cell_Morphology">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >spinde cell morphology</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >high</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CYTOLOGIC_FEATURES"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Pale_Cytoplasm_in_Epithelial_Cells">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >pale cytoplasm in epithelial cells</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Perinuclear_Vacuolization_in_the_Stratum_Spinosum">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >perinuclear vacuolization in the stratum spinosum</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Mild">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Moderate">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Invagination_of_Eccrine_Duct">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >invagination of eccrine duct</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Intricate_Folds_of_Epithelial_Cells">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >intricate folds of epithelial cells</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Differentiation">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >differentiation</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >high</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#OTHER_FEATURES"/>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CYTOLOGIC_FEATURES"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Small_Vellus_Hair_Shafts">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >small vellus hair shafts</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Pseudostratified_Columnar_Epithelium">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >pseudostratified columnar epithelium</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Non-full_Thickness_Dysplasia">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >non-full thickness dysplasia</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >high</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="#Dysplastic_Epithelium"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CLEAR_CELL_ACANTHOMA">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Spongiosis"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Elongated_Rete_Ridge"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Parakeratosis"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+            <owl:someValuesFrom rdf:resource="#Melanin_Pigmentation"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Neutrophilic_Inflammatory_Infiltrate"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Nuclear_Dust"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                  <owl:Class rdf:about="#Dilated_Capillaries_in_Papillary_Dermis"/>
+                  <owl:Class rdf:ID="Dilated_Capillaries_in_the_Demis"/>
+                </owl:unionOf>
+              </owl:Class>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Class>
+            <owl:unionOf rdf:parseType="Collection">
+              <owl:Restriction>
+                <owl:someValuesFrom rdf:resource="#Few_Granular_Cells"/>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+                <owl:someValuesFrom>
+                  <owl:Class rdf:ID="Granular_Cells"/>
+                </owl:someValuesFrom>
+              </owl:Restriction>
+            </owl:unionOf>
+          </owl:Class>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Clear_Cells"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:subClassOf rdf:resource="#SQUAMOUSCELLNEOPLASM"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CLEAR CELL ACANTHOMA</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#INVASIVE_SQUAMOUS_CELL_CARCINOMA">
+    <rdfs:subClassOf rdf:resource="#SQUAMOUSCELLNEOPLASM"/>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Irregular_Nest_of_Squamous_Cell_in_Dermis"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Marked_Cytological_Atypia"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Mitotic_Figures"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Well_Differentiated"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Moderately_Diifferentiated"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Poorly_Differentiated"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Nerve_Invasion"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Mucin_Producing_Squamous_Cell"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Lympho_Vascular_Invasion"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Mucin_Producing_Squamous_Cell"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >INVASIVE SQUAMOUS CELL CARCINOMA</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Small_Nuclei">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >small nuclei</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="SUPERFICIAL_TYPE">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >SUPERFICIAL TYPE</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#BASAL_CELL_CARCINOMA"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Dilated_Eccrine_Duct">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dilated eccrine duct</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:about="#Focal_Perinuclear_Vacuolization_in_the_Stratum_Spinosum">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >focal perinuclear vacuolization in the stratum spinosum</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Cuboidal_Epithelial_Cells">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >cuboidal epithelial cells</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >high</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CYTOLOGIC_FEATURES"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Celiated_Cells">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CYTOLOGIC_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >celiated cells</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >high</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:about="#Elongated_Rete_Ridges">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >elongated rete ridges</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Perinuclear_Vacuolization_in_the_Stratum_Granulosum">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >perinuclear vacuolization in the stratum granulosum</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Marked_Intracellular_Edema_in_Suprabasal_Epithelial_Cells">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >marked intracellular edema in suprabasal epithelial cells</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="INCIDENTAL_FOCAL_ACANTHOLYTIC_DYSKERATOSIS">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                  <owl:Class rdf:about="#Acantholytic_Cells"/>
+                  <owl:Class rdf:about="#Dyskeratotic_Cells"/>
+                </owl:unionOf>
+              </owl:Class>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Focal_Suprabasal_Cleft"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >INCIDENTAL FOCAL ACANTHOLYTIC DYSKERATOSIS</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#SQUAMOUSCELLNEOPLASM"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Verrucous_Epithelium">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >verrucous epithelium</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#no_Horny_Layer">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >no horny layer</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="PIGMENTED_FOLLICULAR_CYST">
+    <rdfs:subClassOf rdf:resource="#SQUAMOUSCELLNEOPLASM"/>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Infundibular_Epidermis_in_Cyst"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Laminated_Keratin_in_Cyst"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Large_Pigmented_Hair_Shafts"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PIGMENTED FOLLICULAR CYST</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Focal_Perinuclear_Vacuolization_in_the_Stratum_Granulosum">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >focal perinuclear vacuolization in the stratum granulosum</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="SPINDLE_CELL_SQUAMOUS_CELL_CARCINOMA">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Spindle_Cell_Nest_in_Dermis"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Irregular_Nest_of_Squamous_Cell_in_Dermis"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Marked_Cytological_Atypia"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Mitotic_Figures"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Well_Differentiated"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Moderately_Diifferentiated"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Poorly_Differentiated"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Nerve_Invasion"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Acantholytic_Squamous_Cell_Carcinoma"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Mucin_Producing_Squamous_Cell"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Lympho_Vascular_Invasion"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >SPINDLE CELL SQUAMOUS CELL CARCINOMA</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#SQUAMOUSCELLNEOPLASM"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Concentric_Lamellae_of_Keratin">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >concentric lamellae of keratin</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Dilated_Capillaries_in_the_Demis">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dilated capillaries in the demis</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Granular_Cells">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >granular cells</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Basaloid_Cells">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >high</knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >basaloid cells</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CYTOLOGIC_FEATURES"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Parakeratotic_Plug">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >parakeratotic plug</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:ID="Mild_Cytological_Atypia">
+    <rdfs:subClassOf rdf:resource="#Mild"/>
+    <rdfs:subClassOf rdf:resource="#Cytological_Atypia"/>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >mild cytological atypia</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Thin_Epidermis">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >thin epidermis</rdfs:label>
+  </owl:Class>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.4.4, Build 579)  http://protege.stanford.edu -->

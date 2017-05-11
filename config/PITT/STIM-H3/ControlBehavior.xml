@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Behavior>
+  <Task>
+    <Condition condition="Case Start"/>
+    <Action receiver="FeedbackModule" action="feedbackMode" input="none" />
+  </Task>
+
+ <Task>
+	<Condition condition="Expression" operation="and">
+		<Condition condition="User Action" operation="=" input="type:Done"/>
+		<Condition condition="User Action" operation="=" input="label:ArcNodeInterface"/>
+		<Condition condition="User Type Count" operation="=" input="Done:1"/>
+	</Condition>
+	<Action receiver="FeedbackModule" action="feedbackMode" input="error,color" />	
+	<Action receiver="FeedbackModule" action="autoHint" input="instant" />
+	<Action receiver="ArcNodeInterface" action="lockInterfaceTo" input="Done,Show Location,Lookup Glossary" />
+	<Action receiver="InterfaceModule" action="addMessageInput" input="Done:auto=true"/> 
+ </Task>
+
+ <Task>
+	<Condition condition="Expression" operation="and">
+		<Condition condition="User Action" operation="=" input="type:Done"/>
+		<Condition condition="User Action" operation="=" input="label:ArcNodeInterface"/>
+		<Condition condition="User Type Count" operation="=" input="Done:2"/>
+	</Condition>
+	<Action receiver="Tutor" action="finishCase" input="SlideTutor"/> 
+ </Task>
+
+</Behavior>

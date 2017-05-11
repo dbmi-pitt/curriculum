@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="file:/home/tseytlin/Work/curriculum/owl/skin/PITT/Carcinoma.owl" uri="skin/PITT/Carcinoma.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="file:/home/tseytlin/Work/curriculum/owl/skin/UPENN/DiffuseDermatitis.owl" uri="skin/UPENN/DiffuseDermatitis.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="file:/home/tseytlin/Work/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl" uri="skin/UPENN/Intraepidermalpustulardermatitis.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="file:/home/tseytlin/Work/curriculum/owl/skin/UPENN/NodularDermatitis.owl" uri="skin/UPENN/NodularDermatitis.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="file:/home/tseytlin/Work/curriculum/owl/skin/UPENN/Perifolliculitis.owl" uri="skin/UPENN/Perifolliculitis.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="file:/home/tseytlin/Work/curriculum/owl/skin/UPMC/Carcinoma.owl" uri="skin/UPMC/Carcinoma.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl" uri="protege-dc.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/AnatomicalSites.owl" uri="AnatomicalSites.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/Cardiac/LHSC/AnatomyInstances.owl" uri="Cardiac/LHSC/AnatomyInstances.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/Immuno.owl" uri="Immuno.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl" uri="KnowledgeBase.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/bladder/UPMC/UrinaryBladder.owl" uri="bladder/UPMC/UrinaryBladder.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/breast/PITT/Neoplasms.owl" uri="breast/PITT/Neoplasms.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/breast/PITT/NeoplasmsInstances.owl" uri="breast/PITT/NeoplasmsInstances.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/breast/UPMC/Neoplasms.owl" uri="breast/UPMC/Neoplasms.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/breast/UPMC/NeoplasmsInstances.owl" uri="breast/UPMC/NeoplasmsInstances.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/breast/UPMC/Radiology.owl" uri="breast/UPMC/Radiology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/breast/UPMC/RadiologyInstances.owl" uri="breast/UPMC/RadiologyInstances.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/dinosaur/PITT/Dinosaur.owl" uri="dinosaur/PITT/Dinosaur.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/dinosaur/PITT/DinosaurInstances.owl" uri="dinosaur/PITT/DinosaurInstances.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="duplicate:http://slidetutor.upmc.edu/curriculum/owl/dinosaur/UPMC/test2.owl" uri="dinosaur/UPMC/test2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="duplicate:http://slidetutor.upmc.edu/curriculum/owl/dinosaur/UPMC/test2.owl" uri="dinosaur/UPMC/allergen.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/kidney/UPMC/Kidney.owl" uri="kidney/UPMC/Kidney.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/prostate/UPMC/ProstateSeminalVesicles.owl" uri="prostate/UPMC/ProstateSeminalVesicles.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/Alopecia.owl" uri="skin/PITT/Alopecia.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/EpidermalCystsTumors.owl" uri="skin/PITT/EpidermalCystsTumors.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/FibrosingDermatitis.owl" uri="skin/PITT/FibrosingDermatitis.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/Melanocytic.owl" uri="skin/PITT/Melanocytic.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/MelanocyticInstances.owl" uri="skin/PITT/MelanocyticInstances.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/NodularDiffuseDermatitis.owl" uri="skin/PITT/NodularDiffuseDermatitis.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/NodularDiffuseDermatitisInstances.owl" uri="skin/PITT/NodularDiffuseDermatitisInstances.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/Panniculitis.owl" uri="skin/PITT/Panniculitis.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/PeriinfundibulitisPerifolliculitis.owl" uri="skin/PITT/PeriinfundibulitisPerifolliculitis.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/PerivascularDermatitis.owl" uri="skin/PITT/PerivascularDermatitis.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/PerivascularDermatitisInstances.owl" uri="skin/PITT/PerivascularDermatitisInstances.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/PustularDermatitis.owl" uri="skin/PITT/PustularDermatitis.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/Vasculitis.owl" uri="skin/PITT/Vasculitis.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl" uri="skin/PITT/VesicularDermatitis.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitisInstances.owl" uri="skin/PITT/VesicularDermatitisInstances.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/EpidermalCystAndTumours.owl" uri="skin/UPENN/EpidermalCystAndTumours.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/MelanocyticLesion.owl" uri="skin/UPENN/MelanocyticLesion.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/MelanocyticLesionInstances.owl" uri="skin/UPENN/MelanocyticLesionInstances.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/SquamousCellNeoplasm.owl" uri="skin/UPENN/SquamousCellNeoplasm.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/SquamousCellNeoplasmInstances.owl" uri="skin/UPENN/SquamousCellNeoplasmInstances.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/skin/UPMC/Melanocytic.owl" uri="skin/UPMC/Melanocytic.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/skin/UPMC/NodularDiffuseDermatitis.owl" uri="skin/UPMC/NodularDiffuseDermatitis.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/skin/UPMC/PeriinfundibulitisPerifolliculitis.owl" uri="skin/UPMC/PeriinfundibulitisPerifolliculitis.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/skin/UPMC/PerivascularDermatitis.owl" uri="skin/UPMC/PerivascularDermatitis.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1492712413585" name="http://slidetutor.upmc.edu/curriculum/owl/skin/UPMC/VesicularDermatitis.owl" uri="skin/UPMC/VesicularDermatitis.owl"/>
+    </group>
+</catalog>

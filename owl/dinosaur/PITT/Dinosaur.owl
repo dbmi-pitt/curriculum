@@ -1,0 +1,1044 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+    xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+    xmlns:knowledgebase="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+    xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+    xmlns="http://slidetutor.upmc.edu/curriculum/owl/dinosaur/PITT/Dinosaur.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://slidetutor.upmc.edu/curriculum/owl/dinosaur/PITT/Dinosaur.owl">
+  <owl:Ontology rdf:about="">
+    <owl:imports rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl"/>
+  </owl:Ontology>
+  <owl:Class rdf:ID="Snout">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Long">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CENTROSAURUS">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A genus of herbivorous ceratopsian dinosaurs from the late Crestaceous of Canada.</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CENTROSAURUS</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSES"/>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Four_Hindlimbs"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Medium_Body"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="One_Long_Snout_Horns"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Two_Short_Eye_Horns"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Two_Short_Forelimbs"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Tail"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Short_Neck"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:ID="Eye">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Two_Long_Eye_Horns">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></knowledgebase:power>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Long_Eye_Horns"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="#Long"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Two"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >two long eye horns</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Size">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Torso">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >torso</rdfs:label>
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES">
+        <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >low</knowledgebase:power>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:about="#Four_Hindlimbs">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Four"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Hindlimbs"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >four hindlimbs</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Two_Digits">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >two digits</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Two"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Digits"/>
+    </rdfs:subClassOf>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:ID="IGUANODON">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A genus of ornithopod dinosaur that lived roughly halfway between the first of the swift bipedal hysilophodontids and the ornithopods' culmination in the duck-billed dinosaurs.</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >IGUANODON</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSES"/>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Two_Hindlimbs"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="#Medium_Body"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="#Two_Short_Forelimbs"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Four_Digits"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Snout_Horns"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="#Tail"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="#Short_Neck"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="#Two_Short_Eye_Horns">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Short_Eye_Horns"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Short"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Two"/>
+    </rdfs:subClassOf>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >two short eye horns</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="TYRANNOSAURUS_REX">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >TYRANNOSAURUS REX</rdfs:label>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Two_Digits"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Large_Body"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="#Two_Hindlimbs"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="#Two_Short_Forelimbs"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="#Tail"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="#Short_Neck"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A genus of theropod dinosaur, lived in the Maastrichtian age of the upper Cretaceous period, 67-65.5 million years ago.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="BRACHIOSAURUS">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A genus of sauropod dinosaur from the Jurrassic Morrison Formation of North America. </rdfs:comment>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="#Large_Body"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Two_Long_Forelimbs"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Four_Hindlimbs"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="#Tail"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Long_Neck"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Eye_Horns"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="#Snout_Horns"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >BRACHIOSAURUS</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSES"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Small_Body">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Small"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Body"/>
+    </rdfs:subClassOf>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >small body</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Two_Long_Forelimbs">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >two long forelimbs</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="#Long"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Two"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Forelimbs"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Tail">
+    <rdfs:subClassOf rdf:resource="#Torso"/>
+    <knowledgebase:example rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Tail.1.jpg</knowledgebase:example>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C0039259</knowledgebase:code>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >animal tail</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tail</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >The flexible prolongated structure of the posterior part of an animal's body.</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tails</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tail structure</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Two_Hindlimbs">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >two hindlimbs</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Two"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Hindlimbs"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Long_Neck">
+    <rdfs:subClassOf rdf:resource="#Long"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Neck"/>
+    </rdfs:subClassOf>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >long neck</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#One_Long_Snout_Horns">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >one long snout horns</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Long_Snout_Horns"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="#Long"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="One"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Snout_Horns">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >bony structure located on the snout</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#PROGNOSTIC_FINDINGS"/>
+    <rdfs:subClassOf rdf:resource="#Snout"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >snout horns</rdfs:label>
+    <knowledgebase:example rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Snout_Horns.1.jpg</knowledgebase:example>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:ID="TROODON">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Two_Hindlimbs"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Small_Body"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="#Two_Short_Forelimbs"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Tail"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Three_Digits"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >TROODON</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSES"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A genus of relatively small, bird-like dinosaur from the late Cretaceous period, 75-65 million years ago.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Cretaceous">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></knowledgebase:power>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Mesozoic_Era"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >cretaceous</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#One">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#Number">
+        <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >one</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:about="#Short">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Cenozoic_Era">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >cenozoic era</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Time_Period"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Tail_Length">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#PROGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tail length</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:about="#Forelimbs">
+    <knowledgebase:example rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Forelimbs.1.jpg</knowledgebase:example>
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C0016555</knowledgebase:code>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A front limb of a quadruped. (The Random House College Dictionary, 1980)</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >forelimb structure</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >forelimb</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >forelimbs</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Limbs"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="BRONTOSAURUS">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Also known as Apatosaurus, a genus of sauropod dinosaur that lived abour 154 to 150 million years ago during the Jurassic period.</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >apatosaurus</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >BRONTOSAURUS</rdfs:label>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Four_Hindlimbs"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="#Large_Body"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="#Eye_Horns"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+            <owl:someValuesFrom rdf:resource="#Snout_Horns"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Long_Neck"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Tail"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="#Two_Short_Forelimbs"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSES"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Small">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Large">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Tail_Length_Number_Mm">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#Number"/>
+    <rdfs:subClassOf rdf:resource="#Tail_Length"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Mm"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tail length number mm</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:ID="Tertiary">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tertiary</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Cenozoic_Era"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Neck">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#PROGNOSTIC_FINDINGS"/>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >necks</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >neck structure</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >collum</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >neck</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Torso"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Subdivision of body proper, which consists of a maximal set of diverse subclasses of organ and organ part spatially associated with the cervical vertebral coumn, it is partially surrounded by skin of neck. Examples: There is only one neck.</rdfs:comment>
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C0027530</knowledgebase:code>
+  </owl:Class>
+  <owl:Class rdf:ID="ALLOSAURUS">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSES"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A genus of large theropod dinosaur that lived 155 to 150 million years ago during the late Jurassic period.</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ALLOSAURUS</rdfs:label>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Two_Hindlimbs"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="#Two_Short_Forelimbs"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="#Three_Digits"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Tail"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="#Large_Body"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="#Short_Neck"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Two_Short_Eye_Horns"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+            <owl:someValuesFrom rdf:resource="#Snout_Horns"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="#Eye_Horns">
+    <knowledgebase:example rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Eye_Horns.1.jpg</knowledgebase:example>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#PROGNOSTIC_FINDINGS"/>
+    <rdfs:subClassOf rdf:resource="#Eye"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >bony structures located above the eyes</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >eye horns</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:about="#Time_Period">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#WORKSHEET"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >time period</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Mesozoic_Era">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >mesozoic era</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Time_Period"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Mm">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >mm</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Three_Digits">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >three digits</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Three"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Digits"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Quarternary">
+    <rdfs:subClassOf rdf:resource="#Cenozoic_Era"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >quarternary</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="One_Short_Snout_Horns">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >one short snout horns</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></knowledgebase:power>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Short_Snout_Horns"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="#Short"/>
+    <rdfs:subClassOf rdf:resource="#One"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Digits">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A finger or toe in human beings or corresponding part in other vertebrates.</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >digit structure</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >digital</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >digits</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Extremities"/>
+    </rdfs:subClassOf>
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C0582802</knowledgebase:code>
+    <knowledgebase:example rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Digits.1.jpg</knowledgebase:example>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >digit</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Four">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >four</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#Number"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Spot_Index_Per_10_Hpf">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#PROGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >spot index per 10 hpf</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Body">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#PROGNOSTIC_FINDINGS"/>
+    <rdfs:subClassOf rdf:resource="#Torso"/>
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CL051949</knowledgebase:code>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >body proper</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >body</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >The entire physical structure of an organism. It is composed of anatomic systems, regions, cavities, and spaces. (NCI)</rdfs:comment>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:ID="TRICERATOPS">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSES"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A genus of herbivorous ceratopsid dinosaur which lived during the late Maasticutian stage of the late Crestaceous period around 68-65 million years ago.</rdfs:comment>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Four_Hindlimbs"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="#Medium_Body"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#One_Short_Snout_Horns"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Two_Long_Eye_Horns"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="#Two_Short_Forelimbs"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Tail"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="#Short_Neck"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >TRICERATOPS</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Long_Snout_Horns">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="#Long"/>
+    <rdfs:subClassOf rdf:resource="#Snout_Horns"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >long snout horns</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Four_Digits">
+    <rdfs:subClassOf rdf:resource="#Four"/>
+    <rdfs:subClassOf rdf:resource="#Digits"/>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >four digits</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Large_Body">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >large body</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="#Large"/>
+    <rdfs:subClassOf rdf:resource="#Body"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Short_Snout_Horns">
+    <rdfs:subClassOf rdf:resource="#Short"/>
+    <rdfs:subClassOf rdf:resource="#Snout_Horns"/>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >short snout horns</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Medium_Body">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >medium body</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Medium"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="#Body"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Hindlimbs">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Either of two extremities of four-footed non-primate land animals. It usually consists of a FEMUR; TIBIA; and FIBULA; tarsals; METATARSALS; and TOES. (From Storer et al., General Zoology, 6th ed, p73)</rdfs:comment>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Limbs"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >hindlimb structure</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >hindlimb</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >hindlimbs</rdfs:label>
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C1522391</knowledgebase:code>
+    <knowledgebase:example rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hindlimbs.1.jpg</knowledgebase:example>
+  </owl:Class>
+  <owl:Class rdf:ID="APATOSAURUS">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Four_Hindlimbs"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Large_Body"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+            <owl:someValuesFrom rdf:resource="#Snout_Horns"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+            <owl:someValuesFrom rdf:resource="#Eye_Horns"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Long_Neck"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="#Two_Short_Forelimbs"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Tail"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Also known as Brontosaurus, a genus of sauropod dinosaur that lived from about 154 to 150 million years ago during the Jurrassic period.</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bronotosaurus</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >APATOSAURUS</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSES"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Triassic">
+    <rdfs:subClassOf rdf:resource="#Mesozoic_Era"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >triassic</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Long_Eye_Horns">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >long eye horns</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="#Long"/>
+    <rdfs:subClassOf rdf:resource="#Eye_Horns"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Short_Neck">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >short neck</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Short"/>
+    <rdfs:subClassOf rdf:resource="#Neck"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Two">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#Number"/>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >two</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Short_Eye_Horns">
+    <rdfs:subClassOf rdf:resource="#Short"/>
+    <rdfs:subClassOf rdf:resource="#Eye_Horns"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >short eye horns</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:ID="dino_report_template">
+    <knowledgebase:order rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Tail_Length : 5</knowledgebase:order>
+    <knowledgebase:order rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Time_Period : 6</knowledgebase:order>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasPrognostic"/>
+        <owl:someValuesFrom rdf:resource="#Neck"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasPrognostic"/>
+        <owl:someValuesFrom rdf:resource="#Tail_Length"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#TEMPLATES"/>
+    <knowledgebase:order rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Limbs : 2</knowledgebase:order>
+    <knowledgebase:order rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Horns : 7</knowledgebase:order>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="#Digits"/>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasPrognostic"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasPrognostic"/>
+        <owl:someValuesFrom rdf:resource="#Time_Period"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasTrigger"/>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSES"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="#Body"/>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasPrognostic"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="#Limbs"/>
+        </owl:someValuesFrom>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasPrognostic"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <knowledgebase:order rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Neck : 4</knowledgebase:order>
+    <knowledgebase:order rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Digits : 3</knowledgebase:order>
+    <knowledgebase:order rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Body : 1</knowledgebase:order>
+  </owl:Class>
+  <owl:Class rdf:about="#Limbs">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >limb of body</rdfs:label>
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C0015385</knowledgebase:code>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >limb</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >limb structure</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >extremity</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Cardinal body part, which consists of a maximal set of diverse subclasses of organ and organ part spatially associated with a complete set of bones of the appendicular skeleton, it is partially surrounded by skin of limb. Examples: There are only four instances, right upper and lower limbs and left upper and lower limbs.</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Extremities"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >limbs</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >extremities</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Jurassic">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >jurassic</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Mesozoic_Era"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Three">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#Number"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >three</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:about="#Extremities">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#PROGNOSTIC_FINDINGS"/>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >extremities</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Two_Short_Forelimbs">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >two short forelimbs</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Short"/>
+    <rdfs:subClassOf rdf:resource="#Two"/>
+    <rdfs:subClassOf rdf:resource="#Forelimbs"/>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:about="#Medium">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+  </owl:Class>
+  <rdf:Description rdf:about="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CYTOLOGIC_FEATURES">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >high</knowledgebase:power>
+  </rdf:Description>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.4.4, Build 579)  http://protege.stanford.edu -->

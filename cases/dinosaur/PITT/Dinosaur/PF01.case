@@ -1,0 +1,89 @@
+[CASE]
+name=PF01
+status=complete
+domain=http://slidetutor.upmc.edu/curriculum/owl/dinosaur/PITT/DinosaurInstances.owl#
+tags=question.type=identify
+creator=kayse (PITT)
+question.type=identify
+title=PF01
+
+[REPORT]
+PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+
+
+[DIAGNOSES]
+
+[DIAGNOSTIC_FINDINGS]
+Tail
+
+[PROGNOSTIC_FINDINGS]
+Tail
+
+[CLINICAL_FINDINGS]
+
+[ANCILLARY_STUDIES]
+
+[SLIDES]
+tail.jpg
+
+[Tail]
+#Mon Aug 16 12:24:03 EDT 2010
+locations=[]
+name=Tail
+is.asserted=true
+Tail.example=Arrow4
+is.absent=false
+parts=[]
+
+[Tail]
+#Mon Aug 16 12:24:03 EDT 2010
+locations=[]
+name=Tail
+is.asserted=true
+Tail.example=Arrow4
+is.absent=false
+parts=[]
+
+[tail.jpg]
+#Mon Aug 16 12:24:03 EDT 2010
+part=null
+slide.name=tail.jpg
+is.primary=true
+path=dinosaurs
+server=http\://op-image-tutor.upmc.com/servlet/OpenSlideServlet
+block=null
+stain=null
+level=null
+
+[Arrow4]
+#Mon Aug 16 12:24:03 EDT 2010
+y.points=null
+end.x=193
+name=Arrow4
+width=94
+x.points=null
+image=tail.jpg
+view.y=0
+view.x=-317
+color=GREEN
+view.zoom=1.0
+type=Arrow
+start.y=123
+height=-67
+start.x=99
+end.y=56
+tag=tail
+

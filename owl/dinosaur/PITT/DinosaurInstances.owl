@@ -1,0 +1,771 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+    xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+    xmlns:j.0="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+    xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+    xmlns="http://slidetutor.upmc.edu/curriculum/owl/dinosaur/PITT/DinosaurInstances.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:dinosaur="http://slidetutor.upmc.edu/curriculum/owl/dinosaur/PITT/Dinosaur.owl#"
+  xml:base="http://slidetutor.upmc.edu/curriculum/owl/dinosaur/PITT/DinosaurInstances.owl">
+  <owl:Ontology rdf:about="">
+    <owl:imports rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/dinosaur/PITT/Dinosaur.owl"/>
+  </owl:Ontology>
+  <j.0:CASES rdf:ID="dino5">
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <j.0:hasPrognostic>
+      <dinosaur:Four_Hindlimbs rdf:ID="four_hindlimbs"/>
+    </j.0:hasPrognostic>
+    <j.0:hasFinding>
+      <dinosaur:One_Short_Snout_Horns rdf:ID="one_short_snout_horns"/>
+    </j.0:hasFinding>
+    <j.0:hasPrognostic>
+      <dinosaur:Cretaceous rdf:ID="cretaceous"/>
+    </j.0:hasPrognostic>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dino5</rdfs:label>
+    <j.0:hasFinding>
+      <dinosaur:Medium_Body rdf:ID="medium_body"/>
+    </j.0:hasFinding>
+    <j.0:hasPrognostic>
+      <dinosaur:Two_Short_Forelimbs rdf:ID="two_short_forelimbs"/>
+    </j.0:hasPrognostic>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dinosaurs/Triceratops.jpg</j.0:hasImage>
+    <j.0:hasPrognostic>
+      <dinosaur:Tail_Length_Number_Mm rdf:ID="tail_length_0_14_mm">
+        <j.0:hasNumericValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+        >0.14</j.0:hasNumericValue>
+      </dinosaur:Tail_Length_Number_Mm>
+    </j.0:hasPrognostic>
+    <j.0:hasFinding>
+      <dinosaur:Tail rdf:ID="tail"/>
+    </j.0:hasFinding>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <j.0:hasPrognostic rdf:resource="#medium_body"/>
+    <j.0:hasPrognostic>
+      <dinosaur:Two_Long_Eye_Horns rdf:ID="two_long_eye_horns"/>
+    </j.0:hasPrognostic>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/dinosaur/PITT/Dinosaur.owl#TRICERATOPS"/>
+    <j.0:hasFinding rdf:resource="#two_short_forelimbs"/>
+    <j.0:hasFinding>
+      <j.0:Anatomic_Location rdf:ID="digits">
+        <j.0:hasResourceLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >http://slidetutor.upmc.edu/curriculum/owl/AnatomicalSites.owl#Digits</j.0:hasResourceLink>
+      </j.0:Anatomic_Location>
+    </j.0:hasFinding>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+The patient is 65-68 million years old.
+
+FINAL DIAGNOSIS:
+Triceratops
+medium body
+two short forelimbs
+short neck
+two long eye horns
+one short snout horns
+four hindlimbs
+tail length 0.14 mm
+cretaceous
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+This is a dinosaur!
+
+
+
+
+
+MICROSCOPIC:
+
+
+
+</j.0:hasReport>
+    <j.0:hasPrognostic rdf:resource="#one_short_snout_horns"/>
+    <j.0:hasFinding rdf:resource="#four_hindlimbs"/>
+    <j.0:hasFinding rdf:resource="#two_long_eye_horns"/>
+    <j.0:hasPrognostic>
+      <dinosaur:Short_Neck rdf:ID="short_neck"/>
+    </j.0:hasPrognostic>
+    <j.0:hasFinding rdf:resource="#short_neck"/>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="PD02">
+    <j.0:hasFinding rdf:resource="#two_short_forelimbs"/>
+    <j.0:hasPrognostic>
+      <dinosaur:Three_Digits rdf:ID="three_digits"/>
+    </j.0:hasPrognostic>
+    <j.0:hasPrognostic>
+      <dinosaur:Large_Body rdf:ID="large_body"/>
+    </j.0:hasPrognostic>
+    <j.0:hasFinding rdf:resource="#short_neck"/>
+    <j.0:hasFinding rdf:resource="#three_digits"/>
+    <j.0:hasPrognostic rdf:resource="#short_neck"/>
+    <j.0:hasFinding rdf:resource="#tail"/>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <j.0:hasFinding>
+      <dinosaur:Two_Hindlimbs rdf:ID="two_hindlimbs"/>
+    </j.0:hasFinding>
+    <j.0:hasFinding rdf:resource="#large_body"/>
+    <j.0:hasFinding>
+      <dinosaur:Two_Short_Eye_Horns rdf:ID="two_short_eye_horns"/>
+    </j.0:hasFinding>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+</j.0:hasReport>
+    <j.0:hasPrognostic rdf:resource="#two_hindlimbs"/>
+    <j.0:hasPrognostic rdf:resource="#two_short_forelimbs"/>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <j.0:hasPrognostic rdf:resource="#two_short_eye_horns"/>
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=infer</j.0:tags>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PD02</dc:title>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PD02</rdfs:label>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/dinosaur/PITT/Dinosaur.owl#ALLOSAURUS"/>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="dino1">
+    <j.0:hasFinding rdf:resource="#tail"/>
+    <j.0:hasPrognostic rdf:resource="#medium_body"/>
+    <j.0:hasAbsentFinding>
+      <dinosaur:Snout_Horns rdf:ID="no_snout_horns">
+        <j.0:isAbsent rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</j.0:isAbsent>
+      </dinosaur:Snout_Horns>
+    </j.0:hasAbsentFinding>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+120-130 million years old
+
+FINAL DIAGNOSIS:
+iguanodon
+medium body
+NO snout horns
+two short forelimbs
+short neck
+tail length 0.29 mm
+four digits
+two hindlimbs
+jurassic
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+This is a dinosaur.
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+    <j.0:hasFinding rdf:resource="#medium_body"/>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dinosaurs/Iguanodon.jpg</j.0:hasImage>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dino1</rdfs:label>
+    <j.0:hasFinding rdf:resource="#two_hindlimbs"/>
+    <j.0:hasPrognostic>
+      <dinosaur:Jurassic rdf:ID="jurassic"/>
+    </j.0:hasPrognostic>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <j.0:hasPrognostic rdf:resource="#short_neck"/>
+    <j.0:hasPrognostic rdf:resource="#no_snout_horns"/>
+    <j.0:hasPrognostic rdf:resource="#two_short_forelimbs"/>
+    <j.0:hasPrognostic>
+      <dinosaur:Four_Digits rdf:ID="four_digits"/>
+    </j.0:hasPrognostic>
+    <j.0:hasFinding rdf:resource="#two_short_forelimbs"/>
+    <j.0:hasPrognostic rdf:resource="#two_hindlimbs"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/dinosaur/PITT/Dinosaur.owl#IGUANODON"/>
+    <j.0:hasFinding rdf:resource="#short_neck"/>
+    <j.0:hasFinding rdf:resource="#four_digits"/>
+    <j.0:hasPrognostic>
+      <dinosaur:Tail_Length_Number_Mm rdf:ID="tail_length_0_29_mm">
+        <j.0:hasNumericValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+        >0.29</j.0:hasNumericValue>
+      </dinosaur:Tail_Length_Number_Mm>
+    </j.0:hasPrognostic>
+  </j.0:CASES>
+  <dinosaur:Body rdf:ID="body"/>
+  <dinosaur:Limbs rdf:ID="limbs"/>
+  <dinosaur:TYRANNOSAURUS_REX rdf:ID="PL01">
+    <j.0:hasFinding rdf:resource="#two_short_eye_horns"/>
+    <j.0:hasFinding rdf:resource="#medium_body"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+    <j.0:hasPrognostic rdf:resource="#large_body"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PL01</rdfs:label>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <j.0:hasPrognostic rdf:resource="#two_short_eye_horns"/>
+    <j.0:hasFinding>
+      <dinosaur:Forelimbs rdf:ID="forelimbs"/>
+    </j.0:hasFinding>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PL01</dc:title>
+    <j.0:hasFinding rdf:resource="#large_body"/>
+    <j.0:hasPrognostic rdf:resource="#medium_body"/>
+    <j.0:hasPrognostic rdf:resource="#one_short_snout_horns"/>
+    <j.0:hasPrognostic>
+      <dinosaur:One_Long_Snout_Horns rdf:ID="one_long_snout_horns"/>
+    </j.0:hasPrognostic>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+</j.0:hasReport>
+    <j.0:hasFinding rdf:resource="#one_short_snout_horns"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/dinosaur/PITT/Dinosaur.owl#ALLOSAURUS"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/dinosaur/PITT/Dinosaur.owl#IGUANODON"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/dinosaur/PITT/Dinosaur.owl#CENTROSAURUS"/>
+    <j.0:hasPrognostic rdf:resource="#forelimbs"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/dinosaur/PITT/Dinosaur.owl#TRICERATOPS"/>
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=link</j.0:tags>
+    <j.0:hasFinding rdf:resource="#one_long_snout_horns"/>
+  </dinosaur:TYRANNOSAURUS_REX>
+  <j.0:CASES rdf:ID="PF02">
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PF02</rdfs:label>
+    <j.0:hasFinding rdf:resource="#forelimbs"/>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dinosaurs/forelimbs.jpg</j.0:hasImage>
+    <j.0:hasPrognostic rdf:resource="#forelimbs"/>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="dino6">
+    <j.0:hasFinding rdf:resource="#two_hindlimbs"/>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <j.0:hasFinding rdf:resource="#tail"/>
+    <j.0:hasClinicalFinding rdf:resource="#digits"/>
+    <j.0:hasFinding rdf:resource="#three_digits"/>
+    <j.0:hasFinding rdf:resource="#two_short_forelimbs"/>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+The patient is 65-75 million years old.
+
+FINAL DIAGNOSIS:
+Troodon
+small body
+two short forelimbs
+tail
+three digits
+two hindlimbs
+cretaceous
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+This is a dinosaur!
+
+MICROSCOPIC:
+</j.0:hasReport>
+    <j.0:hasPrognostic rdf:resource="#cretaceous"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/dinosaur/PITT/Dinosaur.owl#TROODON"/>
+    <j.0:hasPrognostic rdf:resource="#two_short_forelimbs"/>
+    <j.0:hasPrognostic>
+      <dinosaur:Small_Body rdf:ID="small_body"/>
+    </j.0:hasPrognostic>
+    <j.0:hasFinding rdf:resource="#small_body"/>
+    <j.0:hasPrognostic rdf:resource="#three_digits"/>
+    <j.0:hasPrognostic rdf:resource="#digits"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dino6</rdfs:label>
+    <j.0:hasPrognostic rdf:resource="#two_hindlimbs"/>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Troodon.jpg</j.0:hasImage>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="dino4">
+    <j.0:hasFinding rdf:resource="#short_neck"/>
+    <j.0:hasFinding rdf:resource="#tail"/>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+The patient is 65-68 million years old.
+
+FINAL DIAGNOSIS:
+Tyrannosaurus Rex
+two short forelimbs
+short neck
+two digits
+two hindlimbs
+large body
+tail length 0.20 mm
+cretaceous
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+This is a dinosaur!
+
+MICROSCOPIC:
+</j.0:hasReport>
+    <j.0:hasFinding rdf:resource="#two_hindlimbs"/>
+    <j.0:hasPrognostic rdf:resource="#cretaceous"/>
+    <j.0:hasPrognostic rdf:resource="#digits"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dino4</rdfs:label>
+    <j.0:hasFinding rdf:resource="#two_short_forelimbs"/>
+    <j.0:hasPrognostic>
+      <dinosaur:Tail_Length_Number_Mm rdf:ID="tail_length_0_2_mm">
+        <j.0:hasNumericValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+        >0.2</j.0:hasNumericValue>
+      </dinosaur:Tail_Length_Number_Mm>
+    </j.0:hasPrognostic>
+    <j.0:hasPrognostic>
+      <dinosaur:Two_Digits rdf:ID="two_digits"/>
+    </j.0:hasPrognostic>
+    <j.0:hasPrognostic rdf:resource="#large_body"/>
+    <j.0:hasFinding rdf:resource="#large_body"/>
+    <j.0:hasPrognostic rdf:resource="#two_hindlimbs"/>
+    <j.0:hasPrognostic rdf:resource="#two_short_forelimbs"/>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Tyrannosaurus-rex.jpg</j.0:hasImage>
+    <j.0:hasClinicalFinding rdf:resource="#digits"/>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <j.0:hasFinding rdf:resource="#two_digits"/>
+    <j.0:hasPrognostic rdf:resource="#short_neck"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/dinosaur/PITT/Dinosaur.owl#TYRANNOSAURUS_REX"/>
+  </j.0:CASES>
+  <dinosaur:Tail_Length_Number_Mm rdf:ID="tail_length_0_17_mm">
+    <j.0:hasNumericValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >0.17</j.0:hasNumericValue>
+  </dinosaur:Tail_Length_Number_Mm>
+  <dinosaur:Two_Long_Forelimbs rdf:ID="two_long_forelimbs"/>
+  <dinosaur:Long_Neck rdf:ID="long_neck"/>
+  <dinosaur:Tail_Length_Number_Mm rdf:ID="tail_length_0_0_mm">
+    <j.0:hasNumericValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >0.0</j.0:hasNumericValue>
+  </dinosaur:Tail_Length_Number_Mm>
+  <j.0:CASES rdf:ID="dino7">
+    <j.0:hasPrognostic rdf:resource="#tail_length_0_2_mm"/>
+    <j.0:hasPrognostic rdf:resource="#four_hindlimbs"/>
+    <j.0:hasFinding rdf:resource="#one_long_snout_horns"/>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+The patient is about 75 million years old.
+
+FINAL DIAGNOSIS:
+Centrosaurus
+two short eye horns
+medium body
+two short forelimbs
+short neck
+one long snout horns
+four hindlimbs
+tail length 0.2 mm
+cretaceous
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+This is a dinosaur!
+
+MICROSCOPIC:
+</j.0:hasReport>
+    <j.0:hasPrognostic rdf:resource="#cretaceous"/>
+    <j.0:hasFinding rdf:resource="#two_short_forelimbs"/>
+    <j.0:hasPrognostic rdf:resource="#two_short_forelimbs"/>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Centrosaurus.jpg</j.0:hasImage>
+    <j.0:hasPrognostic rdf:resource="#two_short_eye_horns"/>
+    <j.0:hasPrognostic rdf:resource="#medium_body"/>
+    <j.0:hasFinding rdf:resource="#medium_body"/>
+    <j.0:hasFinding rdf:resource="#short_neck"/>
+    <j.0:hasFinding rdf:resource="#two_short_eye_horns"/>
+    <j.0:hasFinding rdf:resource="#four_hindlimbs"/>
+    <j.0:hasPrognostic rdf:resource="#short_neck"/>
+    <j.0:hasClinicalFinding>
+      <j.0:Anatomic_Location rdf:ID="neck">
+        <j.0:hasResourceLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >http://slidetutor.upmc.edu/curriculum/owl/AnatomicalSites.owl#Neck</j.0:hasResourceLink>
+      </j.0:Anatomic_Location>
+    </j.0:hasClinicalFinding>
+    <j.0:hasPrognostic rdf:resource="#neck"/>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <j.0:hasFinding rdf:resource="#tail"/>
+    <j.0:hasPrognostic rdf:resource="#one_long_snout_horns"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dino7</rdfs:label>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/dinosaur/PITT/Dinosaur.owl#CENTROSAURUS"/>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="dino3">
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dinosaurs/Apatosaurus2.jpg</j.0:hasImage>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+The patient is about 150 million years old
+
+FINAL DIAGNOSIS:
+Apatosaurus
+Brontosaurus
+long neck
+NO eye horns
+two short forelimbs
+NO snout horns
+four hindlimbs
+large body
+tail
+jurassic
+
+COMMENT:
+
+GROSS DESCRIPTION:
+This is a dinosaur!
+
+MICROSCOPIC:
+</j.0:hasReport>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/dinosaur/PITT/Dinosaur.owl#APATOSAURUS"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/dinosaur/PITT/Dinosaur.owl#BRONTOSAURUS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dino3</rdfs:label>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+  </j.0:CASES>
+  <dinosaur:Tail_Length_Number_Mm rdf:ID="tail_length_1_2_mm">
+    <j.0:hasNumericValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >1.2</j.0:hasNumericValue>
+  </dinosaur:Tail_Length_Number_Mm>
+  <dinosaur:Tail_Length_Number_Mm rdf:ID="tail_length_number_mm"/>
+  <dinosaur:TYRANNOSAURUS_REX rdf:ID="PC01">
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+
+FINAL DIAGNOSIS:
+
+
+
+COMMENT:
+
+
+
+GROSS DESCRIPTION:
+
+
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+    <j.0:hasAbsentFinding rdf:resource="#no_snout_horns"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PCdino01</rdfs:label>
+    <j.0:hasPrognostic rdf:resource="#three_digits"/>
+    <j.0:hasFinding rdf:resource="#two_short_eye_horns"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/dinosaur/PITT/Dinosaur.owl#ALLOSAURUS"/>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PCdino01</dc:title>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=differentiate+fok</j.0:tags>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <j.0:hasPrognostic rdf:resource="#no_snout_horns"/>
+    <j.0:hasPrognostic rdf:resource="#two_short_eye_horns"/>
+    <j.0:hasFinding rdf:resource="#three_digits"/>
+  </dinosaur:TYRANNOSAURUS_REX>
+  <dinosaur:ALLOSAURUS rdf:ID="dino8">
+    <j.0:hasPrognostic>
+      <dinosaur:Tail_Length_Number_Mm rdf:ID="tail_length_0_28_mm">
+        <j.0:hasNumericValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+        >0.28</j.0:hasNumericValue>
+      </dinosaur:Tail_Length_Number_Mm>
+    </j.0:hasPrognostic>
+    <j.0:hasPrognostic rdf:resource="#cretaceous"/>
+    <j.0:hasFinding rdf:resource="#three_digits"/>
+    <j.0:hasPrognostic rdf:resource="#no_snout_horns"/>
+    <j.0:hasFinding rdf:resource="#two_short_forelimbs"/>
+    <j.0:hasPrognostic rdf:resource="#large_body"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+    <j.0:hasPrognostic rdf:resource="#short_neck"/>
+    <j.0:hasFinding rdf:resource="#two_short_eye_horns"/>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+This patient is 145-155 million years old.
+
+FINAL DIAGNOSIS:
+Allosaurus
+two short eye horns
+NO snout horns
+two short forelimbs
+short neck
+tail length 0.28 mm
+three digits
+two hindlimbs
+large body
+cretaceous period
+
+COMMENT:
+
+GROSS DESCRIPTION:
+This is dinosaur!
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+    <j.0:hasFinding rdf:resource="#tail"/>
+    <j.0:hasAbsentFinding rdf:resource="#no_snout_horns"/>
+    <j.0:hasPrognostic rdf:resource="#two_short_forelimbs"/>
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=solve</j.0:tags>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dino8</rdfs:label>
+    <j.0:hasPrognostic rdf:resource="#three_digits"/>
+    <j.0:hasPrognostic rdf:resource="#two_short_eye_horns"/>
+    <j.0:hasPrognostic rdf:resource="#two_hindlimbs"/>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <j.0:hasFinding rdf:resource="#two_hindlimbs"/>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dinosaurs/allosaurus4.JPG</j.0:hasImage>
+    <j.0:hasFinding rdf:resource="#short_neck"/>
+    <j.0:hasFinding rdf:resource="#large_body"/>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dino8</dc:title>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+  </dinosaur:ALLOSAURUS>
+  <j.0:CASES rdf:ID="PD01">
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <j.0:hasPrognostic>
+      <dinosaur:Time_Period rdf:ID="time_period"/>
+    </j.0:hasPrognostic>
+    <j.0:hasFinding rdf:resource="#two_digits"/>
+    <j.0:hasPrognostic>
+      <dinosaur:Tail_Length rdf:ID="tail_length"/>
+    </j.0:hasPrognostic>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <j.0:hasFinding rdf:resource="#two_hindlimbs"/>
+    <j.0:hasFinding rdf:resource="#large_body"/>
+    <j.0:hasFinding rdf:resource="#two_short_forelimbs"/>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+</j.0:hasReport>
+    <j.0:hasPrognostic rdf:resource="#large_body"/>
+    <j.0:hasPrognostic rdf:resource="#two_short_forelimbs"/>
+    <j.0:hasFinding rdf:resource="#tail"/>
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=infer</j.0:tags>
+    <j.0:hasPrognostic rdf:resource="#short_neck"/>
+    <j.0:hasPrognostic rdf:resource="#two_digits"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/dinosaur/PITT/Dinosaur.owl#TYRANNOSAURUS_REX"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PD01</rdfs:label>
+    <j.0:hasFinding rdf:resource="#short_neck"/>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PD01</dc:title>
+    <j.0:hasPrognostic rdf:resource="#two_hindlimbs"/>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="dino2">
+    <j.0:hasFinding rdf:resource="#tail"/>
+    <j.0:hasAbsentFinding rdf:resource="#no_snout_horns"/>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <j.0:hasPrognostic rdf:resource="#large_body"/>
+    <j.0:hasPrognostic>
+      <dinosaur:Tail_Length_Number_Mm rdf:ID="tail_length_0_24_mm">
+        <j.0:hasNumericValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+        >0.24</j.0:hasNumericValue>
+      </dinosaur:Tail_Length_Number_Mm>
+    </j.0:hasPrognostic>
+    <j.0:hasFinding rdf:resource="#large_body"/>
+    <j.0:hasPrognostic rdf:resource="#no_snout_horns"/>
+    <j.0:hasFinding rdf:resource="#two_hindlimbs"/>
+    <j.0:hasPrognostic rdf:resource="#three_digits"/>
+    <j.0:hasPrognostic rdf:resource="#short_neck"/>
+    <j.0:hasFinding rdf:resource="#two_short_forelimbs"/>
+    <j.0:hasPrognostic rdf:resource="#two_short_eye_horns"/>
+    <j.0:hasFinding rdf:resource="#two_short_eye_horns"/>
+    <j.0:hasFinding rdf:resource="#three_digits"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/dinosaur/PITT/Dinosaur.owl#ALLOSAURUS"/>
+    <j.0:hasPrognostic rdf:resource="#two_hindlimbs"/>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dinosaurs/allosaurus.jpg</j.0:hasImage>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <j.0:hasPrognostic rdf:resource="#two_short_forelimbs"/>
+    <j.0:hasFinding rdf:resource="#short_neck"/>
+    <j.0:hasPrognostic rdf:resource="#cretaceous"/>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+Patient is 145-155 million years old
+
+
+
+FINAL DIAGNOSIS:
+
+Allosaurus
+
+two short eye horns
+
+two short forelimbs
+
+short neck
+
+three digits
+
+two hindlimbs
+
+large body
+
+tail length 0.24
+
+cretaceous
+
+NO snout horns
+
+
+
+COMMENT:
+
+
+
+
+
+GROSS DESCRIPTION:
+
+This is a dinosaur!
+
+
+
+MICROSCOPIC:
+
+
+
+</j.0:hasReport>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dino2</rdfs:label>
+  </j.0:CASES>
+  <j.0:Anatomic_Location rdf:ID="eye">
+    <j.0:hasResourceLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://slidetutor.upmc.edu/curriculum/owl/AnatomicalSites.owl#Eye</j.0:hasResourceLink>
+  </j.0:Anatomic_Location>
+  <dinosaur:Snout_Horns rdf:ID="snout_horns"/>
+  <dinosaur:Eye_Horns rdf:ID="no_eye_horns">
+    <j.0:isAbsent rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</j.0:isAbsent>
+  </dinosaur:Eye_Horns>
+  <j.0:CASES rdf:ID="PF01">
+    <j.0:hasFinding rdf:resource="#tail"/>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PF01</rdfs:label>
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dinosaurs/tail.jpg</j.0:hasImage>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PF01</dc:title>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+  </j.0:CASES>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.4.4, Build 579)  http://protege.stanford.edu -->

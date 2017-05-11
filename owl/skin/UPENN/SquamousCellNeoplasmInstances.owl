@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/SquamousCellNeoplasmInstances.owl#"
+    xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+    xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+    xmlns:j.0="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#"
+    xmlns:squamouscellneoplasm="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/SquamousCellNeoplasm.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+    xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/SquamousCellNeoplasmInstances.owl">
+  <owl:Ontology rdf:about="">
+    <owl:imports rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/SquamousCellNeoplasm.owl"/>
+  </owl:Ontology>
+  <rdf:Description rdf:about="#17388">
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >17389.svs</j.0:hasImage>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >17388.svs</j.0:hasImage>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >anitha (UPENN)</dc:creator>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >17388</rdfs:label>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+  </rdf:Description>
+  <j.0:CASES rdf:ID="NEW_CASE"/>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.4.4, Build 579)  http://protege.stanford.edu -->

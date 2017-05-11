@@ -1,0 +1,3098 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vesiculardermatitis="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#"
+    xmlns="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitisInstances.owl#"
+    xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+    xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+    xmlns:j.0="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+    xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitisInstances.owl">
+  <owl:Ontology rdf:about="">
+    <owl:imports rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl"/>
+  </owl:Ontology>
+  <j.0:CASES rdf:ID="AP_75">
+    <j.0:hasFinding>
+      <vesiculardermatitis:Extravasated_Erythrocytes_in_Dermis rdf:ID="extravasated_erythrocytes_in_dermis"/>
+    </j.0:hasFinding>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AP_75</rdfs:label>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tested</j.0:hasStatus>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (PITT)</vesiculardermatitis:creator>
+    <j.0:hasPrognostic>
+      <j.0:Anatomic_Location rdf:ID="anatomic_location"/>
+    </j.0:hasPrognostic>
+    <j.0:hasPrognostic>
+      <vesiculardermatitis:Punch_Biopsy rdf:ID="punch_biopsy"/>
+    </j.0:hasPrognostic>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+Not given
+
+FINAL DIAGNOSIS:
+SKIN, SITE NOT SPECIFIED, PUNCH BIOPSY
+LUPUS ERYTHEMATOSUS
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+Not given
+MICROSCOPIC:
+</j.0:hasReport>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#LUPUS_ERYTHEMATOSUS"/>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Marked_Neutrophilic_Inflammatory_Infiltrate rdf:ID="marked_neutrophilic_inflammatory_infiltrate"/>
+    </j.0:hasFinding>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Nuclear_Dust rdf:ID="nuclear_dust"/>
+    </j.0:hasFinding>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Mucin_in_Reticular_Dermis rdf:ID="mucin_in_reticular_dermis"/>
+    </j.0:hasFinding>
+    <j.0:hasPrognostic>
+      <vesiculardermatitis:Skin rdf:ID="skin"/>
+    </j.0:hasPrognostic>
+    <j.0:hasClinicalFinding rdf:resource="#anatomic_location"/>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Subepidermal_Blister rdf:ID="subepidermal_blister"/>
+    </j.0:hasFinding>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >skin/AP_75.tif</j.0:hasImage>
+  </j.0:CASES>
+  <vesiculardermatitis:MUCHA-HABERMANN_DISEASE rdf:ID="AP_14">
+    <j.0:hasFinding>
+      <vesiculardermatitis:Interface_Reaction rdf:ID="interface_reaction"/>
+    </j.0:hasFinding>
+    <j.0:hasFinding rdf:resource="#subepidermal_blister"/>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Epidermal_Necrosis_of_Isolated_Keratinocytes rdf:ID="epidermal_necrosis_of_isolated_keratinocytes"/>
+    </j.0:hasFinding>
+    <j.0:hasPrognostic rdf:resource="#punch_biopsy"/>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Moderate_Lymphocytic_Inflammatory_Infiltrate rdf:ID="moderate_lymphocytic_inflammatory_infiltrate"/>
+    </j.0:hasFinding>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+Not given
+
+FINAL DIAGNOSIS:
+SKIN, SITE NOT SPECIFIED, PUNCH BIOPSY:
+FINDINGS CONSISTENT WITH MUCHA HABERMANN DISEASE
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+Not given
+MICROSCOPIC:
+</j.0:hasReport>
+    <j.0:hasClinicalFinding rdf:resource="#anatomic_location"/>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Intraepidermal_Blister rdf:ID="intraepidermal_blister"/>
+    </j.0:hasFinding>
+    <j.0:hasPrognostic rdf:resource="#skin"/>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</vesiculardermatitis:creator>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tested</j.0:hasStatus>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >skin/AP_14.tif</j.0:hasImage>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Parakeratosis rdf:ID="parakeratosis"/>
+    </j.0:hasFinding>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Severe_Ballooning rdf:ID="severe_ballooning"/>
+    </j.0:hasFinding>
+    <j.0:hasPrognostic rdf:resource="#anatomic_location"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AP_14</rdfs:label>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Rupture rdf:ID="rupture"/>
+    </j.0:hasFinding>
+  </vesiculardermatitis:MUCHA-HABERMANN_DISEASE>
+  <vesiculardermatitis:ARTHROPOD_ASSAULT rdf:ID="AP_81">
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (PITT)</vesiculardermatitis:creator>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Marked_Wedge_Shaped_Neutrophilic_Inflammatory_Infiltrate rdf:ID="marked_wedge_shaped_neutrophilic_inflammatory_infiltrate"/>
+    </j.0:hasFinding>
+    <j.0:hasFinding rdf:resource="#severe_ballooning"/>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Isolated_Neutrophils_in_Blister rdf:ID="isolated_neutrophils_in_blister"/>
+    </j.0:hasFinding>
+    <j.0:hasFinding rdf:resource="#rupture"/>
+    <j.0:hasPrognostic rdf:resource="#skin"/>
+    <j.0:hasFinding rdf:resource="#subepidermal_blister"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#ACQUIRED_EPIDERMOLYSIS_BULLOSA"/>
+    <j.0:hasFinding rdf:resource="#intraepidermal_blister"/>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Isolated_Eosinophils_in_Blister rdf:ID="isolated_eosinophils_in_blister"/>
+    </j.0:hasFinding>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tested</j.0:hasStatus>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#BULLOUS_PEMPHIGOID"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Mucin rdf:ID="mucin"/>
+    </j.0:hasFinding>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+    <j.0:hasPrognostic rdf:resource="#punch_biopsy"/>
+    <j.0:hasFinding rdf:resource="#moderate_lymphocytic_inflammatory_infiltrate"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AP_81</rdfs:label>
+    <j.0:hasClinicalFinding>
+      <j.0:Anatomic_Location rdf:ID="leg">
+        <j.0:hasResourceLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >http://slidetutor.upmc.edu/curriculum/owl/AnatomicalSites.owl#Leg</j.0:hasResourceLink>
+      </j.0:Anatomic_Location>
+    </j.0:hasClinicalFinding>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Marked_Wedge_Shaped_Eosinophilic_Inflammatory_Infiltrate rdf:ID="marked_wedge_shaped_eosinophilic_inflammatory_infiltrate"/>
+    </j.0:hasFinding>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Severe_Spongiosis rdf:ID="severe_spongiosis"/>
+    </j.0:hasFinding>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >skin/AP_81.tif</j.0:hasImage>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+Not given
+
+FINAL DIAGNOSIS:
+SKIN, LEG, PUNCH BIOPSY
+ARTHROPOD ASSAULT
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+Biopsy from leg
+MICROSCOPIC:
+</j.0:hasReport>
+    <j.0:hasPrognostic rdf:resource="#leg"/>
+  </vesiculardermatitis:ARTHROPOD_ASSAULT>
+  <j.0:CASES rdf:ID="VD_PF10">
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF10</dc:title>
+    <vesiculardermatitis:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF10</vesiculardermatitis:title>
+    <j.0:hasFinding rdf:resource="#interface_reaction"/>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >testQuestions/H5/interfacereaction2.JPG</j.0:hasImage>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF10</rdfs:label>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</vesiculardermatitis:creator>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+</j.0:hasReport>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="VD_PF15">
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >fibrin</dc:title>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >fibrin</rdfs:label>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <vesiculardermatitis:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >fibrin</vesiculardermatitis:title>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >H6FxID/fibrinVenuleWall.jpg</j.0:hasImage>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Fibrin rdf:ID="fibrin"/>
+    </j.0:hasFinding>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</vesiculardermatitis:creator>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="VD_PF38">
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF38</rdfs:label>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF38</dc:title>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >testQuestions/H5/plasmacells.JPG</j.0:hasImage>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Plasma_Cells rdf:ID="plasma_cells"/>
+    </j.0:hasFinding>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="AP_34">
+    <j.0:hasFinding rdf:resource="#intraepidermal_blister"/>
+    <j.0:hasFinding rdf:resource="#moderate_lymphocytic_inflammatory_infiltrate"/>
+    <j.0:hasFinding>
+      <j.0:CASES rdf:ID="VD_PF19">
+        <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >testQuestions/H5/epidermalnecrosis.JPG</j.0:hasImage>
+        <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >complete</j.0:hasStatus>
+        <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >question.type=identify</j.0:tags>
+        <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >kayse (PITT)</vesiculardermatitis:creator>
+        <j.0:hasFinding>
+          <vesiculardermatitis:Epidermal_Necrosis rdf:ID="epidermal_necrosis"/>
+        </j.0:hasFinding>
+        <vesiculardermatitis:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >VD_PF19</vesiculardermatitis:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >VD_PF19</rdfs:label>
+        <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >PATIENT HISTORY:
+
+
+
+
+
+FINAL DIAGNOSIS:
+
+
+
+
+
+COMMENT:
+
+
+
+
+
+GROSS DESCRIPTION:
+
+
+
+
+
+MICROSCOPIC:
+</j.0:hasReport>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >VD_PF19</dc:title>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >kayse (PITT)</dc:creator>
+      </j.0:CASES>
+    </j.0:hasFinding>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Moderate_Neutrophilic_Inflammatory_Infiltrate rdf:ID="moderate_neutrophilic_inflammatory_infiltrate"/>
+    </j.0:hasFinding>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tested</j.0:hasStatus>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</vesiculardermatitis:creator>
+    <j.0:hasFinding rdf:resource="#subepidermal_blister"/>
+    <j.0:hasFinding rdf:resource="#severe_ballooning"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AP_34</rdfs:label>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+Not given
+
+FINAL DIAGNOSIS:
+SKIN, SITE NOT SPECIFIED, BIOPSY
+SEPTIC VASCULITIS
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+Not given
+MICROSCOPIC:
+</j.0:hasReport>
+    <j.0:hasClinicalFinding rdf:resource="#anatomic_location"/>
+    <j.0:hasPrognostic rdf:resource="#anatomic_location"/>
+    <j.0:hasPrognostic>
+      <vesiculardermatitis:Biopsy rdf:ID="biopsy"/>
+    </j.0:hasPrognostic>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+    <j.0:hasFinding rdf:resource="#rupture"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#SEPTIC_VASCULITIS"/>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >skin/AP_34.tif</j.0:hasImage>
+    <j.0:hasPrognostic rdf:resource="#skin"/>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="VD_PF40">
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >testQuestions/H5/ballooning2.JPG</j.0:hasImage>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF40</rdfs:label>
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Ballooning rdf:ID="ballooning"/>
+    </j.0:hasFinding>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF40</dc:title>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="VD_PF30">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF30</rdfs:label>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Hypergranulosis rdf:ID="hypergranulosis"/>
+    </j.0:hasFinding>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF30</dc:title>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >testQuestions/H5/hypergranulosis2.JPG</j.0:hasImage>
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="AP_24">
+    <j.0:hasAbsentFinding>
+      <vesiculardermatitis:Patient_Age_Elderly rdf:ID="no_patient_age_elderly">
+        <j.0:isAbsent rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</j.0:isAbsent>
+      </vesiculardermatitis:Patient_Age_Elderly>
+    </j.0:hasAbsentFinding>
+    <j.0:hasClinicalFinding>
+      <vesiculardermatitis:Female rdf:ID="female"/>
+    </j.0:hasClinicalFinding>
+    <j.0:hasFinding rdf:resource="#isolated_eosinophils_in_blister"/>
+    <j.0:hasPrognostic>
+      <j.0:Anatomic_Location rdf:ID="abdomen">
+        <j.0:hasResourceLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >http://slidetutor.upmc.edu/curriculum/owl/AnatomicalSites.owl#Abdomen</j.0:hasResourceLink>
+      </j.0:Anatomic_Location>
+    </j.0:hasPrognostic>
+    <j.0:hasPrognostic rdf:resource="#skin"/>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Marked_Eosinophilic_Inflammatory_Infiltrate rdf:ID="marked_eosinophilic_inflammatory_infiltrate"/>
+    </j.0:hasFinding>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >skin/AP_24.tif</j.0:hasImage>
+    <j.0:hasFinding rdf:resource="#subepidermal_blister"/>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+The patient is a 32 year old female in her second trimester who presents with a lesion on her abdomen.
+
+FINAL DIAGNOSIS:
+SKIN, ABDOMEN, EXCISION
+FINDINGS CONSISTENT WITH PEMPHIGOID GESTATIONIS
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+Not given
+MICROSCOPIC:
+</j.0:hasReport>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tested</j.0:hasStatus>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (PITT)</vesiculardermatitis:creator>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#BULLOUS_PEMPHIGOID"/>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Minimal_Lymphocytic_Inflammatory_Infiltrate rdf:ID="minimal_lymphocytic_inflammatory_infiltrate"/>
+    </j.0:hasFinding>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AP_24</rdfs:label>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+    <j.0:hasClinicalFinding rdf:resource="#abdomen"/>
+    <j.0:hasClinicalFinding>
+      <vesiculardermatitis:Patient_Age_Number rdf:ID="patient_age_32_0">
+        <j.0:hasNumericValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+        >32.0</j.0:hasNumericValue>
+      </vesiculardermatitis:Patient_Age_Number>
+    </j.0:hasClinicalFinding>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#PEMPHIGOID_GESTATIONIS"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#ACQUIRED_EPIDERMOLYSIS_BULLOSA"/>
+    <j.0:hasPrognostic>
+      <vesiculardermatitis:Excision rdf:ID="excision"/>
+    </j.0:hasPrognostic>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="VD_PF20">
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF20</rdfs:label>
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF20</dc:title>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Thick_Collagen_Bundles rdf:ID="thick_collagen_bundles"/>
+    </j.0:hasFinding>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >testQuestions/H5/thickcollagenbundles.JPG</j.0:hasImage>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="VD_PF05">
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >testQuestions/H5/nucleardust.JPG</j.0:hasImage>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <j.0:hasFinding rdf:resource="#nuclear_dust"/>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF05</dc:title>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF05</rdfs:label>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+
+
+
+FINAL DIAGNOSIS:
+
+
+
+
+
+COMMENT:
+
+
+
+
+
+GROSS DESCRIPTION:
+
+
+
+
+
+MICROSCOPIC:
+
+
+</j.0:hasReport>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</vesiculardermatitis:creator>
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="VD_PF01">
+    <vesiculardermatitis:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF01</vesiculardermatitis:title>
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Blister rdf:ID="blister"/>
+    </j.0:hasFinding>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+
+
+
+FINAL DIAGNOSIS:
+
+
+
+
+
+COMMENT:
+
+
+
+
+
+GROSS DESCRIPTION:
+
+
+
+
+
+MICROSCOPIC:
+</j.0:hasReport>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >testQuestions/H5/blister3.JPG</j.0:hasImage>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF01</dc:title>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</vesiculardermatitis:creator>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF01</rdfs:label>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+  </j.0:CASES>
+  <vesiculardermatitis:LICHEN_SCLEROSUS_ET_ATROPHICUS rdf:ID="AP_76">
+    <j.0:hasPrognostic rdf:resource="#skin"/>
+    <j.0:hasClinicalFinding rdf:resource="#anatomic_location"/>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Subepidermal_Fibrosis rdf:ID="subepidermal_fibrosis"/>
+    </j.0:hasFinding>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Sclerosis_of_Papillary_Dermis rdf:ID="sclerosis_of_papillary_dermis"/>
+    </j.0:hasFinding>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (PITT)</vesiculardermatitis:creator>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >skin/AP_76B.tif</j.0:hasImage>
+    <j.0:hasPrognostic rdf:resource="#anatomic_location"/>
+    <j.0:hasFinding rdf:resource="#subepidermal_blister"/>
+    <j.0:hasPrognostic rdf:resource="#punch_biopsy"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tested</j.0:hasStatus>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+Not given
+
+FINAL DIAGNOSIS:
+SKIN, SITE NOT SPECIFIED, PUNCH BIOPSY:
+LICHEN SCLEROSUS ET ATROPHICUS
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+Not given
+MICROSCOPIC:
+</j.0:hasReport>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Thick_Collagen_Bundles_in_Reticular_Dermis rdf:ID="thick_collagen_bundles_in_reticular_dermis"/>
+    </j.0:hasFinding>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AP_76</rdfs:label>
+    <j.0:hasFinding rdf:resource="#moderate_lymphocytic_inflammatory_infiltrate"/>
+  </vesiculardermatitis:LICHEN_SCLEROSUS_ET_ATROPHICUS>
+  <j.0:CASES rdf:ID="AP_82">
+    <j.0:hasFinding>
+      <vesiculardermatitis:Papillae_Preserved rdf:ID="papillae_preserved"/>
+    </j.0:hasFinding>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+Not given
+
+FINAL DIAGNOSIS:
+SKIN, SITE NOT SPECIFIED, EXCISION
+PORPHYRIA CUTANEA TARDA
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+Not given
+MICROSCOPIC:
+</j.0:hasReport>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Perivenular_Rims_of_Homogenous_Material rdf:ID="perivenular_rims_of_homogenous_material"/>
+    </j.0:hasFinding>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AP_82</rdfs:label>
+    <j.0:hasPrognostic rdf:resource="#excision"/>
+    <j.0:hasClinicalFinding rdf:resource="#anatomic_location"/>
+    <j.0:hasPrognostic rdf:resource="#anatomic_location"/>
+    <j.0:hasPrognostic rdf:resource="#skin"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#ERYTHROPOIETIC_PORPHYRIA"/>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</vesiculardermatitis:creator>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#VARIEGATE_PORPHYRIA"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#PORPHYRIA_CUTANEA_TARDA"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#HEPATOERYTHROPOIETIC_PORPHYRIA"/>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tested</j.0:hasStatus>
+    <j.0:hasFinding rdf:resource="#subepidermal_blister"/>
+    <j.0:hasFinding rdf:resource="#minimal_lymphocytic_inflammatory_infiltrate"/>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >skin/AP_82.tif</j.0:hasImage>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Solar_Elastosis rdf:ID="solar_elastosis"/>
+    </j.0:hasFinding>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="VD_PF16">
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF16</rdfs:label>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF16</dc:title>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Sclerosis rdf:ID="sclerosis"/>
+    </j.0:hasFinding>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >H6FxID/sclerosis.jpg</j.0:hasImage>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="VD_PF37">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF37</rdfs:label>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF37</dc:title>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >H6FxID/plasmaCell.jpg</j.0:hasImage>
+    <j.0:hasFinding rdf:resource="#plasma_cells"/>
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+  </j.0:CASES>
+  <vesiculardermatitis:ERYTHEMA_MULTIFORME rdf:ID="AP_33">
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+Not given
+
+FINAL DIAGNOSIS:
+SKIN, SITE NOT SPECIFIED, BIOPSY
+FINDINGS CONSISTENT WITH ERYTHEMA MULTIFORME, SEVERE
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+Not given
+MICROSCOPIC:
+</j.0:hasReport>
+    <j.0:hasClinicalFinding rdf:resource="#anatomic_location"/>
+    <j.0:hasPrognostic rdf:resource="#anatomic_location"/>
+    <j.0:hasPrognostic rdf:resource="#biopsy"/>
+    <j.0:hasAbsentFinding>
+      <vesiculardermatitis:Parakeratosis rdf:ID="no_parakeratosis">
+        <j.0:isAbsent rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</j.0:isAbsent>
+      </vesiculardermatitis:Parakeratosis>
+    </j.0:hasAbsentFinding>
+    <j.0:hasPrognostic rdf:resource="#skin"/>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >skin/AP_33.tif</j.0:hasImage>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</vesiculardermatitis:creator>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tested</j.0:hasStatus>
+    <j.0:hasFinding rdf:resource="#thick_collagen_bundles"/>
+    <j.0:hasFinding rdf:resource="#interface_reaction"/>
+    <j.0:hasFinding rdf:resource="#subepidermal_blister"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AP_33</rdfs:label>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+    <j.0:hasFinding rdf:resource="#minimal_lymphocytic_inflammatory_infiltrate"/>
+    <j.0:hasFinding rdf:resource="#isolated_eosinophils_in_blister"/>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Confluent_Epidermal_Necrosis rdf:ID="confluent_epidermal_necrosis"/>
+    </j.0:hasFinding>
+  </vesiculardermatitis:ERYTHEMA_MULTIFORME>
+  <vesiculardermatitis:BULLOUS_PEMPHIGOID rdf:ID="AP_23">
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >skin/AP_23.tif</j.0:hasImage>
+    <j.0:hasFinding rdf:resource="#subepidermal_blister"/>
+    <j.0:hasPrognostic rdf:resource="#skin"/>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tested</j.0:hasStatus>
+    <j.0:hasFinding rdf:resource="#isolated_eosinophils_in_blister"/>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+    <j.0:hasFinding rdf:resource="#moderate_lymphocytic_inflammatory_infiltrate"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#ACQUIRED_EPIDERMOLYSIS_BULLOSA"/>
+    <j.0:hasClinicalFinding rdf:resource="#anatomic_location"/>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (PITT)</vesiculardermatitis:creator>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Moderate_Eosinophilic_Inflammatory_Infiltrate rdf:ID="moderate_eosinophilic_inflammatory_infiltrate"/>
+    </j.0:hasFinding>
+    <j.0:hasFinding rdf:resource="#isolated_neutrophils_in_blister"/>
+    <j.0:hasPrognostic rdf:resource="#anatomic_location"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AP_23</rdfs:label>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+Not given
+
+FINAL DIAGNOSIS:
+SKIN, SITE NOT SPECIFIED, BIOPSY
+FINDINGS CONSISTENT WITH BULLOUS PEMPHIGOID
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+Not given
+MICROSCOPIC:
+</j.0:hasReport>
+    <j.0:hasPrognostic rdf:resource="#biopsy"/>
+  </vesiculardermatitis:BULLOUS_PEMPHIGOID>
+  <j.0:CASES rdf:ID="VD_PF02">
+    <j.0:hasFinding rdf:resource="#blister"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF02</rdfs:label>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >testQuestions/H5/blister2.JPG</j.0:hasImage>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF02</dc:title>
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</vesiculardermatitis:creator>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+
+
+
+FINAL DIAGNOSIS:
+
+
+
+
+
+COMMENT:
+
+
+
+
+
+GROSS DESCRIPTION:
+
+
+
+
+
+MICROSCOPIC:
+
+
+</j.0:hasReport>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="VD_PF06">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF06</rdfs:label>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Neutrophils rdf:ID="neutrophils"/>
+    </j.0:hasFinding>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >testQuestions/H5/neutrophils2.JPG</j.0:hasImage>
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+
+
+
+FINAL DIAGNOSIS:
+
+
+
+
+
+COMMENT:
+
+
+
+
+
+GROSS DESCRIPTION:
+
+
+
+
+
+MICROSCOPIC:
+
+
+</j.0:hasReport>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</vesiculardermatitis:creator>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF06</dc:title>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="VD_PF22">
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF22</rdfs:label>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >testQuestions/H5/epidermalnecrosis2.JPG</j.0:hasImage>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</vesiculardermatitis:creator>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+    <vesiculardermatitis:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF22</vesiculardermatitis:title>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF22</dc:title>
+  </j.0:CASES>
+  <vesiculardermatitis:DERMATITIS_HERPETIFORMIS-LIKE_DRUG_ERUPTION rdf:ID="AP_73">
+    <j.0:hasPrognostic rdf:resource="#punch_biopsy"/>
+    <j.0:hasFinding rdf:resource="#isolated_neutrophils_in_blister"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#LINEAR_IGA_DERMATOSIS"/>
+    <j.0:hasFinding rdf:resource="#minimal_lymphocytic_inflammatory_infiltrate"/>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >skin/AP_73.tif</j.0:hasImage>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tested</j.0:hasStatus>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AP_73</rdfs:label>
+    <j.0:hasPrognostic rdf:resource="#skin"/>
+    <j.0:hasAbsentFinding>
+      <vesiculardermatitis:Mucin_in_Reticular_Dermis rdf:ID="no_mucin_in_reticular_dermis">
+        <j.0:isAbsent rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</j.0:isAbsent>
+      </vesiculardermatitis:Mucin_in_Reticular_Dermis>
+    </j.0:hasAbsentFinding>
+    <j.0:hasFinding rdf:resource="#nuclear_dust"/>
+    <j.0:hasFinding rdf:resource="#moderate_neutrophilic_inflammatory_infiltrate"/>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+Not given
+
+FINAL DIAGNOSIS:
+SKIN, ARM, PUNCH BIOPSY
+DERMATITIS HERPETIFORMIS
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+Biopsy from arm.
+MICROSCOPIC:
+</j.0:hasReport>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#ACQUIRED_EPIDERMOLYSIS_BULLOSA"/>
+    <j.0:hasFinding rdf:resource="#subepidermal_blister"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#DERMATITIS_HERPETIFORMIS"/>
+    <j.0:hasClinicalFinding>
+      <j.0:Anatomic_Location rdf:ID="arm">
+        <j.0:hasResourceLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >http://slidetutor.upmc.edu/curriculum/owl/AnatomicalSites.owl#Arm</j.0:hasResourceLink>
+      </j.0:Anatomic_Location>
+    </j.0:hasClinicalFinding>
+    <j.0:hasPrognostic rdf:resource="#arm"/>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (PITT)</vesiculardermatitis:creator>
+  </vesiculardermatitis:DERMATITIS_HERPETIFORMIS-LIKE_DRUG_ERUPTION>
+  <j.0:CASES rdf:ID="AP_83">
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (PITT)</vesiculardermatitis:creator>
+    <j.0:hasClinicalFinding rdf:resource="#anatomic_location"/>
+    <j.0:hasFinding rdf:resource="#subepidermal_blister"/>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tested</j.0:hasStatus>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AP_83</rdfs:label>
+    <j.0:hasFinding rdf:resource="#minimal_lymphocytic_inflammatory_infiltrate"/>
+    <j.0:hasFinding rdf:resource="#isolated_eosinophils_in_blister"/>
+    <j.0:hasPrognostic rdf:resource="#skin"/>
+    <j.0:hasFinding rdf:resource="#marked_eosinophilic_inflammatory_infiltrate"/>
+    <j.0:hasPrognostic rdf:resource="#anatomic_location"/>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+Not given
+
+FINAL DIAGNOSIS:
+SKIN, SITE NOT SPECIFIED, WIDE EXCISION:
+BULLOUS PEMPHIGOID
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+Not given
+MICROSCOPIC:
+</j.0:hasReport>
+    <j.0:hasPrognostic>
+      <vesiculardermatitis:Wide_Excision rdf:ID="wide_excision"/>
+    </j.0:hasPrognostic>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#BULLOUS_PEMPHIGOID"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#ACQUIRED_EPIDERMOLYSIS_BULLOSA"/>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >skin/AP_83.tif</j.0:hasImage>
+  </j.0:CASES>
+  <vesiculardermatitis:BLISTER_ABOVE_SCAR rdf:ID="AP_18">
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (PITT)</vesiculardermatitis:creator>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+    <j.0:hasPrognostic rdf:resource="#anatomic_location"/>
+    <j.0:hasAbsentFinding>
+      <vesiculardermatitis:Sclerosis rdf:ID="no_sclerosis">
+        <j.0:isAbsent rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</j.0:isAbsent>
+      </vesiculardermatitis:Sclerosis>
+    </j.0:hasAbsentFinding>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AP_18</rdfs:label>
+    <j.0:hasPrognostic rdf:resource="#biopsy"/>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tested</j.0:hasStatus>
+    <j.0:hasPrognostic rdf:resource="#skin"/>
+    <j.0:hasClinicalFinding rdf:resource="#anatomic_location"/>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+    <j.0:hasFinding rdf:resource="#minimal_lymphocytic_inflammatory_infiltrate"/>
+    <j.0:hasFinding rdf:resource="#subepidermal_fibrosis"/>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >skin/AP_18.tif</j.0:hasImage>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+Not given
+
+FINAL DIAGNOSIS:
+SKIN, SITE NOT SPECIFIED, BIOPSY
+BLISTER ABOVE SCAR
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+Not given
+MICROSCOPIC:
+</j.0:hasReport>
+    <j.0:hasFinding rdf:resource="#subepidermal_blister"/>
+  </vesiculardermatitis:BLISTER_ABOVE_SCAR>
+  <vesiculardermatitis:ACQUIRED_EPIDERMOLYSIS_BULLOSA rdf:ID="AP_17">
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+    <j.0:hasPrognostic rdf:resource="#skin"/>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tested</j.0:hasStatus>
+    <j.0:hasClinicalFinding>
+      <vesiculardermatitis:Patient_Age_Number rdf:ID="patient_age_67_0">
+        <j.0:hasNumericValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+        >67.0</j.0:hasNumericValue>
+      </vesiculardermatitis:Patient_Age_Number>
+    </j.0:hasClinicalFinding>
+    <j.0:hasClinicalFinding rdf:resource="#female"/>
+    <j.0:hasFinding rdf:resource="#moderate_eosinophilic_inflammatory_infiltrate"/>
+    <j.0:hasPrognostic rdf:resource="#anatomic_location"/>
+    <j.0:hasFinding rdf:resource="#intraepidermal_blister"/>
+    <j.0:hasFinding rdf:resource="#isolated_eosinophils_in_blister"/>
+    <j.0:hasFinding rdf:resource="#subepidermal_blister"/>
+    <j.0:hasClinicalFinding rdf:resource="#anatomic_location"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#BULLOUS_PEMPHIGOID"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AP_17</rdfs:label>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+The patient is a 67 year old female with an acute onset of a widespread pruritic, vesicular rash.
+
+FINAL DIAGNOSIS:
+SKIN, SITE NOT SPECIFIED, EXCISION
+BULLOUS PEMPHIGOID
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+Not given
+MICROSCOPIC:
+</j.0:hasReport>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >skin/AP_17.tif</j.0:hasImage>
+    <j.0:hasClinicalFinding>
+      <vesiculardermatitis:Patient_Age_Elderly rdf:ID="patient_age_elderly"/>
+    </j.0:hasClinicalFinding>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (PITT)</vesiculardermatitis:creator>
+    <j.0:hasFinding rdf:resource="#isolated_neutrophils_in_blister"/>
+    <j.0:hasPrognostic rdf:resource="#excision"/>
+  </vesiculardermatitis:ACQUIRED_EPIDERMOLYSIS_BULLOSA>
+  <j.0:CASES rdf:ID="VD_PF36">
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Histiocytes rdf:ID="histiocytes"/>
+    </j.0:hasFinding>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF36</dc:title>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF36</rdfs:label>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >testQuestions/H5/histiocytes2.JPG</j.0:hasImage>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="VD_PF17">
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Hyphae rdf:ID="hyphae"/>
+    </j.0:hasFinding>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >H6FxID/hyphae.jpg</j.0:hasImage>
+    <vesiculardermatitis:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF17</vesiculardermatitis:title>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF17</dc:title>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF17</rdfs:label>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</vesiculardermatitis:creator>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="VD_PF03">
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF03</dc:title>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >testQuestions/H5/eosinophils.JPG</j.0:hasImage>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF03</rdfs:label>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Eosinophils rdf:ID="eosinophils"/>
+    </j.0:hasFinding>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+
+
+
+FINAL DIAGNOSIS:
+
+
+
+
+
+COMMENT:
+
+
+
+
+
+GROSS DESCRIPTION:
+
+
+
+
+
+MICROSCOPIC:
+
+
+</j.0:hasReport>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</vesiculardermatitis:creator>
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+  </j.0:CASES>
+  <vesiculardermatitis:Ballooning_in_Mid_Epidermis rdf:ID="ballooning_in_mid_epidermis"/>
+  <j.0:CASES rdf:ID="AP_22">
+    <j.0:hasPrognostic rdf:resource="#excision"/>
+    <j.0:hasFinding rdf:resource="#thick_collagen_bundles_in_reticular_dermis"/>
+    <j.0:hasFinding rdf:resource="#moderate_lymphocytic_inflammatory_infiltrate"/>
+    <j.0:hasFinding rdf:resource="#subepidermal_fibrosis"/>
+    <j.0:hasFinding rdf:resource="#sclerosis_of_papillary_dermis"/>
+    <j.0:hasFinding rdf:resource="#subepidermal_blister"/>
+    <j.0:hasClinicalFinding rdf:resource="#anatomic_location"/>
+    <j.0:hasPrognostic rdf:resource="#anatomic_location"/>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</vesiculardermatitis:creator>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tested</j.0:hasStatus>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AP_22</rdfs:label>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+Not given
+
+FINAL DIAGNOSIS:
+SKIN, SITE NOT SPECIFIED, EXCISION:
+LICHEN SCLEROSUS ET ATROPHICUS
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+Not given
+MICROSCOPIC:
+
+</j.0:hasReport>
+    <j.0:hasPrognostic rdf:resource="#skin"/>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >skin/AP_22.tif</j.0:hasImage>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#LICHEN_SCLEROSUS_ET_ATROPHICUS"/>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="VD_PF21">
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF21</dc:title>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF21</rdfs:label>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >testQuestions/H5/papillaepreserved.JPG</j.0:hasImage>
+    <j.0:hasFinding rdf:resource="#papillae_preserved"/>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="AP_15">
+    <j.0:hasFinding rdf:resource="#isolated_neutrophils_in_blister"/>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</vesiculardermatitis:creator>
+    <j.0:hasClinicalFinding rdf:resource="#anatomic_location"/>
+    <j.0:hasPrognostic rdf:resource="#skin"/>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >skin/AP_15.tif</j.0:hasImage>
+    <j.0:hasFinding rdf:resource="#subepidermal_blister"/>
+    <j.0:hasPrognostic rdf:resource="#biopsy"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#BULLOUS_PEMPHIGOID"/>
+    <j.0:hasFinding rdf:resource="#isolated_eosinophils_in_blister"/>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Isolated_Eosinophils_in_Dermis rdf:ID="isolated_eosinophils_in_dermis"/>
+    </j.0:hasFinding>
+    <j.0:hasFinding rdf:resource="#minimal_lymphocytic_inflammatory_infiltrate"/>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+This 55 year old man developed a pruritic blistering rash after a recent trip to Hawaii.
+
+FINAL DIAGNOSIS:
+SKIN, SITE NOT SPECIFIED, BIOPSY
+BULLOUS PEMPHIGOID
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+Not given
+MICROSCOPIC:
+</j.0:hasReport>
+    <j.0:hasPrognostic rdf:resource="#anatomic_location"/>
+    <j.0:hasClinicalFinding>
+      <vesiculardermatitis:Male rdf:ID="male"/>
+    </j.0:hasClinicalFinding>
+    <j.0:hasClinicalFinding>
+      <vesiculardermatitis:Patient_Age_Number rdf:ID="patient_age_55_0">
+        <j.0:hasNumericValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+        >55.0</j.0:hasNumericValue>
+      </vesiculardermatitis:Patient_Age_Number>
+    </j.0:hasClinicalFinding>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tested</j.0:hasStatus>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AP_15</rdfs:label>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="AP_19">
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+    <j.0:hasFinding rdf:resource="#minimal_lymphocytic_inflammatory_infiltrate"/>
+    <j.0:hasFinding rdf:resource="#isolated_eosinophils_in_dermis"/>
+    <j.0:hasPrognostic rdf:resource="#biopsy"/>
+    <j.0:hasFinding rdf:resource="#subepidermal_blister"/>
+    <j.0:hasPrognostic rdf:resource="#skin"/>
+    <j.0:hasClinicalFinding rdf:resource="#male"/>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >skin/AP_19.tif</j.0:hasImage>
+    <j.0:hasClinicalFinding>
+      <vesiculardermatitis:Patient_Age_Number rdf:ID="patient_age_57_0">
+        <j.0:hasNumericValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+        >57.0</j.0:hasNumericValue>
+      </vesiculardermatitis:Patient_Age_Number>
+    </j.0:hasClinicalFinding>
+    <j.0:hasPrognostic rdf:resource="#leg"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AP_19</rdfs:label>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tested</j.0:hasStatus>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (PITT)</vesiculardermatitis:creator>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#BULLOUS_PEMPHIGOID"/>
+    <j.0:hasClinicalFinding rdf:resource="#leg"/>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+The patient is a 57 year old male who recently developed pruritic blisters all over his body.
+
+FINAL DIAGNOSIS:
+SKIN, LEG, BIOPSY:
+FINDINGS CONSISTENT WITH BULLOUS PEMPHIGOID
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+Biopsy from leg.
+MICROSCOPIC:
+</j.0:hasReport>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="VD_PF35">
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF35</dc:title>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF35</rdfs:label>
+    <j.0:hasFinding rdf:resource="#histiocytes"/>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >testQuestions/H5/histiocytes.JPG</j.0:hasImage>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="VD_PF41">
+    <j.0:hasFinding rdf:resource="#ballooning"/>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF41</dc:title>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >testQuestions/H5/ballooning.JPG</j.0:hasImage>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF41</rdfs:label>
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="VD_PF18">
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+    <vesiculardermatitis:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF18</vesiculardermatitis:title>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Thrombus rdf:ID="thrombus"/>
+    </j.0:hasFinding>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF18</rdfs:label>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</vesiculardermatitis:creator>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >testQuestions/H5/thrombus2.JPG</j.0:hasImage>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF18</dc:title>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="VD_PF04">
+    <j.0:hasFinding rdf:resource="#neutrophils"/>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF04</rdfs:label>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >testQuestions/H5/neutrophils.JPG</j.0:hasImage>
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+
+
+
+FINAL DIAGNOSIS:
+
+
+
+
+
+COMMENT:
+
+
+
+
+
+GROSS DESCRIPTION:
+
+
+
+
+
+MICROSCOPIC:
+
+
+</j.0:hasReport>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</vesiculardermatitis:creator>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF04</dc:title>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="AP_21">
+    <j.0:hasFinding rdf:resource="#subepidermal_blister"/>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</vesiculardermatitis:creator>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+Not given
+
+FINAL DIAGNOSIS:
+SKIN, SITE NOT SPECIFIED, EXCISION:
+LICHEN SCLEROSUS ET ATROPHICUS
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+Not given
+MICROSCOPIC:
+
+</j.0:hasReport>
+    <j.0:hasFinding rdf:resource="#moderate_lymphocytic_inflammatory_infiltrate"/>
+    <j.0:hasPrognostic rdf:resource="#skin"/>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tested</j.0:hasStatus>
+    <j.0:hasPrognostic rdf:resource="#excision"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AP_21</rdfs:label>
+    <j.0:hasClinicalFinding rdf:resource="#anatomic_location"/>
+    <j.0:hasPrognostic rdf:resource="#anatomic_location"/>
+    <j.0:hasFinding rdf:resource="#thick_collagen_bundles_in_reticular_dermis"/>
+    <j.0:hasFinding rdf:resource="#subepidermal_fibrosis"/>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >skin/AP_21.tif</j.0:hasImage>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#LICHEN_SCLEROSUS_ET_ATROPHICUS"/>
+    <j.0:hasFinding rdf:resource="#sclerosis_of_papillary_dermis"/>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="VD_PF29">
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF29</rdfs:label>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >testQuestions/H5/hypergranulosis.JPG</j.0:hasImage>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF29</dc:title>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+    <j.0:hasFinding rdf:resource="#hypergranulosis"/>
+  </j.0:CASES>
+  <vesiculardermatitis:ACQUIRED_EPIDERMOLYSIS_BULLOSA rdf:ID="AP_30">
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tested</j.0:hasStatus>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+    <j.0:hasFinding rdf:resource="#solar_elastosis"/>
+    <j.0:hasFinding rdf:resource="#subepidermal_blister"/>
+    <j.0:hasFinding rdf:resource="#moderate_lymphocytic_inflammatory_infiltrate"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+    <j.0:hasPrognostic rdf:resource="#skin"/>
+    <j.0:hasFinding rdf:resource="#isolated_neutrophils_in_blister"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#BULLOUS_PEMPHIGOID"/>
+    <j.0:hasPrognostic rdf:resource="#wide_excision"/>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</vesiculardermatitis:creator>
+    <j.0:hasFinding rdf:resource="#moderate_eosinophilic_inflammatory_infiltrate"/>
+    <j.0:hasFinding rdf:resource="#isolated_eosinophils_in_blister"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AP_30</rdfs:label>
+    <j.0:hasClinicalFinding rdf:resource="#anatomic_location"/>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+Not given
+
+FINAL DIAGNOSIS:
+SKIN, SITE NOT SPECIFIED, WIDE EXCISION:
+BULLOUS PEMPHIGOID
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+Not given
+MICROSCOPIC:
+</j.0:hasReport>
+    <j.0:hasPrognostic rdf:resource="#anatomic_location"/>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >skin/AP_30.tif</j.0:hasImage>
+  </vesiculardermatitis:ACQUIRED_EPIDERMOLYSIS_BULLOSA>
+  <j.0:CASES rdf:ID="VD_PF14">
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >cornoidLamella</dc:title>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >cornoidLamella</rdfs:label>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >testQuestions/H5/solarelastosis2.JPG</j.0:hasImage>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <j.0:hasFinding rdf:resource="#solar_elastosis"/>
+  </j.0:CASES>
+  <vesiculardermatitis:HEPATOERYTHROPOIETIC_PORPHYRIA rdf:ID="AP_20">
+    <j.0:hasFinding rdf:resource="#minimal_lymphocytic_inflammatory_infiltrate"/>
+    <j.0:hasPrognostic rdf:resource="#excision"/>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <j.0:hasFinding rdf:resource="#subepidermal_blister"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#VARIEGATE_PORPHYRIA"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#PORPHYRIA_CUTANEA_TARDA"/>
+    <j.0:hasFinding rdf:resource="#solar_elastosis"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#ERYTHROPOIETIC_PORPHYRIA"/>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+Not given
+
+FINAL DIAGNOSIS:
+SKIN, SITE NOT SPECIFIED, EXCISION:
+FINDINGS MOST CONSISTENT WITH PORPHYRIA CUTANEA TARDA
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+Not given
+MICROSCOPIC:
+
+</j.0:hasReport>
+    <j.0:hasClinicalFinding rdf:resource="#anatomic_location"/>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AP_20.tif</j.0:hasImage>
+    <j.0:hasPrognostic rdf:resource="#anatomic_location"/>
+    <j.0:hasFinding rdf:resource="#papillae_preserved"/>
+    <j.0:hasPrognostic rdf:resource="#skin"/>
+    <j.0:hasFinding rdf:resource="#perivenular_rims_of_homogenous_material"/>
+  </vesiculardermatitis:HEPATOERYTHROPOIETIC_PORPHYRIA>
+  <vesiculardermatitis:ACQUIRED_EPIDERMOLYSIS_BULLOSA rdf:ID="AP_29">
+    <j.0:hasAbsentFinding>
+      <vesiculardermatitis:Inflammatory_Response rdf:ID="no_inflammatory_response">
+        <j.0:isAbsent rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</j.0:isAbsent>
+      </vesiculardermatitis:Inflammatory_Response>
+    </j.0:hasAbsentFinding>
+    <j.0:hasPrognostic rdf:resource="#anatomic_location"/>
+    <j.0:hasFinding rdf:resource="#subepidermal_blister"/>
+    <j.0:hasPrognostic rdf:resource="#skin"/>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tested</j.0:hasStatus>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >skin/AP_29.tif</j.0:hasImage>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+Not given
+
+FINAL DIAGNOSIS:
+SKIN, SITE NOT SPECIFIED, EXCISION:
+EPIDERMOLYSIS BULLOSA ACQUIRED
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+Not given
+MICROSCOPIC:
+</j.0:hasReport>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (PITT)</vesiculardermatitis:creator>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AP_29</rdfs:label>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+    <j.0:hasPrognostic rdf:resource="#excision"/>
+    <j.0:hasClinicalFinding rdf:resource="#anatomic_location"/>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#JUNCTIONAL_EPIDERMOLYSIS_BULLOSA"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#DERMOLYTIC_EPIDERMOLYSIS_BULLOSA"/>
+  </vesiculardermatitis:ACQUIRED_EPIDERMOLYSIS_BULLOSA>
+  <j.0:CASES rdf:ID="VD_PF24">
+    <j.0:hasFinding>
+      <vesiculardermatitis:Spores rdf:ID="spores"/>
+    </j.0:hasFinding>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF24</rdfs:label>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF24</dc:title>
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >testQuestions/H5/spores.JPG</j.0:hasImage>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+  </j.0:CASES>
+  <vesiculardermatitis:Isolated_Lymphocytes_in_Epidermis rdf:ID="isolated_lymphocytes_in_epidermis"/>
+  <j.0:CASES rdf:ID="AP_79">
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AP_79.tif</j.0:hasImage>
+    <j.0:hasPrognostic rdf:resource="#skin"/>
+    <j.0:hasFinding rdf:resource="#marked_neutrophilic_inflammatory_infiltrate"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AP_79</rdfs:label>
+    <j.0:hasClinicalFinding rdf:resource="#anatomic_location"/>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >incomplete</j.0:hasStatus>
+    <j.0:hasPrognostic rdf:resource="#punch_biopsy"/>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+Not given
+
+FINAL DIAGNOSIS:
+SKIN, SITE NOT SPECIFIED, PUNCH BIOPSY:
+SEPTIC VASCULITIS
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+Not given
+MICROSCOPIC:
+
+</j.0:hasReport>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+    <j.0:hasFinding rdf:resource="#VD_PF19"/>
+    <j.0:hasPrognostic rdf:resource="#anatomic_location"/>
+    <j.0:hasFinding rdf:resource="#subepidermal_blister"/>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="AP_888">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AP_888</rdfs:label>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AP_888_HE.svs</j.0:hasImage>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="AP_45">
+    <j.0:hasPrognostic>
+      <j.0:Anatomic_Location rdf:ID="neck">
+        <j.0:hasResourceLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >http://slidetutor.upmc.edu/curriculum/owl/AnatomicalSites.owl#Neck</j.0:hasResourceLink>
+      </j.0:Anatomic_Location>
+    </j.0:hasPrognostic>
+    <j.0:hasClinicalFinding>
+      <vesiculardermatitis:Patient_Age_Number rdf:ID="patient_age_23_0">
+        <j.0:hasNumericValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+        >23.0</j.0:hasNumericValue>
+      </vesiculardermatitis:Patient_Age_Number>
+    </j.0:hasClinicalFinding>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+    <j.0:hasPrognostic rdf:resource="#biopsy"/>
+    <j.0:hasFinding rdf:resource="#moderate_neutrophilic_inflammatory_infiltrate"/>
+    <j.0:hasFinding rdf:resource="#nuclear_dust"/>
+    <j.0:hasFinding rdf:resource="#isolated_neutrophils_in_blister"/>
+    <j.0:hasClinicalFinding rdf:resource="#neck"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AP_45</rdfs:label>
+    <j.0:hasClinicalFinding rdf:resource="#female"/>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tested</j.0:hasStatus>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (PITT)</vesiculardermatitis:creator>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >skin/AP_45.tif</j.0:hasImage>
+    <j.0:hasAbsentFinding rdf:resource="#no_mucin_in_reticular_dermis"/>
+    <j.0:hasPrognostic rdf:resource="#skin"/>
+    <j.0:hasFinding rdf:resource="#subepidermal_blister"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#DERMATITIS_HERPETIFORMIS"/>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+The patient is a 23 year old female previously diagnosed with sprue, who now presents with pruritic, painful vesicles on her posterior neck, buttocks, elbows and knees.
+
+FINAL DIAGNOSIS:
+SKIN, POSTERIOR NECK, BIOPSY
+DERMATITIS HERPETIFORMIS
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+Part 1 labeled as "posterior neck". Tissue is inked and submitted entirely in 1A.
+MICROSCOPIC:
+</j.0:hasReport>
+  </j.0:CASES>
+  <vesiculardermatitis:ACQUIRED_EPIDERMOLYSIS_BULLOSA rdf:ID="AP_72">
+    <j.0:hasFinding rdf:resource="#moderate_neutrophilic_inflammatory_infiltrate"/>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+This 33 year old white male reports a recent onset of pruritic, painful blisters on his elbows, knees and shoulders.
+
+FINAL DIAGNOSIS:
+SKIN, SHOULDER, PUNCH BIOPSY:
+DERMATITIS HERPETIFORMIS
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+Biopsy from shoulder.
+MICROSCOPIC:
+</j.0:hasReport>
+    <j.0:hasAbsentFinding rdf:resource="#no_mucin_in_reticular_dermis"/>
+    <j.0:hasFinding rdf:resource="#subepidermal_blister"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AP_72</rdfs:label>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#DERMATITIS_HERPETIFORMIS-LIKE_DRUG_ERUPTION"/>
+    <j.0:hasPrognostic rdf:resource="#skin"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#DERMATITIS_HERPETIFORMIS"/>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tested</j.0:hasStatus>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#LINEAR_IGA_DERMATOSIS"/>
+    <j.0:hasFinding rdf:resource="#isolated_neutrophils_in_blister"/>
+    <j.0:hasClinicalFinding>
+      <vesiculardermatitis:Patient_Age_Number rdf:ID="patient_age_33_0">
+        <j.0:hasNumericValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+        >33.0</j.0:hasNumericValue>
+      </vesiculardermatitis:Patient_Age_Number>
+    </j.0:hasClinicalFinding>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+    <j.0:hasPrognostic>
+      <j.0:Anatomic_Location rdf:ID="shoulder">
+        <j.0:hasResourceLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >http://slidetutor.upmc.edu/curriculum/owl/AnatomicalSites.owl#Shoulder</j.0:hasResourceLink>
+      </j.0:Anatomic_Location>
+    </j.0:hasPrognostic>
+    <j.0:hasPrognostic rdf:resource="#punch_biopsy"/>
+    <j.0:hasClinicalFinding rdf:resource="#shoulder"/>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >skin/AP_72.tif</j.0:hasImage>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (PITT)</vesiculardermatitis:creator>
+    <j.0:hasFinding rdf:resource="#moderate_lymphocytic_inflammatory_infiltrate"/>
+    <j.0:hasFinding rdf:resource="#nuclear_dust"/>
+    <j.0:hasClinicalFinding rdf:resource="#male"/>
+  </vesiculardermatitis:ACQUIRED_EPIDERMOLYSIS_BULLOSA>
+  <vesiculardermatitis:Minimal_Eosinophilic_Inflammatory_Infiltrate rdf:ID="minimal_eosinophilic_inflammatory_infiltrate"/>
+  <j.0:CASES rdf:ID="VD_PF09">
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+
+
+
+FINAL DIAGNOSIS:
+
+
+
+
+
+COMMENT:
+
+
+
+
+
+GROSS DESCRIPTION:
+
+
+
+
+
+MICROSCOPIC:
+
+
+</j.0:hasReport>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+    <j.0:hasFinding rdf:resource="#interface_reaction"/>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</vesiculardermatitis:creator>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >interfaceReaction</dc:title>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >testQuestions/H5/interfaceReaction.jpg</j.0:hasImage>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >interfaceReaction</rdfs:label>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="AP_86">
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+Not given
+
+FINAL DIAGNOSIS:
+SKIN, SITE NOT SPECIFIED, BIOPSY
+LICHEN SCLEROSUS ET ATROPHICUS
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+Not given
+MICROSCOPIC:
+</j.0:hasReport>
+    <j.0:hasPrognostic rdf:resource="#biopsy"/>
+    <j.0:hasFinding rdf:resource="#thick_collagen_bundles_in_reticular_dermis"/>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</vesiculardermatitis:creator>
+    <j.0:hasFinding rdf:resource="#moderate_lymphocytic_inflammatory_infiltrate"/>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >skin/AP_86.tif</j.0:hasImage>
+    <j.0:hasFinding rdf:resource="#subepidermal_fibrosis"/>
+    <j.0:hasFinding rdf:resource="#sclerosis_of_papillary_dermis"/>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AP_86</rdfs:label>
+    <j.0:hasPrognostic rdf:resource="#anatomic_location"/>
+    <j.0:hasClinicalFinding rdf:resource="#anatomic_location"/>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tested</j.0:hasStatus>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#LICHEN_SCLEROSUS_ET_ATROPHICUS"/>
+    <j.0:hasPrognostic rdf:resource="#skin"/>
+    <j.0:hasFinding rdf:resource="#subepidermal_blister"/>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="VD_PF34">
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF34</rdfs:label>
+    <j.0:hasFinding rdf:resource="#thick_collagen_bundles"/>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >testQuestions/H5/thickcollagenbundles2.JPG</j.0:hasImage>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF34</dc:title>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="VD_PF13">
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF13</dc:title>
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Lymphocytes rdf:ID="lymphocytes"/>
+    </j.0:hasFinding>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >H6FxID/lymphocytes.jpg</j.0:hasImage>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF13</rdfs:label>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="VD_PF23">
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF23</dc:title>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >testQuestions/H5/fibrosis.JPG</j.0:hasImage>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF23</rdfs:label>
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Fibrosis rdf:ID="fibrosis"/>
+    </j.0:hasFinding>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+  </j.0:CASES>
+  <vesiculardermatitis:ARTHROPOD_ASSAULT rdf:ID="AP_46">
+    <j.0:hasClinicalFinding rdf:resource="#arm"/>
+    <j.0:hasFinding rdf:resource="#subepidermal_blister"/>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Edema_in_Papillary_Dermis rdf:ID="edema_in_papillary_dermis"/>
+    </j.0:hasFinding>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Spongiosis rdf:ID="spongiosis"/>
+    </j.0:hasFinding>
+    <j.0:hasFinding rdf:resource="#marked_wedge_shaped_eosinophilic_inflammatory_infiltrate"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#ACQUIRED_EPIDERMOLYSIS_BULLOSA"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AP_46</rdfs:label>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >skin/AP_46.tif</j.0:hasImage>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (PITT)</vesiculardermatitis:creator>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tested</j.0:hasStatus>
+    <j.0:hasPrognostic rdf:resource="#arm"/>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+Not given
+
+FINAL DIAGNOSIS:
+SKIN, ARM, PUNCH BIOPSY
+ARTHROPOD ASSAULT
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+Punch biopsy, labeled as "arm".
+MICROSCOPIC:
+</j.0:hasReport>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#BULLOUS_PEMPHIGOID"/>
+    <j.0:hasPrognostic rdf:resource="#punch_biopsy"/>
+    <j.0:hasFinding rdf:resource="#isolated_eosinophils_in_blister"/>
+    <j.0:hasPrognostic rdf:resource="#skin"/>
+  </vesiculardermatitis:ARTHROPOD_ASSAULT>
+  <vesiculardermatitis:Lymphocytic_Inflammatory_Infiltrate rdf:ID="no_lymphocytic_inflammatory_infiltrate">
+    <j.0:isAbsent rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</j.0:isAbsent>
+  </vesiculardermatitis:Lymphocytic_Inflammatory_Infiltrate>
+  <vesiculardermatitis:BLISTER_ABOVE_SCAR rdf:ID="AP_85">
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >skin/AP_85.tif</j.0:hasImage>
+    <j.0:hasFinding rdf:resource="#minimal_lymphocytic_inflammatory_infiltrate"/>
+    <j.0:hasPrognostic rdf:resource="#anatomic_location"/>
+    <j.0:hasClinicalFinding rdf:resource="#anatomic_location"/>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+Not given
+
+FINAL DIAGNOSIS:
+SKIN, SITE NOT SPECIFIED, WIDE EXCISION
+BLISTER ABOVE SCAR
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+Not given
+MICROSCOPIC:
+</j.0:hasReport>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+    <j.0:hasFinding rdf:resource="#subepidermal_blister"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+    <j.0:hasPrognostic rdf:resource="#skin"/>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</vesiculardermatitis:creator>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tested</j.0:hasStatus>
+    <j.0:hasPrognostic rdf:resource="#wide_excision"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AP_85</rdfs:label>
+    <j.0:hasFinding rdf:resource="#subepidermal_fibrosis"/>
+    <j.0:hasAbsentFinding rdf:resource="#no_sclerosis"/>
+  </vesiculardermatitis:BLISTER_ABOVE_SCAR>
+  <vesiculardermatitis:ACQUIRED_EPIDERMOLYSIS_BULLOSA rdf:ID="AP_71">
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+    <j.0:hasFinding rdf:resource="#moderate_eosinophilic_inflammatory_infiltrate"/>
+    <j.0:hasPrognostic rdf:resource="#skin"/>
+    <j.0:hasClinicalFinding rdf:resource="#patient_age_elderly"/>
+    <j.0:hasPrognostic rdf:resource="#leg"/>
+    <j.0:hasFinding rdf:resource="#isolated_eosinophils_in_blister"/>
+    <j.0:hasClinicalFinding rdf:resource="#female"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+    <j.0:hasPrognostic rdf:resource="#punch_biopsy"/>
+    <j.0:hasFinding rdf:resource="#subepidermal_blister"/>
+    <j.0:hasFinding rdf:resource="#moderate_lymphocytic_inflammatory_infiltrate"/>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</vesiculardermatitis:creator>
+    <j.0:hasFinding rdf:resource="#solar_elastosis"/>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tested</j.0:hasStatus>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#BULLOUS_PEMPHIGOID"/>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >skin/AP_71.tif</j.0:hasImage>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AP_71</rdfs:label>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+This elderly female presents with a one week history of pruritis and blisters over her body.
+
+FINAL DIAGNOSIS:
+SKIN, LEG, PUNCH BIOPSY
+BULLOUS PEMPHIGOID
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+Punch biopsy from leg.
+MICROSCOPIC:
+</j.0:hasReport>
+    <j.0:hasClinicalFinding rdf:resource="#leg"/>
+  </vesiculardermatitis:ACQUIRED_EPIDERMOLYSIS_BULLOSA>
+  <j.0:CASES rdf:ID="VD_PF43">
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF43</rdfs:label>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Mast_Cells rdf:ID="mast_cells"/>
+    </j.0:hasFinding>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >testQuestions/H5/mastcells2.JPG</j.0:hasImage>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF43</dc:title>
+  </j.0:CASES>
+  <vesiculardermatitis:Isolated_Neutrophils_in_Dermis rdf:ID="isolated_neutrophils_in_dermis"/>
+  <j.0:CASES rdf:ID="VD_PF33">
+    <j.0:hasFinding rdf:resource="#papillae_preserved"/>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF33</rdfs:label>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >testQuestions/H5/papillaepreserved2.JPG</j.0:hasImage>
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF33</dc:title>
+  </j.0:CASES>
+  <vesiculardermatitis:DERMATITIS_HERPETIFORMIS-LIKE_DRUG_ERUPTION rdf:ID="AP_12">
+    <j.0:hasAbsentFinding rdf:resource="#no_mucin_in_reticular_dermis"/>
+    <j.0:hasFinding rdf:resource="#isolated_neutrophils_in_blister"/>
+    <j.0:hasFinding rdf:resource="#subepidermal_blister"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#ACQUIRED_EPIDERMOLYSIS_BULLOSA"/>
+    <j.0:hasFinding rdf:resource="#nuclear_dust"/>
+    <j.0:hasPrognostic rdf:resource="#skin"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AP_12</rdfs:label>
+    <j.0:hasPrognostic rdf:resource="#anatomic_location"/>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+    <j.0:hasFinding rdf:resource="#isolated_eosinophils_in_blister"/>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+Not given
+
+FINAL DIAGNOSIS:
+SKIN, SITE NOT SPECIFIED, PUNCH BIOPSY:
+LINEAR IGA DERMATOSIS
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+Not given
+
+MICROSCOPIC:
+</j.0:hasReport>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tested</j.0:hasStatus>
+    <j.0:hasClinicalFinding rdf:resource="#anatomic_location"/>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</vesiculardermatitis:creator>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#BULLOUS_PEMPHIGOID"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >skin/AP_12B.tif</j.0:hasImage>
+    <j.0:hasFinding rdf:resource="#moderate_eosinophilic_inflammatory_infiltrate"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#LINEAR_IGA_DERMATOSIS"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#DERMATITIS_HERPETIFORMIS"/>
+    <j.0:hasPrognostic rdf:resource="#punch_biopsy"/>
+    <j.0:hasFinding rdf:resource="#moderate_neutrophilic_inflammatory_infiltrate"/>
+  </vesiculardermatitis:DERMATITIS_HERPETIFORMIS-LIKE_DRUG_ERUPTION>
+  <j.0:CASES rdf:ID="VD_PF12">
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Steel_Gray_Nuclei rdf:ID="steel_gray_nuclei"/>
+    </j.0:hasFinding>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >steelGrayNuclei</rdfs:label>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >steelGrayNuclei</dc:title>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >H6FxID/steelGrayNuclei.jpg</j.0:hasImage>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="VD_PF26">
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <j.0:hasFinding rdf:resource="#hyphae"/>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >testQuestions/H5/hyphae2.JPG</j.0:hasImage>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF26</rdfs:label>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF26</dc:title>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="VD_PF27">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF27</rdfs:label>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+    <vesiculardermatitis:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF27</vesiculardermatitis:title>
+    <j.0:hasFinding rdf:resource="#fibrin"/>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</vesiculardermatitis:creator>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >testQuestions/H5/fibrin2.JPG</j.0:hasImage>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF27</dc:title>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="AP_32">
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >skin/AP_32.tif</j.0:hasImage>
+    <j.0:hasFinding rdf:resource="#nuclear_dust"/>
+    <j.0:hasPrognostic rdf:resource="#punch_biopsy"/>
+    <j.0:hasFinding rdf:resource="#moderate_eosinophilic_inflammatory_infiltrate"/>
+    <j.0:hasAbsentFinding rdf:resource="#no_mucin_in_reticular_dermis"/>
+    <j.0:hasFinding rdf:resource="#moderate_neutrophilic_inflammatory_infiltrate"/>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+Not given
+
+FINAL DIAGNOSIS:
+SKIN, SITE NOT SPECIFIED, PUNCH BIOPSY
+DERMATITIS HERPETIFORMIS
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+Not given
+MICROSCOPIC:
+</j.0:hasReport>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#DERMATITIS_HERPETIFORMIS"/>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (PITT)</vesiculardermatitis:creator>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+    <j.0:hasFinding rdf:resource="#subepidermal_blister"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#ACQUIRED_EPIDERMOLYSIS_BULLOSA"/>
+    <j.0:hasFinding rdf:resource="#isolated_neutrophils_in_blister"/>
+    <j.0:hasClinicalFinding rdf:resource="#anatomic_location"/>
+    <j.0:hasPrognostic rdf:resource="#anatomic_location"/>
+    <j.0:hasFinding rdf:resource="#intraepidermal_blister"/>
+    <j.0:hasPrognostic rdf:resource="#skin"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#BULLOUS_PEMPHIGOID"/>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tested</j.0:hasStatus>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#DERMATITIS_HERPETIFORMIS-LIKE_DRUG_ERUPTION"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#LINEAR_IGA_DERMATOSIS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AP_32</rdfs:label>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="AP_77">
+    <j.0:hasFinding rdf:resource="#intraepidermal_blister"/>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tested</j.0:hasStatus>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+Not given
+
+FINAL DIAGNOSIS:
+SKIN, SITE NOT SPECIFIED, PUNCH BIOPSY
+MUCHA-HABERMANN DISEASE
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+Not given
+MICROSCOPIC:
+</j.0:hasReport>
+    <j.0:hasFinding rdf:resource="#severe_ballooning"/>
+    <j.0:hasFinding rdf:resource="#parakeratosis"/>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</vesiculardermatitis:creator>
+    <j.0:hasPrognostic rdf:resource="#punch_biopsy"/>
+    <j.0:hasFinding rdf:resource="#interface_reaction"/>
+    <j.0:hasFinding rdf:resource="#rupture"/>
+    <j.0:hasFinding rdf:resource="#epidermal_necrosis_of_isolated_keratinocytes"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AP_77</rdfs:label>
+    <j.0:hasFinding>
+      <vesiculardermatitis:Marked_Lymphocytic_Inflammatory_Infiltrate rdf:ID="marked_lymphocytic_inflammatory_infiltrate"/>
+    </j.0:hasFinding>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+    <j.0:hasClinicalFinding rdf:resource="#anatomic_location"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#MUCHA-HABERMANN_DISEASE"/>
+    <j.0:hasPrognostic rdf:resource="#skin"/>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >skin/AP_77.tif</j.0:hasImage>
+    <j.0:hasFinding rdf:resource="#subepidermal_blister"/>
+    <j.0:hasPrognostic rdf:resource="#anatomic_location"/>
+  </j.0:CASES>
+  <vesiculardermatitis:Focal_Spongiosis rdf:ID="focal_spongiosis"/>
+  <vesiculardermatitis:ERYTHEMA_MULTIFORME rdf:ID="AP_26">
+    <j.0:hasClinicalFinding rdf:resource="#anatomic_location"/>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >skin/AP_26.tif</j.0:hasImage>
+    <j.0:hasPrognostic rdf:resource="#anatomic_location"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+    <j.0:hasFinding rdf:resource="#epidermal_necrosis_of_isolated_keratinocytes"/>
+    <j.0:hasPrognostic rdf:resource="#skin"/>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tested</j.0:hasStatus>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+Not given
+
+FINAL DIAGNOSIS:
+SKIN, SITE NOT SPECIFIED, EXCISION
+ERYTHEMA MULTIFORME
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+Not given
+MICROSCOPIC:
+</j.0:hasReport>
+    <j.0:hasFinding rdf:resource="#subepidermal_blister"/>
+    <j.0:hasFinding rdf:resource="#marked_lymphocytic_inflammatory_infiltrate"/>
+    <j.0:hasFinding rdf:resource="#interface_reaction"/>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+    <j.0:hasFinding rdf:resource="#ballooning"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AP_26</rdfs:label>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (PITT)</vesiculardermatitis:creator>
+    <j.0:hasAbsentFinding rdf:resource="#no_parakeratosis"/>
+    <j.0:hasPrognostic rdf:resource="#excision"/>
+  </vesiculardermatitis:ERYTHEMA_MULTIFORME>
+  <j.0:CASES rdf:ID="VD_PF32">
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >testQuestions/H5/fibrosis2.JPG</j.0:hasImage>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF32</dc:title>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF32</rdfs:label>
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+    <j.0:hasFinding rdf:resource="#fibrosis"/>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="VD_PF07">
+    <j.0:hasFinding rdf:resource="#eosinophils"/>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+
+
+
+
+
+
+FINAL DIAGNOSIS:
+
+
+
+
+
+
+
+
+COMMENT:
+
+
+
+
+
+
+
+
+GROSS DESCRIPTION:
+
+
+
+
+
+
+
+
+MICROSCOPIC:
+
+
+
+</j.0:hasReport>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >testQuestions/H5/eosinophils2.JPG</j.0:hasImage>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >eosinophils2</rdfs:label>
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</vesiculardermatitis:creator>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >eosinophils2</dc:title>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="AP_11">
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+Not given
+
+FINAL DIAGNOSIS:
+SKIN, ARM, PUNCH BIOPSY:
+SUPERFICIAL SCAR WITH  SUBEPIDERMAL VESICULATION.
+
+COMMENT:
+The early vesiculation is limited to the area beneath the scar, and is compatible with artifactual separation above the scar.  However, an immune-mediated blistering eruption, such as dermatitis herpetiformis, linear IaA disease, or pemphigoid cannot  be completely excluded from the histology alone.  If the patient has multiple vesicular lesions, correlattion with a repeat biopsy for direct immunofluorescent studies may be indicated.
+GROSS DESCRIPTION:
+Not given
+
+MICROSCOPIC:
+There is a scar in the superficial dermis, with effacement of overlying epidermal rete ridges.  The scar is surrounded by a mild superficial perivascular lymphocytic inflammatory infiltrate.  Above the scar, there is subepidermal separation, with erythrocytes and some neutrophils in the early vesicle.  No significant spongiotic
+changes, vacuolar interface changes, or subepidermal vesiculation is seen in areas away from the scar.</j.0:hasReport>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tested</j.0:hasStatus>
+    <j.0:hasPrognostic rdf:resource="#arm"/>
+    <j.0:hasFinding rdf:resource="#subepidermal_blister"/>
+    <j.0:hasClinicalFinding rdf:resource="#arm"/>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >skin/AP_11.tif</j.0:hasImage>
+    <j.0:hasFinding rdf:resource="#subepidermal_fibrosis"/>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AP_11</rdfs:label>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#BLISTER_ABOVE_SCAR"/>
+    <j.0:hasPrognostic rdf:resource="#punch_biopsy"/>
+    <j.0:hasFinding rdf:resource="#minimal_lymphocytic_inflammatory_infiltrate"/>
+    <j.0:hasAbsentFinding rdf:resource="#no_sclerosis"/>
+    <j.0:hasPrognostic rdf:resource="#skin"/>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</vesiculardermatitis:creator>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="VD_PF11">
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >solarElastosis</dc:title>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <j.0:hasFinding rdf:resource="#solar_elastosis"/>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+    <vesiculardermatitis:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >solarElastosis</vesiculardermatitis:title>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</vesiculardermatitis:creator>
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >solarElastosis</rdfs:label>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >testQuestions/H5/solarElastosis.jpg</j.0:hasImage>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="VD_PF31">
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <vesiculardermatitis:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF31</vesiculardermatitis:title>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</vesiculardermatitis:creator>
+    <j.0:hasFinding rdf:resource="#mast_cells"/>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+</j.0:hasReport>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF31</rdfs:label>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF31</dc:title>
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >testQuestions/H5/mastcells.JPG</j.0:hasImage>
+  </j.0:CASES>
+  <vesiculardermatitis:ACQUIRED_EPIDERMOLYSIS_BULLOSA rdf:ID="AP_564">
+    <j.0:hasFinding rdf:resource="#minimal_lymphocytic_inflammatory_infiltrate"/>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >skin/AP_564_PASD.svs</j.0:hasImage>
+    <j.0:hasPrognostic rdf:resource="#skin"/>
+    <j.0:hasFinding rdf:resource="#subepidermal_blister"/>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >skin/AP_564_HE.svs</j.0:hasImage>
+    <j.0:hasPrognostic>
+      <j.0:Anatomic_Location rdf:ID="upper_extremity">
+        <j.0:hasResourceLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >http://slidetutor.upmc.edu/curriculum/owl/AnatomicalSites.owl#Upper_Extremity</j.0:hasResourceLink>
+      </j.0:Anatomic_Location>
+    </j.0:hasPrognostic>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tested</j.0:hasStatus>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+    <j.0:hasFinding rdf:resource="#isolated_eosinophils_in_blister"/>
+    <j.0:hasClinicalFinding rdf:resource="#male"/>
+    <j.0:hasClinicalFinding rdf:resource="#upper_extremity"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#BULLOUS_PEMPHIGOID"/>
+    <j.0:hasFinding rdf:resource="#moderate_eosinophilic_inflammatory_infiltrate"/>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+The patient is a 55 year-old male with tense blisters and history of lung CA. BP versus pemphigus and pemphigoid.
+
+FINAL DIAGNOSIS:
+SKIN, LEFT UPPER EXTREMITY, PUNCH BIOPSY:
+SUBEPIDERMAL BLISTERING DISORDER WITH EOSINOPHILS (see comment).
+
+COMMENT:
+The biopsy shows subepidermal blister associated with accumulation of inflammatory cells composed of lymphocytes and eosinophils within the blister cavity. There is a perivascular inflammatory infiltrate in the superficial dermis and mid dermis. The infiltrate is also composed of lymphocytes and eosinophils. The above histologic findings are seen in bullous pemphigoid, epidermolysis bullosa acquisita, bullous eruption or an unusual variant of eosinophilic rich linear IgA/dermatitis herpetiformis. However the Immunoflourescence study shows deposits of IgG and C3 (deposits along the floor and roof of the blister following the split procedure) along the dermo-epidermal junction which is compatible with bullous pemphigoid.
+
+GROSS DESCRIPTION:
+Part 1 is received in formalin. The tissue is a very pale tan 0.4 cm punch biopsy. The tissue is inked, bisected and submitted in cassette labeled 1A.
+MICROSCOPIC:
+</j.0:hasReport>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (PITT)</vesiculardermatitis:creator>
+    <j.0:hasPrognostic rdf:resource="#punch_biopsy"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AP_564</rdfs:label>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+    <j.0:hasClinicalFinding rdf:resource="#patient_age_55_0"/>
+  </vesiculardermatitis:ACQUIRED_EPIDERMOLYSIS_BULLOSA>
+  <vesiculardermatitis:BULLOUS_PEMPHIGOID rdf:ID="AP_31">
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+Not given
+
+FINAL DIAGNOSIS:
+SKIN, SITE NOT SPECIFIED, WIDE EXCISION:
+BULLOUS PEMPHIGOID
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+Not given
+MICROSCOPIC:
+</j.0:hasReport>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tested</j.0:hasStatus>
+    <j.0:hasFinding rdf:resource="#minimal_lymphocytic_inflammatory_infiltrate"/>
+    <j.0:hasPrognostic rdf:resource="#wide_excision"/>
+    <j.0:hasClinicalFinding rdf:resource="#anatomic_location"/>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+    <j.0:hasPrognostic rdf:resource="#anatomic_location"/>
+    <j.0:hasPrognostic rdf:resource="#skin"/>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >skin/AP_31.tif</j.0:hasImage>
+    <j.0:hasFinding rdf:resource="#subepidermal_blister"/>
+    <j.0:hasFinding rdf:resource="#isolated_eosinophils_in_blister"/>
+    <j.0:hasFinding rdf:resource="#marked_eosinophilic_inflammatory_infiltrate"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#ACQUIRED_EPIDERMOLYSIS_BULLOSA"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AP_31</rdfs:label>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (PITT)</vesiculardermatitis:creator>
+  </vesiculardermatitis:BULLOUS_PEMPHIGOID>
+  <j.0:CASES rdf:ID="VD_PF28">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF28</rdfs:label>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF28</dc:title>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <j.0:hasFinding rdf:resource="#nuclear_dust"/>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >testQuestions/H5/nucleardust2.JPG</j.0:hasImage>
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="VD_PF25">
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF25</dc:title>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+    <j.0:hasFinding rdf:resource="#spores"/>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF25</rdfs:label>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >testQuestions/H5/spores2.JPG</j.0:hasImage>
+  </j.0:CASES>
+  <vesiculardermatitis:Moderate_Wedge_Shaped_Eosinophilic_Inflammatory_Infiltrate rdf:ID="moderate_wedge_shaped_eosinophilic_inflammatory_infiltrate"/>
+  <vesiculardermatitis:LINEAR_IGA_DERMATOSIS rdf:ID="AP_25">
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+This 28 year old male with a history of gluten-sensitive enteropathy presents with a rash on his elbows and knees that "itches and burns."
+
+FINAL DIAGNOSIS:
+SKIN, KNEE, BIOPSY:
+BIOPSY CONSISTENT WITH DERMATITIS HERPETIFORMIS
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+Biopsy of knee.
+MICROSCOPIC:
+</j.0:hasReport>
+    <j.0:hasAbsentFinding rdf:resource="#no_mucin_in_reticular_dermis"/>
+    <j.0:hasFinding rdf:resource="#nuclear_dust"/>
+    <j.0:hasFinding rdf:resource="#subepidermal_blister"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AP_25</rdfs:label>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tested</j.0:hasStatus>
+    <j.0:hasFinding rdf:resource="#isolated_eosinophils_in_dermis"/>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+    <j.0:hasClinicalFinding>
+      <j.0:Anatomic_Location rdf:ID="knee">
+        <j.0:hasResourceLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >http://slidetutor.upmc.edu/curriculum/owl/AnatomicalSites.owl#Knee</j.0:hasResourceLink>
+      </j.0:Anatomic_Location>
+    </j.0:hasClinicalFinding>
+    <j.0:hasClinicalFinding>
+      <vesiculardermatitis:Patient_Age_Number rdf:ID="patient_age_28_0">
+        <j.0:hasNumericValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+        >28.0</j.0:hasNumericValue>
+      </vesiculardermatitis:Patient_Age_Number>
+    </j.0:hasClinicalFinding>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+    <j.0:hasClinicalFinding rdf:resource="#male"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#ACQUIRED_EPIDERMOLYSIS_BULLOSA"/>
+    <j.0:hasFinding rdf:resource="#marked_neutrophilic_inflammatory_infiltrate"/>
+    <j.0:hasPrognostic rdf:resource="#skin"/>
+    <j.0:hasFinding rdf:resource="#isolated_neutrophils_in_blister"/>
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (PITT)</vesiculardermatitis:creator>
+    <j.0:hasPrognostic rdf:resource="#biopsy"/>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >skin/AP_25.tif</j.0:hasImage>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#DERMATITIS_HERPETIFORMIS-LIKE_DRUG_ERUPTION"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/VesicularDermatitis.owl#DERMATITIS_HERPETIFORMIS"/>
+    <j.0:hasPrognostic rdf:resource="#knee"/>
+  </vesiculardermatitis:LINEAR_IGA_DERMATOSIS>
+  <vesiculardermatitis:Patient_Age_Number rdf:ID="patient_age_number"/>
+  <vesiculardermatitis:Lymphocytic_Inflammatory_Infiltrate rdf:ID="lymphocytic_inflammatory_infiltrate"/>
+  <j.0:CASES rdf:ID="VD_PF08">
+    <vesiculardermatitis:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</vesiculardermatitis:creator>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF08</rdfs:label>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >testQuestions/H5/lymphocytes.JPG</j.0:hasImage>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF08</dc:title>
+    <vesiculardermatitis:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VD_PF08</vesiculardermatitis:title>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kayse (PITT)</dc:creator>
+    <j.0:tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >question.type=identify</j.0:tags>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >complete</j.0:hasStatus>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+    <j.0:hasFinding rdf:resource="#lymphocytes"/>
+  </j.0:CASES>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.4.4, Build 579)  http://protege.stanford.edu -->

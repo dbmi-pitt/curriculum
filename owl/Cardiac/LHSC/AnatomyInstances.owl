@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns="http://slidetutor.upmc.edu/curriculum/owl/Cardiac/LHSC/AnatomyInstances.owl#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+    xmlns:anatomy="http://slidetutor.upmc.edu/curriculum/owl/Cardiac/LHSC/Anatomy.owl#"
+    xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+    xmlns:j.0="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+    xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://slidetutor.upmc.edu/curriculum/owl/Cardiac/LHSC/AnatomyInstances.owl">
+  <owl:Ontology rdf:about="">
+    <owl:imports rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/Cardiac/LHSC/Anatomy.owl"/>
+  </owl:Ontology>
+  <j.0:CASES rdf:ID="sax1">
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >LHSC/heart/sax2.jpg</j.0:hasImage>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >LHSC/heart/sax9.jpg</j.0:hasImage>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >LHSC/heart/sax7.jpg</j.0:hasImage>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >LHSC/heart/sax1.jpg</j.0:hasImage>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kari (LHSC)</dc:creator>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >LHSC/heart/sax8.jpg</j.0:hasImage>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >LHSC/heart/sax4.jpg</j.0:hasImage>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >LHSC/heart/sax5.jpg</j.0:hasImage>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >sax1</rdfs:label>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+</j.0:hasReport>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >LHSC/heart/sax10.jpg</j.0:hasImage>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >LHSC/heart/sax6.jpg</j.0:hasImage>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >LHSC/heart/sax3.jpg</j.0:hasImage>
+  </j.0:CASES>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.4.4, Build 579)  http://protege.stanford.edu -->

@@ -1,0 +1,1773 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+    xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+    xmlns:knowledgebase="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+    xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="file:/home/tseytlin/Work/curriculum/owl/skin/UPENN/Perifolliculitis.owl">
+  <owl:Ontology rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl">
+    <owl:imports rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl"/>
+  </owl:Ontology>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Plasma_Cells_in_Infiltrate">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >high</knowledgebase:power>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Plasma cell is a type of white blood cell that produces antibodies.The process of the diffusion or accumulation in a tissue or cells of a substance not normal to it or in amounts above normal. (NCI)</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CYTOLOGIC_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >plasma cells in infiltrate</rdfs:label>
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C0332448</knowledgebase:code>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#PERIFOLLICULITIS">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSES"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Perifolliculitis is an inflammation in the skin around the hair follicles</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PERIFOLLICULITIS</rdfs:label>
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C0263006</knowledgebase:code>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Excision">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >leukotome</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >surgical resection</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >extirpation</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >removal</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >surgical removal - action</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >surgical removal</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >excisional</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >abscission</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >removal - action</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >removal technique</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A leukotome is a device used to cut sections out of the brain.</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >sr - surgical removal</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >incision and removal</rdfs:label>
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C0015252</knowledgebase:code>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >excision - action</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#Procedure"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >resection</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >excision</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ectomy</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#PERIOCULAR_DERMATITIS">
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C0376703</knowledgebase:code>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PERIOCULAR DERMATITIS</rdfs:label>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Histiocytes"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Epidermal_Involvement"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#PERIFOLLICULITIS"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >is a skin condition, a variant of perioral dermatitis, occurring on the lower eyelids and skin adjacent to the upper and lower eyelids.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Epidermis">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#LOCATION"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Fibrosing">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >fibrosing</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Epidermal_Involvement">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C0014520</knowledgebase:code>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >epidermis structure</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >epidermal</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >epidermis</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >epidermal involvement</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >The epithelial portion of the skin (cutis). It consists of the following layers: stratum corneum (horny layer), stratum granulosum (granular layer), stratum spinosum (prickle cell layer), and stratum basale (basal cell layer).</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#0f_Adnexal_Epithelium">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#PHRYNODERMA">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A follicular hyperkeratotic eruption that is associated with vitamin A deficiency</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#PERIFOLLICULITIS"/>
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C0334013</knowledgebase:code>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Cutaneous_Plug"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Lymphocytes"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >phrynoderma</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >follicular hyperkeratosis</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PHRYNODERMA</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Infundibula">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#LOCATION"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Thinned_Epidermis">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >epidermis is thin focally</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >thinned epidermis</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Wedge_Shaped_Hypergranulosis">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >wedge shaped hypergranulosis</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Wedge_Shaped"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Hypergranulosis"/>
+    </rdfs:subClassOf>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#PERIORAL_DERMATITIS">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a condition related to acne vulgaris, consists of red papules that may appear microvesicular that typically affect the nasolabial folds (around the nostrils), perioral area (around the mouth) or perioccular area (around the eyes).</rdfs:comment>
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C0457008</knowledgebase:code>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >around mouth</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >perioral</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PERIORAL DERMATITIS</rdfs:label>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Histiocytes"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Epidermal_Involvement"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#PERIFOLLICULITIS"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#KERATOSIS_PILARIS">
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C0263383</knowledgebase:code>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#PERIFOLLICULITIS"/>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+                <owl:someValuesFrom>
+                  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Wedge_Shaped_Hypergranulosis_of_Infundibula"/>
+                </owl:someValuesFrom>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Fibrosing"/>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+              </owl:Restriction>
+            </owl:intersectionOf>
+          </owl:Class>
+          <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                <owl:someValuesFrom>
+                  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Lymphocytes"/>
+                </owl:someValuesFrom>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:someValuesFrom>
+                  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Cutaneous_Plug"/>
+                </owl:someValuesFrom>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+              </owl:Restriction>
+            </owl:intersectionOf>
+          </owl:Class>
+        </owl:unionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >kp - keratosis pilaris</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >keratosis pillaris</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >keratosis pilaris</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >KERATOSIS PILARIS</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Keratosis pilaris (KP, also follicular keratosis) is a very common genetic follicular condition that is manifested by the appearance of rough bumps on the skin, hence referred to as chicken skin. It most often appears on the back and outer sides of the upper arms (though the lower arms can also be affected), on the upper arm the skin starts becoming irritating; scratching this rash can make it spread and can also occur on the thighs and tops of legs, flanks, buttocks, or any body part except glabrous skin (like the palms or soles of feet). Less commonly, lesions appear on the face, which may be mistaken for acne.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Thickened_Basement_Membrane_0f_Adnexal_Epithelium">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Increased thickness of Ubiquitous supportive tissue adjacent to epithelium and around smooth and striated muscle cells. This tissue contains intrinsic macromolecular components such as collagen, laminin, and sulfated proteoglycans. As seen by light microscopy one of its subdivisions is the basal (basement) lamina.This occurs in adjoining  Tissue, which consists of one or more layers of epithelial cells and a basement membrane; it covers the external surface of the body and lines the internal surfaces of the anatomical structures. </rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#0f_Adnexal_Epithelium"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Thickened_Basement_Membrane"/>
+    </rdfs:subClassOf>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >thickened basement membrane 0f adnexal epithelium</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >thickened basement membrane in adnexal epithelium</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Hypergranulosis">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >hypergranulosis</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Skin">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#Tissue"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An organ that constitutes the external surface of the body. It consists of the epidermis, dermis, and skin appendages.</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >skin</rdfs:label>
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C0037267</knowledgebase:code>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#ROSACEA">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A cutaneous disorder primarily of convexities of the central part of the FACE, such as FOREHEAD; CHEEK; NOSE; and CHIN. It is characterized by FLUSHING; ERYTHEMA; EDEMA; RHINOPHYMA; papules; and ocular symptoms. It may occur at any age but typically after age 30. There are various subtypes of rosacea: erythematotelangiectatic, papulopustular, phymatous, and ocular (National Rosacea Society's Expert Committee on the Classification and Staging of Rosacea, J Am Acad Dermatol 2002; 46:584-7).</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >rosacea</rdfs:label>
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C0035854</knowledgebase:code>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Histiocytes"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Epidermal_Involvement"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >rosaceas</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >acne rosacea</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#PERIFOLLICULITIS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >rosacea, unspecified</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ROSACEA</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >acne erythematosa</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#SCURVY">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >vitamin c, inability to synthesize</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >hypoascorbemia</rdfs:label>
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C0036474</knowledgebase:code>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >scurvy</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An acquired blood vessel disorder caused by severe deficiency of vitamin C (ASCORBIC ACID) in the diet leading to defective collagen formation in small blood vessels. Scurvy is characterized by bleeding in any tissue, weakness, ANEMIA, spongy gums, and a brawny induration of the muscles of the calves and legs.</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >SCURVY</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >scurvies</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#PERIFOLLICULITIS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >scorbutus</rdfs:label>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Cutaneous_Plug"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Spiraled_Hair"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Lymphocytes"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#LICHEN_SPINULOSIS">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >LICHEN SPINULOSIS</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#PERIFOLLICULITIS"/>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+                <owl:someValuesFrom>
+                  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Wedge_Shaped_Hypergranulosis_of_Infundibula"/>
+                </owl:someValuesFrom>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Fibrosing"/>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+              </owl:Restriction>
+            </owl:intersectionOf>
+          </owl:Class>
+          <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                <owl:someValuesFrom>
+                  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Lymphocytes"/>
+                </owl:someValuesFrom>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+                <owl:someValuesFrom>
+                  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Cutaneous_Plug"/>
+                </owl:someValuesFrom>
+              </owl:Restriction>
+            </owl:intersectionOf>
+          </owl:Class>
+        </owl:unionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#LICHEN_PLANOPILARIS">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lichen planopilaris</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#PERIFOLLICULITIS"/>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Fibrosing"/>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                <owl:someValuesFrom>
+                  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Wedge_Shaped_Hypergranulosis_of_Infundibula"/>
+                </owl:someValuesFrom>
+              </owl:Restriction>
+            </owl:intersectionOf>
+          </owl:Class>
+          <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+              <owl:Restriction>
+                <owl:someValuesFrom>
+                  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Wedge_Shaped_Hypergranulosis_of_Infundibula"/>
+                </owl:someValuesFrom>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:someValuesFrom>
+                  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Lymphocytes"/>
+                </owl:someValuesFrom>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+              </owl:Restriction>
+            </owl:intersectionOf>
+          </owl:Class>
+        </owl:unionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lichen planopilaris is a form of hair loss which involves scarring, a follicular form of lichen planus, and is considered to have an autoimmune cause</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >graham-little syndrome</rdfs:label>
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C0023645</knowledgebase:code>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lichen planus follicularis</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >LICHEN PLANOPILARIS</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >piccardi-lasseur-little syndrome</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lassueur-graham-little syndrome</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lichen; planus, follicular</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Lymphocytes">
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C0024264</knowledgebase:code>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lymphocytic cell</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >high</knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lymphocytic</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lymphocytes</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >White blood cells formed in the body's lymphoid tissue. The nucleus is round or ovoid with coarse, irregularly clumped chromatin while the cytoplasm is typically pale blue with azurophilic (if any) granules. Most lymphocytes can be classified as either T or B (with subpopulations of each); those with characteristics of neither major class are called null cells.</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lymph cell</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lymphocyte</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CYTOLOGIC_FEATURES"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Thickened_Basement_Membrane">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >thickened basement membrane</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Wide_Excision">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >wide skin excision</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >wide excision</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Surgical excision of diseased skin tissue with a border of healthy tissue surrounding the lesion. It is often used as a treatment for skin cancers. The margin of the healthy tissue may range from a few millimeters for small cancers up to around 15 mm for larger cancers.</rdfs:comment>
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CL343280</knowledgebase:code>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#Procedure"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#of_Infundibula">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Reexcision">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >re-excision</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >reexcision</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A surgical procedure to remove the remaining abnormal tissues from the body, not completely removed in an earlier attempt.</rdfs:comment>
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CL343028</knowledgebase:code>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#Procedure"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Wedge_Shaped">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Thickened_Basement_Membrane_of_Epidermis">
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C0004799</knowledgebase:code>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Thickened_Basement_Membrane"/>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Epidermis"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >thickened basement membrane in epidermis</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ubiquitous supportive tissue adjacent to epithelium and around smooth and striated muscle cells. This tissue contains intrinsic macromolecular components such as collagen, laminin, and sulfated proteoglycans. As seen by light microscopy one of its subdivisions is the basal (basement) lamina.</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#of_Epidermis"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >membrana basalis</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >thickened basement membrane of epidermis</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >basement membrane</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#DISCOID_LUPUS_ERYTHEMATOSUS">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lupus</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >discoid lupus</rdfs:label>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Lymphocytes"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Thickened_Basement_Membrane_0f_Adnexal_Epithelium"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Thickened_Basement_Membrane_of_Epidermis"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Thinned_Epidermis"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dle</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >cdle - chronic discoid lupus erythematosus</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >discoid lupus erythematosus</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lupus erythematosis discoid</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >chronic cutaneous lupus erythematosus</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >chronic discoid lupus erythematosus</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dle - discoid lupus erythematosus</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#PERIFOLLICULITIS"/>
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C0024138</knowledgebase:code>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A chronic form of cutaneous lupus erythematosus (LUPUS ERYTHEMATOSUS, CUTANEOUS) in which the skin lesions mimic those of the systemic form but in which systemic signs are rare. It is characterized by the presence of discoid skin plaques showing varying degrees of edema, erythema, scaliness, follicular plugging, and skin atrophy. Lesions are surrounded by an elevated erythematous border. The condition typically involves the face and scalp, but widespread dissemination may occur.</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lupus erythematosus discoides</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >DISCOID LUPUS ERYTHEMATOSUS</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >le - discoid lupus erythematosus</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#SECONDARY_SYPHILIS">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Secondary syphilis is the second stage of the sexually transmitted disease syphilis. This stage is the most contagious</rdfs:comment>
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C0149985</knowledgebase:code>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >SECONDARY SYPHILIS</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#PERIFOLLICULITIS"/>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Histiocytes"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Epidermal_Involvement"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Plasma_Cells_in_Infiltrate"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Cutaneous_Plug">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >cutaneous plug</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Histiocytes">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CYTOLOGIC_FEATURES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tissue macrophage</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >resident tissue macrophage</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >histiocyte</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >histiocytes</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A macrophage present in connective tissue.</rdfs:comment>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >high</knowledgebase:power>
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C0019612</knowledgebase:code>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#of_Epidermis">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Spiraled_Hair">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >spiraled hair</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >The filamentous outgrowth of the epidermis looks like a continuously rotating tube or  spiral or  helical in shape</rdfs:comment>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C0018494</knowledgebase:code>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Wedge_Shaped_Hypergranulosis_of_Infundibula">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >wedge shaped hypergranulosis of infundibula</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#of_Infundibula"/>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Wedge_Shaped_Hypergranulosis"/>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Infundibula"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Increased thickness of the granular layer of the epidermis in triangular shape in cross section.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Punch_Biopsy">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >pbx - punch biopsy</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >punch biopsy - action</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >punch biopsy of skin</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >punch biopsy</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Removal of a disk of skin tissue, for microscopic examination, using a punch.</rdfs:comment>
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C0184924</knowledgebase:code>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#Procedure"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Biopsy">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >The removal of tissue specimens or fluid from the living body for microscopic examination, performed to establish a diagnosis.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#Procedure"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >bx - biopsy</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >biopsy - action</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >biopsy</rdfs:label>
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C0005558</knowledgebase:code>
+  </owl:Class>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#TEMPLATES"/>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Fibrosing"/>
+      </owl:Restriction>
+    </rdf:first>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Wedge_Shaped_Hypergranulosis_of_Infundibula"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </rdf:first>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Epidermal_Involvement"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+          </owl:Restriction>
+        </rdf:first>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Histiocytes"/>
+      </owl:Restriction>
+    </rdf:first>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSES"/>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Lymphocytes"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </rdf:first>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Wedge_Shaped_Hypergranulosis_of_Infundibula"/>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+      </owl:Restriction>
+    </rdf:first>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Lymphocytes"/>
+      </owl:Restriction>
+    </rdf:first>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Cutaneous_Plug"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+          </owl:Restriction>
+        </rdf:first>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Lymphocytes"/>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+      </owl:Restriction>
+    </rdf:first>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Cutaneous_Plug"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+          </owl:Restriction>
+        </rdf:first>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Cutaneous_Plug"/>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+      </owl:Restriction>
+    </rdf:first>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Lymphocytes"/>
+          </owl:Restriction>
+        </rdf:first>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Wedge_Shaped_Hypergranulosis_of_Infundibula"/>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+      </owl:Restriction>
+    </rdf:first>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Lymphocytes"/>
+          </owl:Restriction>
+        </rdf:first>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <owl:DataRange>
+    <owl:oneOf rdf:parseType="Resource">
+      <rdf:rest rdf:parseType="Resource">
+        <rdf:rest rdf:parseType="Resource">
+          <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+          >high</rdf:first>
+          <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        </rdf:rest>
+        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >medium</rdf:first>
+      </rdf:rest>
+      <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+      >low</rdf:first>
+    </owl:oneOf>
+  </owl:DataRange>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSES"/>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#PROGNOSTIC_FINDINGS"/>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#TEMPLATES"/>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first>
+          <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+              <owl:Restriction>
+                <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Lymphocytes"/>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Cutaneous_Plug"/>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+              </owl:Restriction>
+            </owl:intersectionOf>
+          </owl:Class>
+        </rdf:first>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Wedge_Shaped_Hypergranulosis_of_Infundibula"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Fibrosing"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </rdf:first>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Histiocytes"/>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+      </owl:Restriction>
+    </rdf:first>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Epidermal_Involvement"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+          </owl:Restriction>
+        </rdf:first>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first>
+          <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+              <owl:Restriction>
+                <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Wedge_Shaped_Hypergranulosis_of_Infundibula"/>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Lymphocytes"/>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+              </owl:Restriction>
+            </owl:intersectionOf>
+          </owl:Class>
+        </rdf:first>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Fibrosing"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Wedge_Shaped_Hypergranulosis_of_Infundibula"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </rdf:first>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Wedge_Shaped_Hypergranulosis_of_Infundibula"/>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+      </owl:Restriction>
+    </rdf:first>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Fibrosing"/>
+          </owl:Restriction>
+        </rdf:first>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Epidermal_Involvement"/>
+          </owl:Restriction>
+        </rdf:first>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Histiocytes"/>
+      </owl:Restriction>
+    </rdf:first>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Spiraled_Hair"/>
+          </owl:Restriction>
+        </rdf:first>
+        <rdf:rest>
+          <rdf:List>
+            <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            <rdf:first>
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Lymphocytes"/>
+              </owl:Restriction>
+            </rdf:first>
+          </rdf:List>
+        </rdf:rest>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Cutaneous_Plug"/>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+      </owl:Restriction>
+    </rdf:first>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSES"/>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSES"/>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest>
+          <rdf:List>
+            <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            <rdf:first>
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Lymphocytes"/>
+              </owl:Restriction>
+            </rdf:first>
+          </rdf:List>
+        </rdf:rest>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Spiraled_Hair"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </rdf:first>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Cutaneous_Plug"/>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+      </owl:Restriction>
+    </rdf:first>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Histiocytes"/>
+      </owl:Restriction>
+    </rdf:first>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Epidermal_Involvement"/>
+          </owl:Restriction>
+        </rdf:first>
+        <rdf:rest>
+          <rdf:List>
+            <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            <rdf:first>
+              <owl:Restriction>
+                <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Plasma_Cells_in_Infiltrate"/>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+              </owl:Restriction>
+            </rdf:first>
+          </rdf:List>
+        </rdf:rest>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSES"/>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#PROGNOSTIC_FINDINGS"/>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSES"/>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Cutaneous_Plug"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+          </owl:Restriction>
+        </rdf:first>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Lymphocytes"/>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+      </owl:Restriction>
+    </rdf:first>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest>
+          <rdf:List>
+            <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            <rdf:first>
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Plasma_Cells_in_Infiltrate"/>
+              </owl:Restriction>
+            </rdf:first>
+          </rdf:List>
+        </rdf:rest>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Epidermal_Involvement"/>
+          </owl:Restriction>
+        </rdf:first>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Histiocytes"/>
+      </owl:Restriction>
+    </rdf:first>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Wedge_Shaped_Hypergranulosis_of_Infundibula"/>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+      </owl:Restriction>
+    </rdf:first>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Fibrosing"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </rdf:first>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Cutaneous_Plug"/>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+      </owl:Restriction>
+    </rdf:first>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Lymphocytes"/>
+          </owl:Restriction>
+        </rdf:first>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSES"/>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first>
+          <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+              <owl:Restriction>
+                <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Lymphocytes"/>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+                <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Cutaneous_Plug"/>
+              </owl:Restriction>
+            </owl:intersectionOf>
+          </owl:Class>
+        </rdf:first>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Wedge_Shaped_Hypergranulosis_of_Infundibula"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Fibrosing"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </rdf:first>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#FINDINGS"/>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#VALUES"/>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Fibrosing"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </rdf:first>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Wedge_Shaped_Hypergranulosis_of_Infundibula"/>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+      </owl:Restriction>
+    </rdf:first>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSES"/>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSES"/>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#FINDINGS"/>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Fibrosing"/>
+          </owl:Restriction>
+        </rdf:first>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Wedge_Shaped_Hypergranulosis_of_Infundibula"/>
+      </owl:Restriction>
+    </rdf:first>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Fibrosing"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </rdf:first>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Wedge_Shaped_Hypergranulosis_of_Infundibula"/>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+      </owl:Restriction>
+    </rdf:first>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Cutaneous_Plug"/>
+          </owl:Restriction>
+        </rdf:first>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Lymphocytes"/>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+      </owl:Restriction>
+    </rdf:first>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSES"/>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#FINDINGS"/>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Lymphocytes"/>
+      </owl:Restriction>
+    </rdf:first>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Cutaneous_Plug"/>
+          </owl:Restriction>
+        </rdf:first>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Wedge_Shaped_Hypergranulosis_of_Infundibula"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </rdf:first>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Fibrosing"/>
+      </owl:Restriction>
+    </rdf:first>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSES"/>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Histiocytes"/>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+      </owl:Restriction>
+    </rdf:first>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Epidermal_Involvement"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+          </owl:Restriction>
+        </rdf:first>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Wedge_Shaped_Hypergranulosis_of_Infundibula"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Fibrosing"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </rdf:first>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first>
+          <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+              <owl:Restriction>
+                <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Lymphocytes"/>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+                <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Cutaneous_Plug"/>
+              </owl:Restriction>
+            </owl:intersectionOf>
+          </owl:Class>
+        </rdf:first>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Epidermal_Involvement"/>
+          </owl:Restriction>
+        </rdf:first>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Histiocytes"/>
+      </owl:Restriction>
+    </rdf:first>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest>
+          <rdf:List>
+            <rdf:rest>
+              <rdf:List>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                <rdf:first>
+                  <owl:Restriction>
+                    <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Thinned_Epidermis"/>
+                    <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                  </owl:Restriction>
+                </rdf:first>
+              </rdf:List>
+            </rdf:rest>
+            <rdf:first>
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Thickened_Basement_Membrane_of_Epidermis"/>
+              </owl:Restriction>
+            </rdf:first>
+          </rdf:List>
+        </rdf:rest>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Thickened_Basement_Membrane_0f_Adnexal_Epithelium"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </rdf:first>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Lymphocytes"/>
+      </owl:Restriction>
+    </rdf:first>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Lymphocytes"/>
+          </owl:Restriction>
+        </rdf:first>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Wedge_Shaped_Hypergranulosis_of_Infundibula"/>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+      </owl:Restriction>
+    </rdf:first>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Wedge_Shaped_Hypergranulosis_of_Infundibula"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </rdf:first>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Fibrosing"/>
+      </owl:Restriction>
+    </rdf:first>
+  </rdf:List>
+  <owl:DataRange>
+    <owl:oneOf rdf:parseType="Resource">
+      <rdf:rest rdf:parseType="Resource">
+        <rdf:rest rdf:parseType="Resource">
+          <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+          <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+          >tested</rdf:first>
+        </rdf:rest>
+        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >complete</rdf:first>
+      </rdf:rest>
+      <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+      >incomplete</rdf:first>
+    </owl:oneOf>
+  </owl:DataRange>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSES"/>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Epidermal_Involvement"/>
+          </owl:Restriction>
+        </rdf:first>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Histiocytes"/>
+      </owl:Restriction>
+    </rdf:first>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Wedge_Shaped_Hypergranulosis_of_Infundibula"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Fibrosing"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </rdf:first>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first>
+          <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+              <owl:Restriction>
+                <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Lymphocytes"/>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+                <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Cutaneous_Plug"/>
+              </owl:Restriction>
+            </owl:intersectionOf>
+          </owl:Class>
+        </rdf:first>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Wedge_Shaped_Hypergranulosis_of_Infundibula"/>
+      </owl:Restriction>
+    </rdf:first>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Fibrosing"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </rdf:first>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Lymphocytes"/>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+      </owl:Restriction>
+    </rdf:first>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Thickened_Basement_Membrane_0f_Adnexal_Epithelium"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </rdf:first>
+        <rdf:rest>
+          <rdf:List>
+            <rdf:first>
+              <owl:Restriction>
+                <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Thickened_Basement_Membrane_of_Epidermis"/>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+              </owl:Restriction>
+            </rdf:first>
+            <rdf:rest>
+              <rdf:List>
+                <rdf:first>
+                  <owl:Restriction>
+                    <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Thinned_Epidermis"/>
+                    <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                  </owl:Restriction>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+              </rdf:List>
+            </rdf:rest>
+          </rdf:List>
+        </rdf:rest>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Fibrosing"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Wedge_Shaped_Hypergranulosis_of_Infundibula"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </rdf:first>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first>
+          <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+              <owl:Restriction>
+                <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Wedge_Shaped_Hypergranulosis_of_Infundibula"/>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Lymphocytes"/>
+              </owl:Restriction>
+            </owl:intersectionOf>
+          </owl:Class>
+        </rdf:first>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Cutaneous_Plug"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+          </owl:Restriction>
+        </rdf:first>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Perifolliculitis.owl#Lymphocytes"/>
+      </owl:Restriction>
+    </rdf:first>
+  </rdf:List>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.4.1, Build 536)  http://protege.stanford.edu -->

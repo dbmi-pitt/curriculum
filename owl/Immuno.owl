@@ -1,0 +1,220 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+    xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns="http://slidetutor.upmc.edu/curriculum/owl/Immuno.owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+    xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://slidetutor.upmc.edu/curriculum/owl/Immuno.owl">
+  <owl:Ontology rdf:about="">
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Melissa Castine (University of Pittsburgh)</dc:creator>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ancilary Studies Ontology</dc:title>
+    <owl:imports rdf:resource="http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl"/>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >1.0</owl:versionInfo>
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >This is an ontology of ancilary studies</dc:description>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >This is an ontology of ancilary studies</rdfs:comment>
+  </owl:Ontology>
+  <owl:Class rdf:ID="HMB-45">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="IMMUNOHISTOCHEMISTRY"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="CD7">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="PAS">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="LCA">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Leukocyte Common Antigen or CD45RB</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="KI-67">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Fontana_Masson_M">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Prostate_Specific_Antigen">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Prostatic Acid Phosphatase</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CD15">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CD10">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CD30">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="AE1">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="AE1-AE3">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CD1a">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CD56">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CD20">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CD8">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CD79a">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CK7">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="TTF-1">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Thyroid Transcription Factor-1</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Thyroid_Stimulating_Hormone">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CD99">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >MIC-2</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Bcl-2">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Chromogranin_A">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="MAC387">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CD31">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="S100">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CD5">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Factor_XIII">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CK5-6">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Vimentin">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Mast_Cell_Tryptase">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="NSE">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Neuron-Specific Enolase</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CD68">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CK20">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="PAS-D">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="P53">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Desmin">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CD43">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Synaptophysin">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="PCNA">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="AMA">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CD4">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Actin">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Alcian_Blue_2.5">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="EMA">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Epithelial Membrane Antigen</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="CD44">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="AE3">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Melan-A">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CEA">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Carcinoembryonic antigen</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="VVG">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Cyclin_D1">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="L26">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CD34">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CAM_5.2">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CD3">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="PGP_9.5">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CD57">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Tyrosinase">
+    <rdfs:subClassOf rdf:resource="#IMMUNOHISTOCHEMISTRY"/>
+  </owl:Class>
+  <owl:Class rdf:ID="IMMUNOFLOURESCENCE"/>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.4.1, Build 536)  http://protege.stanford.edu -->

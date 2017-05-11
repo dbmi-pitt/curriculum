@@ -1,0 +1,1239 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ScenarioSet>
+  <ScenarioEntry name="Absent Finding Not in Case" type="AbsentFinding">
+    <Description>
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          The absence of &lt;concept&gt; is not important for solving this case.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          The absence of &lt;concept&gt; is not important for solving this case.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Absent Finding Observed at Low Power" type="AbsentFinding">
+    <Description>
+      You should generally obersve E at higher power
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          You are correct that &lt;concept&gt; is not in this case, but absence of &lt;concept&gt; is generally determined at a higher power.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          You are correct that &lt;concept&gt; is not in this case, but absence of &lt;concept&gt; is generally determined at a higher power.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Absent Finding Should be More Specific" type="AbsentFinding">
+    <Description>
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          You are correct to mention absence of &lt;concept&gt;. However, there is a more specific concept that better describes this finding.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          You are correct to mention absence of &lt;concept&gt;. However, there is a more specific concept that better describes this finding.
+        </Message>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          You should describe the type of &lt;concept&gt;, by further specifying it .
+        </Message>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          The best way to describe &lt;concept&gt; in the context of this case could be &lt;child&gt;.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Absent Finding Should be Present" type="AbsentFinding">
+    <Description>
+      No E is asserted, but E is in fact present in case
+M: Does the last hint message &lt;concept&gt; refer to NO fx? If not, the message needs to be reworded.
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          Actually, &lt;concept&gt; is an important feature that is present in this case.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          You can generally observe &lt;concept&gt; here.
+        </Message>
+        <Action action="showAnnotation" input="location" receiver="PresentationModule">
+        </Action>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          This is an example of  &lt;concept&gt;.
+        </Message>
+        <Action action="showAnnotation" input="example" receiver="PresentationModule">
+        </Action>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          Delete the absence of &lt;concept&gt;, and identifiy that it is in fact present.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Absent Finding is Not Important" type="AbsentFinding">
+    <Description>
+      Absent finding is in case, but not important
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          You are correct that &lt;concept&gt; is not present in this case. However, in the context of this domain and case, the absence of this finding is not significant in deducing the correct diagnosis.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          You are correct that &lt;concept&gt; is not present in this case. However, in the context of this domain and case, the absence of this finding is not significant in deducing the correct diagnosis.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Absent Finding's Child Should be Present" type="AbsentFinding">
+    <Description>
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          Actually, &lt;concept&gt; is an important feature that is present in this case.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          You can generally observe &lt;concept&gt; here.
+        </Message>
+        <Action action="moveViewer" input="location" receiver="PresentationModule">
+        </Action>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          This is an example of  &lt;concept&gt;.
+        </Message>
+        <Action action="showAnnotation" input="example" receiver="PresentationModule">
+        </Action>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          Delete the absence of &lt;concept&gt;, and identifiy that it is in fact present.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Incorrect Absent Finding Location" type="AbsentFinding">
+    <Description>
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          You are right that &lt;concept&gt; is absent, but you can generally evaluate the absence of &lt;concept&gt; in another location.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          You are right that &lt;concept&gt; is absent, but you can generally evaluate the absence of &lt;concept&gt; in another location.
+        </Message>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          This is the general area where you can see &lt;concept&gt;
+        </Message>
+        <Action action="moveViewer" input="location" receiver="PresentationModule">
+        </Action>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          This is the area where you would generally observe &lt;concept&gt;.
+        </Message>
+        <Action action="showAnnotation" input="location" receiver="PresentationModule">
+        </Action>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          As you can see, &lt;concept&gt; is not there, and its absence is significant in this case.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Attribute Not Valid" type="Attribute">
+    <Description>
+      Attribute is not valid. That is there is no such finding that includes it:
+Ex: moderate blister
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          In the context of this domain, &lt;concept&gt; is not a valid qualifier of &lt;feature&gt;.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          Remove &lt;concept&gt; quality from the description of &lt;feature&gt;.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Attribute Set Not Valid" type="Attribute">
+    <Description>
+      No finding exists that includes the given set of attribute values.
+It may be valid attribute if put in as a separate finding 
+Ex: [subepidermal blister, intraepidermal] VS [subepidremal blister] and [inraepidermal blister] concept
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          In the context of this domain, &lt;concept&gt; in conjunction with &lt;finding&gt; is not a valid finding that is understood by the system. However it may be a valid evidence if it is asserted along with another instance of &lt;feature&gt;.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          Remove &lt;concept&gt; quality from the description of &lt;feature&gt;.
+        </Message>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          You may also try to assert another instance of &lt;feature&gt; qualified with &lt;concept&gt; attribute.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Attribute Value is Incorrect" type="Attribute">
+    <Description>
+      Attribute value is incorrect, but the user is on the right track.
+Ex: user picks incorrect QUANTITY.
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          You are correct to evaluate &lt;attribute&gt; of &lt;feature&gt;, however &lt;concept&gt; is not the best way to describe &lt;attribute&gt; in this case.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          Remove &lt;concept&gt; quality from the description of &lt;feature&gt;, and assert correct &lt;attribute&gt;.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Attribute is Incorrect" type="Attribute">
+    <Description>
+      Attribute/Modifier is incorrect in the context of this finding
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          In the context of this case, &lt;concept&gt; is not the best way to describe &lt;feature&gt;
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          Remove &lt;concept&gt; quality from the description of &lt;feature&gt;.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Attribute is Not Important" type="Attribute">
+    <Description>
+      The user was more specific then is required by case
+Ex: subepidermal blister is required by case, but user puts in
+subepidermal blister extend beyound ...
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          While &lt;concept&gt; might be an important quality of &lt;feature&gt; in a different context, it is unnecessary in this case.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Incorrect Attribute Location" type="Attribute">
+    <Description>
+      Ex: isolated neutrophils and neutrophilic infiltrate share the same feature and location maybe valid, however once one of them is refined, the resulting finding may reside in incorrect location.
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          While &lt;feature&gt; can be found in the location asserted earlier, &lt;finding&gt; cannot be observed in this location.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          This is the general area where you can see &lt;finding&gt;.
+        </Message>
+        <Action action="moveViewer" input="location" receiver="PresentationModule">
+        </Action>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          This is the area with &lt;finding&gt;.
+        </Message>
+        <Action action="showAnnotation" input="location" receiver="PresentationModule">
+        </Action>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          This is an area that shows &lt;finding&gt; particularly well.
+        </Message>
+        <Action action="showAnnotation" input="example" receiver="PresentationModule">
+        </Action>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          Either move identify a valid location for a &lt;finding&gt; or remove &lt;concept&gt; attribute from &lt;feature&gt;
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Diagnosis Became Inconsistent" type="Diagnosis">
+    <Description>
+      User identifies a piece of evidence that no longer supports the diagnosis.
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          The diagnosis of &lt;concept&gt; is no longer supported by all of the evidence identified in this case.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          Delete the diagnosis of &lt;concept&gt; because not all of the identified findings support it.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Diagnosis Doesn't Have Enough Evidence" type="Diagnosis">
+    <Description>
+      If Dx is absolute, then you can't call it until you have sufficient evidence.
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          You do not yet have sufficient evidence to diagnose this case as &lt;concept&gt;.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          Either delete &lt;concept&gt; or identify additional evidence that supports &lt;concept&gt;.
+        </Message>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          The diagnosis, &lt;concept&gt;, is generally supported by &lt;findings&gt;.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Diagnosis Doesn't Match All Findings" type="Diagnosis">
+    <Description>
+      One or more of the identifed diagnoses does not fit the proposed diagnosis.
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          The proposed diagnosis, &lt;concept&gt;, does not match all of the identified findings in this case.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          There are some identified findings that do not support &lt;concept&gt;.
+        </Message>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          The following findings generally do not support &lt;concept&gt;. Findings: &lt;findings&gt;
+        </Message>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          Delete the diagnosis of &lt;concept&gt; because not all of the identified findings support it.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Diagnosis is Correct But Not Supported" type="Diagnosis">
+    <Description>
+      User enters correct diagnosis for this case, but there is NO evidence to support it (maybe he guessed)
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          Although &lt;diagnosis&gt; is a correct diagnosis, you need to provide diagnostic evidence that support it.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          Although &lt;diagnosis&gt; is a correct diagnosis, you need to provide diagnostic evidence that support it.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Diagnosis is Too General" type="Diagnosis">
+    <Description>
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          The diagnosis  &lt;concept&gt; is too general to be useful.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          Remove &lt;concept&gt;
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Case Has Extra Diagnoses" type="Done">
+    <Description>
+      This can happen when correct Dx was asserted along with other Dx that are not in the case, but technically correct because not all Evidence has been asserted
+M: Do we need to add hint messages that match Missing Finding hint sequence?
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          There is more evidence to identify that will reduce the number of diagnoses in your differential.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Case Has More Diagnoses to Consider" type="Done">
+    <Description>
+      Not all possible Dx are listed
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          There are more diagnoses to consider before you can sign out this case.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          &lt;concept&gt; has all of the expected features: &lt;findings&gt;. This would be one reasonable diagnosis in this case.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Case Has More Findings to Consider" type="Done">
+    <Description>
+      There is still some evidence that should be identified
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          There is still some additional evidence in this case that should be identified before you can sign out this case.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Case Needs Diagnosis to Finish" type="Done">
+    <Description>
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          You need to assert a diagnosis to be able to sign out this case.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          Please assert a diagnosis that matches the evidence in this case.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Case Not Solved" type="Done">
+    <Description>
+      Should not be used now!
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          You are not done yet!
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Case Solved" type="Done">
+    <Description>
+      You are done with this case! All of the required findings, hypotheses and diagnoses have been identifed in the case.
+    </Description>
+    <ErrorMessages>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          You have FINISHED this case! You can now procede to the next case.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Finding Not in Case" type="Finding">
+    <Description>
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          &lt;concept&gt; is not a prominent feature in this case.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          &lt;concept&gt; is not a prominent feature in this case and should be removed.
+        </Message>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          Delete &lt;concept&gt;
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Finding Observed at Low Power" type="Finding">
+    <Description>
+      You should generally obersve E at higher power
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          You are correct that &lt;concept&gt; is present in this case, but it is generally observed at &lt;power&gt; power.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          You are correct that &lt;concept&gt; is present in this case, but it is generally observed at &lt;power&gt; power.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Finding Should be Absent" type="Finding">
+    <Description>
+      User identified E, while NO E is in the case
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          Actually... there is no significant &lt;concept&gt; here, and the absence of &lt;concept&gt; is an important clue in this case.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          Delete the feature &lt;concept&gt; and mention its absence in the case.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Finding Should be More Specific" type="Finding">
+    <Description>
+      M: Make sure the added hint message is correct
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          You are correct that &lt;concept&gt; is present. However, there is a more specific concept that better describes this finding.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          You are correct that &lt;concept&gt; is present. However, there is a more specific concept that better describes this finding.
+        </Message>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          You should describe the type of &lt;concept&gt;, by further specifying it .
+        </Message>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          The best way to describe &lt;concept&gt; in the context of this case could be &lt;child&gt;.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Finding is Not Important" type="Finding">
+    <Description>
+      Finding is in case, but not important for inferring diagnosis
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          You are correct that &lt;concept&gt; is present in this case. However, in the context of this domain and case, this finding is not significant in deducing the correct diagnosis.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          You are correct that &lt;concept&gt; is present in this case. However, in the context of this domain and case, this finding is not significant in deducing the correct diagnosis.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Finding is Too General" type="Finding">
+    <Description>
+      Finding is way too general
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          The finding &lt;concept&gt; is too general to be useful in solving this case. Please identify a more specific concept.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          You should either specify &lt;concept&gt; further, or delete it.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Finding's Child Should be Absent" type="Finding">
+    <Description>
+      M: Make sure this works ok
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          Actually... there is no significant &lt;concept&gt; here, and the absence of &lt;child&gt; is an important clue in this case.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          Delete the finding, &lt;concept&gt;, and mention the absence of &lt;child&gt; is in the case.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Incorrect Finding Attribute" type="Finding">
+    <Description>
+      Incorrect attribute or more specific finding became incorrect.
+Ex: while neutrophils was OK, minima neutrophils are not OK
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          While &lt;parent&gt; is correct evidence, &lt;concept&gt; is not.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          You were correct to mention &lt;parent&gt; as evidence, however &lt;concept&gt; is not correct.
+        </Message>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          You can should either remove &lt;concept&gt; or make it more general.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Incorrect Finding Location" type="Finding">
+    <Description>
+      Incorrect Location but Evidence exists at another location
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          There is &lt;concept&gt; present, but not where you have pointed in the image. See if you can find where.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          This is the general area where you can see &lt;concept&gt;.
+        </Message>
+        <Action action="moveViewer" input="location" receiver="PresentationModule">
+        </Action>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          This is the area with &lt;concept&gt;.
+        </Message>
+        <Action action="showAnnotation" input="location" receiver="PresentationModule">
+        </Action>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          This is an area that shows &lt;concept&gt; particularly well.
+        </Message>
+        <Action action="showAnnotation" input="example" receiver="PresentationModule">
+        </Action>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="No Such Concept in Domain" type="Finding">
+    <Description>
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          The concept, &lt;concept&gt;, is not typically considered an important concept in the current domain. Although it may be identified in this case, it generally does not pose a factor in determining the correct diagnosis in this domain.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Missing Absent Finding" type="Hint">
+    <Description>
+      Absent Finding is important to mention in this case
+    </Description>
+    <ErrorMessages>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          There's something important to recognize here.
+        </Message>
+        <Action action="moveViewer" input="location" receiver="PresentationModule">
+        </Action>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          This is an area where you can say something about  &lt;feature&gt;.
+        </Message>
+        <Action action="showAnnotation" input="location" receiver="PresentationModule">
+        </Action>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          In this case there is NO &lt;concept&gt; and that's an important thing to recognize.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Missing Another Attribute" type="Hint">
+    <Description>
+      You already started to specify some feature, but you have to go a bit further w/ your description
+    </Description>
+    <ErrorMessages>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          You have already started to further specify &lt;feature&gt;, however there is more to say about it.
+        </Message>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          You need to add addtional qualities to further specify &lt;feature&gt;. Some possible qualities are: &lt;potential_attributes&gt; .
+        </Message>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          In the context of this case &lt;finding&gt; is the best way to describe this feature.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Missing Attribute" type="Hint">
+    <Description>
+      Need to specify the finding further
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          You are correct that &lt;feature&gt; is present in this case. However you should describe or specify it further to make it a meaningful evidence.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          You are correct that &lt;feature&gt; is present in this case. However you should describe or specify it further to make it a more meaningful evidence.
+        </Message>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          To further describe or specify &lt;feature&gt; you need to add qualities to it. Some possible qualities are: &lt;potential_attributes&gt; .
+        </Message>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          In the context of this case &lt;finding&gt; is the best way to describe this feature.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Missing Diagnosis" type="Hint">
+    <Description>
+    </Description>
+    <ErrorMessages>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          &lt;concept&gt; has all of the expected features: &lt;findings&gt;. This would be one reasonable diagnosis in this case.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Missing Finding" type="Hint">
+    <Description>
+      Other evidence has already been found. Might be nice in this sequence to add a hint that says: "This is an area with a kind of &lt;parent-evidence &gt;.
+    </Description>
+    <ErrorMessages>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          There's something important to recognize here.
+        </Message>
+        <Action action="moveViewer" input="location" receiver="PresentationModule">
+        </Action>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          This is an area where you can see &lt;feature&gt;. See if you can find where.
+        </Message>
+        <Action action="moveViewer" input="location" receiver="PresentationModule">
+        </Action>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          This is the area of &lt;feature&gt;
+        </Message>
+        <Action action="showAnnotation" input="location" receiver="PresentationModule">
+        </Action>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          This is an area that shows &lt;feature&gt; particularly well.
+        </Message>
+        <Action action="moveViewer" input="example" receiver="PresentationModule">
+        </Action>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          This is an example of  &lt;feature&gt;.
+        </Message>
+        <Action action="showAnnotation" input="example" receiver="PresentationModule">
+        </Action>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          Assert &lt;concept&gt; as evidence in this case
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Missing Hypothesis" type="Hint">
+    <Description>
+    </Description>
+    <ErrorMessages>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          There are more hypotheses you should consider in this case.
+        </Message>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          Based on histology alone, a reasonable hypothesis here would be &lt;concept&gt;, because it  fits well with the findings that you've identified.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Missing Similar Absent Finding" type="Hint">
+    <Description>
+      When you need to specify absent finding and similar finding or lack of it was already mentioned
+    </Description>
+    <ErrorMessages>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          You have already mentioned &lt;sibling&gt;, however there is another kind of &lt;feature&gt; that is important in this case.
+        </Message>
+        <Action action="moveViewer" input="location" receiver="PresentationModule">
+        </Action>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          This is an area where you can say something about  &lt;feature&gt;.
+        </Message>
+        <Action action="showAnnotation" input="location" receiver="PresentationModule">
+        </Action>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          In this case there is NO &lt;concept&gt; and that's an important thing to recognize.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Missing Similar Finding" type="Hint">
+    <Description>
+    </Description>
+    <ErrorMessages>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          There's something important to recognize here.
+        </Message>
+        <Action action="moveViewer" input="location" receiver="PresentationModule">
+        </Action>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          You have already mentioned &lt;sibling&gt;, however there is another kind of &lt;feature&gt; that is important in this case.
+        </Message>
+        <Action action="moveViewer" input="location" receiver="PresentationModule">
+        </Action>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          This is the area of another kind of &lt;feature&gt;
+        </Message>
+        <Action action="showAnnotation" input="location" receiver="PresentationModule">
+        </Action>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          This is an area that shows &lt;feature&gt; particularly well.
+        </Message>
+        <Action action="moveViewer" input="example" receiver="PresentationModule">
+        </Action>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          This is an example of  &lt;feature&gt;.
+        </Message>
+        <Action action="showAnnotation" input="example" receiver="PresentationModule">
+        </Action>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          Assert &lt;concept&gt; as evidence in this case.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="No Diagnoses Yet" type="Hint">
+    <Description>
+    </Description>
+    <ErrorMessages>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          You should be able to make a diagnosis at this point. Click on the "D" button and select a hypothesis to move down into the diagnosis space.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="No Findings Yet" type="Hint">
+    <Description>
+    </Description>
+    <ErrorMessages>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          There are important visual cues that you should look for. Click first on the F button and then click on a visual cue in the image.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="No Hypotheses Yet" type="Hint">
+    <Description>
+    </Description>
+    <ErrorMessages>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          At this point, you should probably start trying to think about what this could be.
+        </Message>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          Click on the H button and select a hypothesis.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Hypothesis Became Inconsistent" type="Hypothesis">
+    <Description>
+      Evidence set got changed, and hypothesis became inconsistant.
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          The hypothesis, &lt;concept&gt;, is no longer supported by all of the evidence identified in this case.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          The hypothesis, &lt;concept&gt;, is no longer supported by all of the evidence identified in this case.
+        </Message>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          Findings &lt;findings&gt; contradict hypothesis &lt;concept&gt;.
+        </Message>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          Delete the hypothesis of &lt;concept&gt; because not all of the identified findings support it.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Hypothesis Contradicts Some Findings" type="Hypothesis">
+    <Description>
+      If Hx is disjunction of E, then this happens when some F contradicts it
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          The proposed hypothesis &lt;concept&gt; does not match ALL of the identified findings in this case.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          The proposed hypothesis &lt;concept&gt; does not match ALL of the identified findings in this case.
+        </Message>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          Findings &lt;findings&gt; contradict hypothesis &lt;concept&gt;.
+        </Message>
+      </MessageEntry>
+      <MessageEntry>
+        <Message>
+          Delete hypothesis &lt;concept&gt;.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Hypothesis Doesn't Match Any Findings" type="Hypothesis">
+    <Description>
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          &lt;concept&gt; might be a reasonable hypothesis, but you should have at least one finding in it's favor first.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          Delete the hypothesis of &lt;concept&gt; because you don't have any supportive findings for it, or try to find at least one finding that supports it.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Hypothesis is Too General" type="Hypothesis">
+    <Description>
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          The hypothesis  &lt;concept&gt; is too general to be useful.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          Please remove &lt;concept&gt;
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Finding Doesn't Refute Hypothesis" type="RefuteLink">
+    <Description>
+      Finding doesn't refute hypothesis in a sense that it in fact supports it.
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          Actually, &lt;finding&gt; supports &lt;hypothesis&gt;.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          Delete the refute link between &lt;finding&gt; and &lt;hypothesis&gt; or replace it with a support link.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Finding No Longer Refutes Hypothesis" type="RefuteLink">
+    <Description>
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          Finding &lt;finding&gt; no longer refutes hypothesis &lt;hypothesis&gt;
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          Delete the refute link between &lt;finding&gt; and &lt;hypothesis&gt;.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="No Evidence that Finding Refutes Hypothesis" type="RefuteLink">
+    <Description>
+      If refute link is explicit as oppose to not-support, then this is thrown whene finding doesn't necessary refute hypothesis
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          &lt;finding&gt; does not necessarily refute &lt;hypothesis&gt;. While it does not support this hypothesis, it does not refute it either.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          Remove the refute link between &lt;finding&gt; and &lt;hypothesis&gt;.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Finding Doesn't Support Hypothesis" type="SupportLink">
+    <Description>
+      Finding doesn't explicitly support hypothesis.
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          Finding &lt;finding&gt; doesn't explicitly support &lt;hypothesis&gt;.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          Delete the support link between &lt;finding&gt; and &lt;hypothesis&gt;.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Finding No Longer Supports Hypothesis" type="SupportLink">
+    <Description>
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          Finding &lt;finding&gt; no longer supports hypothesis &lt;hypothesis&gt;.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          Delete the support link between &lt;finding&gt; and &lt;hypothesis&gt;.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+  <ScenarioEntry name="Finding's Parent Supports Hypothesis" type="SupportLink">
+    <Description>
+    </Description>
+    <ErrorMessages>
+      <MessageEntry>
+        <Message>
+          Finding &lt;finding&gt; doesn't support &lt;hypothesis&gt;, however &lt;parent&gt; does.
+        </Message>
+      </MessageEntry>
+    </ErrorMessages>
+    <HintMessages>
+      <MessageEntry>
+        <Message>
+          Delete the support link between &lt;finding&gt; and &lt;hypothesis&gt;.
+        </Message>
+      </MessageEntry>
+    </HintMessages>
+  </ScenarioEntry>
+</ScenarioSet>

@@ -1,0 +1,1395 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+    xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+    xmlns:knowledgebase="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/Alopecia.owl#"
+    xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+    xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://slidetutor.upmc.edu/curriculum/owl/skin/PITT/Alopecia.owl">
+  <owl:Ontology rdf:about="">
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <owl:imports rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl"/>
+  </owl:Ontology>
+  <owl:Class rdf:ID="Neutrophilic_Inflammatory_Infiltrate">
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >neutrophilic inflammatory infiltrate</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Neutrophils"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Trichomalacia">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES">
+        <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >low</knowledgebase:power>
+      </rdf:Description>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >trichomalacia</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Viral_Infectious_Cause">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >viral infectious cause</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Viral"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Infectious_Cause"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Peribulbar_Lymphocytic_Inflammatory_Infiltrate">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Peribulbar"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Lymphocytic_Inflammatory_Infiltrate"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >peribulbar lymphocytic inflammatory infiltrate</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Inflammatory_Response">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >inflammatory response</rdfs:label>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Changes in tissue that occur typically as a reaction to injury of any kind (e.g., mechanical, actinic, chemical, allergic, infectious, and effects of neoplasms) and characterized clinically by redness especially and swelling, and histopathologically by vasodilation and infiltrates of inflammatory cells, those especially being neutrophils, eosinophils, lymphocytes, plasma cells, and histiocytes. </rdfs:comment>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Sarcoidal_Granuloma">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >sarcoidal granuloma</rdfs:label>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Sarcoidal"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Granuloma"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Isolated_Neutrophils">
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Isolated"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Neutrophils"/>
+    </rdfs:subClassOf>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:ID="SCLERODERMA">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Peri-infundibular_Lymphocytic_Inflammatory_Infiltrate"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Perifollicular_Lymphocytic_Inflammatory_Infiltrate"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="ALOPECIA"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >SCLERODERMA</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Punch_Biopsy">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Punch"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Biopsy"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >punch biopsy</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Yeast">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Yeast_Infectious_Cause">
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >yeast infectious cause</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="#Yeast"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Infectious_Cause"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Lymphocytic_Inflammatory_Infiltrate">
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lymphocytic inflammatory infiltrate</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Lymphocytes"/>
+    </rdfs:subClassOf>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:ID="Langerhans_Cell_Inflammatory_Infiltrate">
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Inflammatory_Infiltrate"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Langerhans_Cells"/>
+    </rdfs:subClassOf>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:ID="Plasma_Cell_Inflammatory_Infiltrate">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >plasma cell inflammatory infiltrate</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Inflammatory_Infiltrate"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Plasma_Cells"/>
+    </rdfs:subClassOf>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+  </owl:Class>
+  <owl:Class rdf:ID="Lichenoid_Reaction">
+    <rdfs:subClassOf rdf:resource="#Inflammatory_Response"/>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lichenoid reaction</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Clinically, flat-topped papules and, histopathologically, a bandlike infiltrate, usually of lymphocytes mostly, in a papillary dermis thickened by it.</rdfs:comment>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+  </owl:Class>
+  <owl:Class rdf:ID="Parasitic">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Peri-infundibular_Neutrophilic_Inflammatory_Infiltrate">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Peri-infundibular"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="#Neutrophilic_Inflammatory_Infiltrate"/>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >peri-infundibular neutrophilic inflammatory infiltrate</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Minimal">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Wide">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Protozoal_Infectious_Cause">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >protozoal infectious cause</rdfs:label>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Protozoal"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Infectious_Cause"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="MORPHEA">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#ALOPECIA"/>
+    </rdfs:subClassOf>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Class>
+            <owl:unionOf rdf:parseType="Collection">
+              <owl:Restriction>
+                <owl:someValuesFrom rdf:resource="#Lymphocytic_Inflammatory_Infiltrate"/>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                <owl:someValuesFrom>
+                  <owl:Class rdf:ID="Minimal_Perivascular_Lymphocytic_Inflammatory_Infiltrate"/>
+                </owl:someValuesFrom>
+              </owl:Restriction>
+            </owl:unionOf>
+          </owl:Class>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >MORPHEA</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Bacterial_Infectious_Cause">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Bacterial"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Infectious_Cause"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >bacterial infectious cause</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Peri-infundibular">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Wide_Excision">
+    <rdfs:subClassOf rdf:resource="#Wide"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Excision"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >wide excision</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Fungal">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="BURN">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >BURN</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#ALOPECIA"/>
+    </rdfs:subClassOf>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Peri-infundibular_Neutrophilic_Inflammatory_Infiltrate"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Perifollicular_Neutrophilic_Inflammatory_Infiltrate"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:ID="Mast_Cell_Inflammatory_Infiltrate">
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Inflammatory_Infiltrate"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Mast_Cells"/>
+    </rdfs:subClassOf>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:ID="SECONDARY_SYPHILIS">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Peri-infundibular_Histiocytic_Inflammatory_Infiltrate"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Perifollicular_Histiocytic_Inflammatory_Infiltrate"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Peri-infundibular_Plasma_Cell_Inflammatory_Infiltrate"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:ID="Perifollicular_Plasma_Cell_Inflammatory_Infiltrate"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >SECONDARY SYPHILIS</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#ALOPECIA"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Margination_of_Chromatin">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >margination of chromatin</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Viral_Infectious_Cause"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Isolated">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="TELOGEN_EFFLUVIUM">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+            <owl:someValuesFrom rdf:resource="#Inflammatory_Response"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#ALOPECIA"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >TELOGEN EFFLUVIUM</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Mast_Cells">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Mast cells are hematopoietic tissue cells that contain coarse, basophilic, metachromatic granules. They are believed to contain heparin and histamine and derive from hematopoietic progenitor cells.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Inflammatory_Response"/>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >mast cells</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Peri-infundibular_Histiocytic_Inflammatory_Infiltrate">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >peri-infundibular histiocytic inflammatory infiltrate</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="#Peri-infundibular"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Histiocytic_Inflammatory_Infiltrate"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Skin">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >skin</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#Tissue"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Algal_Infectious_Cause">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >algal infectious cause</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Algal"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Infectious_Cause"/>
+    </rdfs:subClassOf>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+  </owl:Class>
+  <owl:Class rdf:about="#Minimal_Perivascular_Lymphocytic_Inflammatory_Infiltrate">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="#Minimal"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Perivascular_Lymphocytic_Inflammatory_Infiltrate"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >minimal perivascular lymphocytic inflammatory infiltrate</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Eosinophils">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Granular leukocytes with a nucleus that usually has two lobes connected by a slender thread of chromatin, and cytoplasm containing coarse, round granules that are uniform in size and stainable by eosin.</rdfs:comment>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdfs:subClassOf rdf:resource="#Inflammatory_Response"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >eosinophils</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Parasitic_Infectious_Cause">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="#Parasitic"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Infectious_Cause"/>
+    </rdfs:subClassOf>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >parasitic infectious cause</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Lipophages">
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lipophages</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Histiocytes"/>
+    </rdfs:subClassOf>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:ID="TRICHOTILLOMANIA">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >TRICHOTILLOMANIA</rdfs:label>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Inflammatory_Response"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Trichomalacia"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#ALOPECIA"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Peri-infundibular_Plasma_Cell_Inflammatory_Infiltrate">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >peri-infundibular plasma cell inflammatory infiltrate</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Peri-infundibular"/>
+    <rdfs:subClassOf rdf:resource="#Plasma_Cell_Inflammatory_Infiltrate"/>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:ID="Suppurative_Granuloma">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Suppurative"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Granuloma"/>
+    </rdfs:subClassOf>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >suppurative granuloma</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Infundibula">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#LOCATION"/>
+  </owl:Class>
+  <owl:Class rdf:ID="ACUTE_RADIODERMATITIS">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ACUTE RADIODERMATITIS</rdfs:label>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Peri-infundibular_Neutrophilic_Inflammatory_Infiltrate"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="#Perifollicular_Neutrophilic_Inflammatory_Infiltrate"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#ALOPECIA"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Biopsy">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >biopsy</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#Procedure"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Sarcoidal">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Perifollicular_Plasma_Cell_Inflammatory_Infiltrate">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >perifollicular plasma cell inflammatory infiltrate</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Perifollicular"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="#Plasma_Cell_Inflammatory_Infiltrate"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Isolated_Eosinophils">
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdfs:subClassOf rdf:resource="#Isolated"/>
+    <rdfs:subClassOf rdf:resource="#Eosinophils"/>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:about="#Perifollicular_Neutrophilic_Inflammatory_Infiltrate">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Perifollicular"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="#Neutrophilic_Inflammatory_Infiltrate"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >perifollicular neutrophilic inflammatory infiltrate</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:about="#Histiocytic_Inflammatory_Infiltrate">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Histiocytes"/>
+    </rdfs:subClassOf>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >histiocytic inflammatory infiltrate</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:ID="Isolated_Histiocytes">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="#Isolated"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Histiocytes"/>
+    </rdfs:subClassOf>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+  </owl:Class>
+  <owl:Class rdf:ID="TRACTION_ALOPECIA">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >TRACTION ALOPECIA</rdfs:label>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="#Peri-infundibular_Lymphocytic_Inflammatory_Infiltrate"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="#Perifollicular_Lymphocytic_Inflammatory_Infiltrate"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#ALOPECIA"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Excision">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >excision</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#Procedure"/>
+  </owl:Class>
+  <owl:Class rdf:ID="DISSECTING_CELLULITIS">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >DISSECTING CELLULITIS</rdfs:label>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Peri-infundibular_Neutrophilic_Inflammatory_Infiltrate"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Perifollicular_Neutrophilic_Inflammatory_Infiltrate"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#ALOPECIA"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Isolated_Plasma_Cells">
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdfs:subClassOf rdf:resource="#Isolated"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Plasma_Cells"/>
+    </rdfs:subClassOf>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:ID="Isolated_Langerhans_Cells">
+    <rdfs:subClassOf rdf:resource="#Isolated"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Langerhans_Cells"/>
+    </rdfs:subClassOf>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:about="#Punch">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Algal">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+  </owl:Class>
+  <owl:Class rdf:about="#ALOPECIA">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSES"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ALOPECIA</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Wedge-shaped">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CHRONIC_RADIATION_DERMATITIS">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Class>
+            <owl:unionOf rdf:parseType="Collection">
+              <owl:Restriction>
+                <owl:someValuesFrom rdf:resource="#Lymphocytic_Inflammatory_Infiltrate"/>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                <owl:someValuesFrom rdf:resource="#Minimal_Perivascular_Lymphocytic_Inflammatory_Infiltrate"/>
+              </owl:Restriction>
+            </owl:unionOf>
+          </owl:Class>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CHRONIC RADIATION DERMATITIS</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#ALOPECIA"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Peri-infundibular_Lymphocytic_Inflammatory_Infiltrate">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="#Peri-infundibular"/>
+    <rdfs:subClassOf rdf:resource="#Lymphocytic_Inflammatory_Infiltrate"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >peri-infundibular lymphocytic inflammatory infiltrate</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Lymphocytes">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lymphocytic</rdfs:label>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >White blood cells formed in the body's lymphoid tissue. The nucleus is round or ovoid with coarse, irregularly clumped chromatin while the cytoplasm is typically pale blue with azurophilic (if any) granules. Most lymphocytes can be classified as either T or B (with subpopulations of each); those with characteristics of neither major class are called null cells.</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lymphocytes</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Inflammatory_Response"/>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lymphocyte</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lymph cell</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lymphocytic cell</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Langerhans_Cells">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >non-neoplastic langerhans cell</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dendritic cell, epidermal</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Inflammatory_Response"/>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >epidermal dendritic cell</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >langerhans cell</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dendritic cells, epidermal</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >epidermal dendritic cells</rdfs:label>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >cell, epidermal dendritic</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >langerhans cells</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Dendritic cells in the epidermis, containing large granules called Birbeck granules.</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >cells, langerhans</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >cells, epidermal dendritic</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >langerhans' cell</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Neutrophils">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Granular leukocytes having a nucleus with three to five lobes connected by slender threads of chromatin, and cytoplasm containing fine inconspicuous granules and stainable by neutral dyes.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Inflammatory_Response"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >neutrophils</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Hypergranulosis">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >hypergranulosis</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:ID="ANDROGENIC_ALOPECIA">
+    <rdfs:subClassOf rdf:resource="#ALOPECIA"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ANDROGENIC ALOPECIA</rdfs:label>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+            <owl:someValuesFrom rdf:resource="#Inflammatory_Response"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:ID="Palisaded">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Peribulbar">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Wedge-shaped_Hypergranulosis_in_Infundibula">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="#Infundibula"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Wedge-shaped_Hypergranulosis"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >wedge-shaped hypergranulosis in infundibula</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Histiocytes">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >histiocytes</rdfs:label>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A macrophage present in connective tissue.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Inflammatory_Response"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Nuclear_Dust">
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Dot-like debris of nuclei, one of a triad of pivotal nucelar signs of cell death, namely, karyorrhexis, karyolysis and pyknosis.</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >nuclear dust</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >karyorrhexis</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Inflammatory_Response"/>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:ID="Interface_Reaction">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Inflammatory cells found within the dermoepidermal junction.</rdfs:comment>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdfs:subClassOf rdf:resource="#Inflammatory_Response"/>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >interface reaction</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Inflammatory_Infiltrate">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Reexcision">
+    <rdfs:subClassOf rdf:resource="#Excision"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >reexcision</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Histiocytic_Giant_Cells">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >histiocytic giant cells</rdfs:label>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="#Histiocytes"/>
+  </owl:Class>
+  <owl:Class rdf:ID="ALOPECIA_AREATA">
+    <rdfs:subClassOf rdf:resource="#ALOPECIA"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ALOPECIA AREATA</rdfs:label>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                <owl:someValuesFrom rdf:resource="#Peribulbar_Lymphocytic_Inflammatory_Infiltrate"/>
+              </owl:Restriction>
+            </owl:intersectionOf>
+          </owl:Class>
+          <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+              <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                  <owl:Restriction>
+                    <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+                    <owl:someValuesFrom rdf:resource="#Lymphocytic_Inflammatory_Infiltrate"/>
+                  </owl:Restriction>
+                  <owl:Restriction>
+                    <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                    <owl:someValuesFrom rdf:resource="#Minimal_Perivascular_Lymphocytic_Inflammatory_Infiltrate"/>
+                  </owl:Restriction>
+                </owl:unionOf>
+              </owl:Class>
+            </owl:intersectionOf>
+          </owl:Class>
+        </owl:unionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:ID="Fungal_Infectious_Cause">
+    <rdfs:subClassOf rdf:resource="#Fungal"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Infectious_Cause"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >fungal infectious cause</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+  </owl:Class>
+  <owl:Class rdf:ID="FOLLICULITIS_DECALVANS">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Peri-infundibular_Neutrophilic_Inflammatory_Infiltrate"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Perifollicular_Neutrophilic_Inflammatory_Infiltrate"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >FOLLICULITIS DECALVANS</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#ALOPECIA"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Eosinophilic_Inflammatory_Infiltrate">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >eosinophilic inflammatory infiltrate</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdfs:subClassOf rdf:resource="#Eosinophils"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Perivascular">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Bacterial">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Shave_Excision">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Shave"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="#Excision"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >shave excision</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Perifollicular_Histiocytic_Inflammatory_Infiltrate">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >perifollicular histiocytic inflammatory infiltrate</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Perifollicular"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="#Histiocytic_Inflammatory_Infiltrate"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Steel_Gray_Nucleus">
+    <rdfs:subClassOf rdf:resource="#Viral_Infectious_Cause"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >steel gray nucleus</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:about="#Protozoal">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="DISCOID_LUPUS_ERYTHEMATOSUS">
+    <rdfs:subClassOf rdf:resource="#ALOPECIA"/>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+              <owl:Restriction>
+                <owl:someValuesFrom rdf:resource="#Peri-infundibular_Lymphocytic_Inflammatory_Infiltrate"/>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:someValuesFrom>
+                  <owl:Class rdf:about="#Perifollicular_Lymphocytic_Inflammatory_Infiltrate"/>
+                </owl:someValuesFrom>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+              </owl:Restriction>
+            </owl:intersectionOf>
+          </owl:Class>
+          <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+              <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                  <owl:Restriction>
+                    <owl:someValuesFrom rdf:resource="#Lymphocytic_Inflammatory_Infiltrate"/>
+                    <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+                  </owl:Restriction>
+                  <owl:Restriction>
+                    <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                    <owl:someValuesFrom rdf:resource="#Minimal_Perivascular_Lymphocytic_Inflammatory_Infiltrate"/>
+                  </owl:Restriction>
+                </owl:unionOf>
+              </owl:Class>
+            </owl:intersectionOf>
+          </owl:Class>
+        </owl:unionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >DISCOID LUPUS ERYTHEMATOSUS</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Infectious_Cause">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >infectious cause</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#ARCHITECTURAL_FEATURES"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An identifiable pathogen.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#Viral">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Perivascular_Lymphocytic_Inflammatory_Infiltrate">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >minimal lymphocytic inflammatory infiltrate</rdfs:label>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="#Perivascular"/>
+    <rdfs:subClassOf rdf:resource="#Minimal"/>
+    <rdfs:subClassOf rdf:resource="#Lymphocytic_Inflammatory_Infiltrate"/>
+  </owl:Class>
+  <owl:Class rdf:ID="TINEA_CAPITIS">
+    <rdfs:subClassOf rdf:resource="#ALOPECIA"/>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Peri-infundibular_Neutrophilic_Inflammatory_Infiltrate"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="#Perifollicular_Neutrophilic_Inflammatory_Infiltrate"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >TINEA CAPITIS</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Palisaded_Granuloma">
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:subClassOf rdf:resource="#Palisaded"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Granuloma"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >palisaded granuloma</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Wedge-shaped_Hypergranulosis">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >wedge-shaped hypergranulosis</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Wedge-shaped"/>
+    <rdfs:subClassOf rdf:resource="#Hypergranulosis"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Isolated_Mast_Cells">
+    <rdfs:subClassOf rdf:resource="#Isolated"/>
+    <rdfs:subClassOf rdf:resource="#Mast_Cells"/>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+  </owl:Class>
+  <owl:Class rdf:ID="HERPESVIRUS_INFECTION">
+    <rdfs:subClassOf rdf:resource="#ALOPECIA"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >HERPESVIRUS INFECTION</rdfs:label>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Peri-infundibular_Neutrophilic_Inflammatory_Infiltrate"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Perifollicular_Neutrophilic_Inflammatory_Infiltrate"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="#Viral_Infectious_Cause"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="#Suppurative">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Shave">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Shave_Biopsy">
+    <rdfs:subClassOf rdf:resource="#Shave"/>
+    <rdfs:subClassOf rdf:resource="#Biopsy"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >shave biopsy</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="lesion_template">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#Procedure"/>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasPrognostic"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <knowledgebase:order rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Procedure : 3</knowledgebase:order>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#TEMPLATES"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#Anatomic_Location"/>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasPrognostic"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#Tissue"/>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasPrognostic"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <knowledgebase:order rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ALOPECIA : 4</knowledgebase:order>
+    <knowledgebase:order rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Anatomic_Location : 2</knowledgebase:order>
+    <knowledgebase:order rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Tissue : 1</knowledgebase:order>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasPrognostic"/>
+        <owl:someValuesFrom rdf:resource="#ALOPECIA"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasTrigger"/>
+        <owl:someValuesFrom rdf:resource="#ALOPECIA"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Perifollicular_Lymphocytic_Inflammatory_Infiltrate">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Perifollicular"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="#Lymphocytic_Inflammatory_Infiltrate"/>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >perifollicular lymphocytic inflammatory infiltrate</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="LICHEN_PLANUS">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >LICHEN PLANUS</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#ALOPECIA"/>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+              <owl:Restriction>
+                <owl:someValuesFrom rdf:resource="#Peri-infundibular_Lymphocytic_Inflammatory_Infiltrate"/>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                <owl:someValuesFrom rdf:resource="#Perifollicular_Lymphocytic_Inflammatory_Infiltrate"/>
+              </owl:Restriction>
+              <owl:Restriction>
+                <owl:someValuesFrom rdf:resource="#Wedge-shaped_Hypergranulosis_in_Infundibula"/>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+              </owl:Restriction>
+            </owl:intersectionOf>
+          </owl:Class>
+          <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+              <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                  <owl:Restriction>
+                    <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+                    <owl:someValuesFrom rdf:resource="#Lymphocytic_Inflammatory_Infiltrate"/>
+                  </owl:Restriction>
+                  <owl:Restriction>
+                    <owl:someValuesFrom rdf:resource="#Minimal_Perivascular_Lymphocytic_Inflammatory_Infiltrate"/>
+                    <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                  </owl:Restriction>
+                </owl:unionOf>
+              </owl:Class>
+              <owl:Restriction>
+                <owl:someValuesFrom rdf:resource="#Wedge-shaped_Hypergranulosis_in_Infundibula"/>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+              </owl:Restriction>
+            </owl:intersectionOf>
+          </owl:Class>
+        </owl:unionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="#Plasma_Cells">
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdfs:subClassOf rdf:resource="#Inflammatory_Response"/>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Specialized forms of antibody-producing B-LYMPHOCYTES. They synthesize and secrete immunoglobulin. They are found only in lymphoid organs and at sites of immune responses and normally do not circulate in the blood or lymph.</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >plasma cells</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Perifollicular">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#MODIFIERS"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Isolated_Lymphoyctes">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdfs:subClassOf rdf:resource="#Lymphocytes"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Granuloma">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >One of a number of forms of localized nodular inflammation found in tissues.</rdfs:comment>
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >low</knowledgebase:power>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdfs:subClassOf rdf:resource="#Inflammatory_Response"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >granuloma</rdfs:label>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:ID="source">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A reference to a resource from which the present resource
+         is derived.</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Source</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:ID="contributor">
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Contributor</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An entity responsible for making contributions to the
+         content of the resource.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:ID="type">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >The nature or genre of the content of the resource.</rdfs:comment>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Resource Type</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:ID="rights">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Rights Management</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Information about rights held in and over the resource.</rdfs:comment>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:ID="publisher">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An entity responsible for making the resource available</rdfs:comment>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Publisher</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:ID="creator">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Creator</rdfs:label>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An entity primarily responsible for making the content 
+         of the resource.</rdfs:comment>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:ID="identifier">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Resource Identifier</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An unambiguous reference to the resource within a given context.</rdfs:comment>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:ID="title">
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A name given to the resource.</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Title</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:ID="subject">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >The topic of the content of the resource.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Subject and Keywords</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:ID="coverage">
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >The extent or scope of the content of the resource.</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Coverage</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:ID="language">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A language of the intellectual content of the resource.</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Language</rdfs:label>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:ID="relation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Relation</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A reference to a related resource.</rdfs:comment>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+  </owl:AnnotationProperty>
+  <rdf:Description rdf:about="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CYTOLOGIC_FEATURES">
+    <knowledgebase:power rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >high</knowledgebase:power>
+  </rdf:Description>
+  <owl:AnnotationProperty rdf:ID="format">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Format</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >The physical or digital manifestation of the resource.</rdfs:comment>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:ID="date">
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A date associated with an event in the life cycle of the
+         resource.</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Date</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:ID="description">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An account of the content of the resource.</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Description</rdfs:label>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></owl:versionInfo>
+  </owl:AnnotationProperty>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.4.1, Build 536)  http://protege.stanford.edu -->

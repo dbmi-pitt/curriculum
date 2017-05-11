@@ -1,0 +1,142 @@
+[CASE]
+name=PD01
+status=complete
+domain=http://slidetutor.upmc.edu/curriculum/owl/dinosaur/PITT/DinosaurInstances.owl#
+tags=question.type=infer
+question.type=infer
+creator=kayse (PITT)
+title=PD01
+
+[REPORT]
+PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+
+[DIAGNOSES]
+TYRANNOSAURUS_REX
+
+[DIAGNOSTIC_FINDINGS]
+Two_Short_Forelimbs
+Short_Neck
+Tail
+Two_Digits
+Two_Hindlimbs
+Large_Body
+
+[PROGNOSTIC_FINDINGS]
+Two_Short_Forelimbs
+Short_Neck
+Tail
+Two_Digits
+Two_Hindlimbs
+Large_Body
+Tail_Length
+Time_Period
+
+[CLINICAL_FINDINGS]
+
+[ANCILLARY_STUDIES]
+
+[SLIDES]
+
+[TYRANNOSAURUS_REX]
+#Wed Aug 18 10:29:58 EDT 2010
+locations=[]
+name=TYRANNOSAURUS_REX
+is.asserted=true
+is.absent=false
+TYRANNOSAURUS_REX.example=null
+parts=[]
+
+[Two_Short_Forelimbs]
+#Wed Aug 18 10:29:58 EDT 2010
+is.asserted=true
+name=Two_Short_Forelimbs
+parts=[]
+Number.example=null
+Short.example=null
+is.absent=false
+locations=[]
+Forelimbs.example=null
+Two.example=null
+
+[Short_Neck]
+#Wed Aug 18 10:29:58 EDT 2010
+Short.example=null
+locations=[]
+name=Short_Neck
+is.asserted=true
+is.absent=false
+parts=[]
+Neck.example=null
+
+[Tail]
+#Wed Aug 18 10:29:58 EDT 2010
+locations=[]
+name=Tail
+is.asserted=true
+Tail.example=null
+is.absent=false
+parts=[]
+
+[Two_Digits]
+#Wed Aug 18 10:29:58 EDT 2010
+locations=[]
+name=Two_Digits
+is.asserted=true
+is.absent=false
+Number.example=null
+Digits.example=null
+parts=[]
+Two.example=null
+
+[Two_Hindlimbs]
+#Wed Aug 18 10:29:58 EDT 2010
+locations=[]
+Hindlimbs.example=null
+name=Two_Hindlimbs
+is.asserted=true
+is.absent=false
+Number.example=null
+parts=[]
+Two.example=null
+
+[Large_Body]
+#Wed Aug 18 10:29:58 EDT 2010
+locations=[]
+Large.example=null
+name=Large_Body
+is.asserted=true
+is.absent=false
+Body.example=null
+parts=[]
+
+[Tail_Length]
+#Wed Aug 18 10:29:58 EDT 2010
+locations=[]
+name=Tail_Length
+is.asserted=false
+Tail_Length.example=null
+is.absent=false
+parts=[]
+
+[Time_Period]
+#Wed Aug 18 10:29:58 EDT 2010
+locations=[]
+name=Time_Period
+Time_Period.example=null
+is.asserted=false
+is.absent=false
+parts=[]
+

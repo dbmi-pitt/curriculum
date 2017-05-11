@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Behavior>
+ <Task>
+	<Condition condition="User Action" operation="=" input="type:Done"/>
+	<Action receiver="Tutor" action="finishCase" input="SlideTutor"/>
+ </Task>
+</Behavior>

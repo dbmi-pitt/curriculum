@@ -1,0 +1,107 @@
+[CASE]
+name=PC01
+status=complete
+domain=http://slidetutor.upmc.edu/curriculum/owl/dinosaur/PITT/DinosaurInstances.owl#
+tags=question.type=differentiate+fok
+creator=kayse (PITT)
+question.type=differentiate+fok
+title=PCdino01
+
+[REPORT]
+PATIENT HISTORY:
+
+
+
+FINAL DIAGNOSIS:
+
+
+
+COMMENT:
+
+
+
+GROSS DESCRIPTION:
+
+
+
+MICROSCOPIC:
+
+
+
+[DIAGNOSES]
+ALLOSAURUS
+TYRANNOSAURUS_REX
+
+[DIAGNOSTIC_FINDINGS]
+Two_Short_Eye_Horns
+Snout_Horns
+Three_Digits
+
+[PROGNOSTIC_FINDINGS]
+Two_Short_Eye_Horns
+Snout_Horns
+Three_Digits
+
+[CLINICAL_FINDINGS]
+
+[ANCILLARY_STUDIES]
+
+[RECOMMENDATIONS]
+
+[SLIDES]
+
+[ALLOSAURUS]
+#Wed Aug 03 14:57:40 EDT 2011
+locations=[]
+name=ALLOSAURUS
+recommendations=[]
+is.asserted=true
+is.absent=false
+parts=[]
+ALLOSAURUS.example=
+
+[TYRANNOSAURUS_REX]
+#Wed Aug 03 14:57:40 EDT 2011
+locations=[]
+name=TYRANNOSAURUS_REX
+recommendations=[]
+is.asserted=true
+is.absent=false
+TYRANNOSAURUS_REX.example=
+parts=[]
+
+[Two_Short_Eye_Horns]
+#Wed Aug 03 14:57:40 EDT 2011
+is.asserted=false
+name=Two_Short_Eye_Horns
+Eye.example=
+recommendations=[]
+Eye_Horns.example=
+parts=[]
+Short.example=
+is.absent=false
+locations=[]
+Two.example=
+
+[Snout_Horns]
+#Wed Aug 03 14:57:40 EDT 2011
+locations=[]
+name=Snout_Horns
+recommendations=[]
+is.asserted=false
+Snout.example=
+is.absent=true
+Snout_Horns.example=
+parts=[]
+
+[Three_Digits]
+#Wed Aug 03 14:57:40 EDT 2011
+locations=[]
+name=Three_Digits
+recommendations=[]
+is.asserted=false
+Three.example=
+is.absent=false
+Digits.example=
+parts=[]
+

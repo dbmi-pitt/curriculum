@@ -1,0 +1,136 @@
+[CASE]
+name=PD02
+status=complete
+domain=http://slidetutor.upmc.edu/curriculum/owl/dinosaur/PITT/DinosaurInstances.owl#
+tags=question.type=infer
+question.type=infer
+creator=kayse (PITT)
+title=PD02
+
+[REPORT]
+PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+
+[DIAGNOSES]
+ALLOSAURUS
+
+[DIAGNOSTIC_FINDINGS]
+Two_Short_Eye_Horns
+Two_Short_Forelimbs
+Short_Neck
+Tail
+Three_Digits
+Two_Hindlimbs
+Large_Body
+
+[PROGNOSTIC_FINDINGS]
+Two_Short_Eye_Horns
+Two_Short_Forelimbs
+Short_Neck
+Three_Digits
+Two_Hindlimbs
+Large_Body
+
+[CLINICAL_FINDINGS]
+
+[ANCILLARY_STUDIES]
+
+[SLIDES]
+
+[ALLOSAURUS]
+#Wed Aug 18 10:31:02 EDT 2010
+locations=[]
+name=ALLOSAURUS
+is.asserted=true
+is.absent=false
+parts=[]
+ALLOSAURUS.example=null
+
+[Two_Short_Eye_Horns]
+#Wed Aug 18 10:31:02 EDT 2010
+is.asserted=true
+name=Two_Short_Eye_Horns
+Eye.example=null
+Eye_Horns.example=null
+parts=[]
+Number.example=null
+Short.example=null
+is.absent=false
+locations=[]
+Two.example=null
+
+[Two_Short_Forelimbs]
+#Wed Aug 18 10:31:02 EDT 2010
+is.asserted=true
+name=Two_Short_Forelimbs
+parts=[]
+Number.example=null
+Short.example=null
+is.absent=false
+locations=[]
+Forelimbs.example=null
+Two.example=null
+
+[Short_Neck]
+#Wed Aug 18 10:31:02 EDT 2010
+Short.example=null
+locations=[]
+name=Short_Neck
+is.asserted=true
+is.absent=false
+parts=[]
+Neck.example=null
+
+[Tail]
+#Wed Aug 18 10:31:02 EDT 2010
+locations=[]
+name=Tail
+is.asserted=true
+Tail.example=null
+is.absent=false
+parts=[]
+
+[Three_Digits]
+#Wed Aug 18 10:31:02 EDT 2010
+locations=[]
+name=Three_Digits
+is.asserted=true
+Three.example=null
+is.absent=false
+Number.example=null
+Digits.example=null
+parts=[]
+
+[Two_Hindlimbs]
+#Wed Aug 18 10:31:02 EDT 2010
+locations=[]
+Hindlimbs.example=null
+name=Two_Hindlimbs
+is.asserted=true
+is.absent=false
+Number.example=null
+parts=[]
+Two.example=null
+
+[Large_Body]
+#Wed Aug 18 10:31:02 EDT 2010
+locations=[]
+Large.example=null
+name=Large_Body
+is.asserted=true
+is.absent=false
+Body.example=null
+parts=[]
+

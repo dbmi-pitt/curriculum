@@ -1,0 +1,46 @@
+[CASE]
+name=13064
+domain=http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/MelanocyticLesionInstances.owl#
+creator=george (UPENN)
+
+[REPORT]
+PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+
+
+[DIAGNOSES]
+
+[DIAGNOSTIC_FINDINGS]
+
+[PROGNOSTIC_FINDINGS]
+
+[CLINICAL_FINDINGS]
+
+[ANCILLARY_STUDIES]
+
+[SLIDES]
+13065.svs
+
+[13065.svs]
+#Mon Nov 01 16:02:19 EDT 2010
+part=null
+slide.name=13065.svs
+is.primary=true
+path=
+server=http\://pathslides1.med.upenn.edu/viewer/servlet/AperioServer/
+block=null
+stain=null
+level=null
+

@@ -1,0 +1,589 @@
+[CASE]
+name=dino2
+status=complete
+domain=http://slidetutor.upmc.edu/curriculum/owl/dinosaur/PITT/DinosaurInstances.owl#
+creator=kayse (PITT)
+
+[REPORT]
+PATIENT HISTORY:
+Patient is 145-155 million years old
+
+FINAL DIAGNOSIS:
+Allosaurus
+two short eye horns
+two short forelimbs
+short neck
+three digits
+two hindlimbs
+large body
+tail length 0.24
+cretaceous
+NO snout horns
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+This is a dinosaur!
+
+MICROSCOPIC:
+
+
+
+[DIAGNOSES]
+ALLOSAURUS
+
+[DIAGNOSTIC_FINDINGS]
+Two_Short_Eye_Horns
+Two_Short_Forelimbs
+Short_Neck
+Tail
+Three_Digits
+Two_Hindlimbs
+Large_Body
+Snout_Horns
+
+[PROGNOSTIC_FINDINGS]
+Two_Short_Eye_Horns
+Two_Short_Forelimbs
+Short_Neck
+Three_Digits
+Two_Hindlimbs
+Large_Body
+Tail_Length_Number_Mm
+Cretaceous
+Snout_Horns
+
+[CLINICAL_FINDINGS]
+
+[ANCILLARY_STUDIES]
+
+[SLIDES]
+allosaurus.jpg
+
+[ALLOSAURUS]
+#Wed Aug 18 09:14:43 EDT 2010
+locations=[]
+name=ALLOSAURUS
+is.asserted=true
+is.absent=false
+parts=[]
+ALLOSAURUS.example=null
+
+[Two_Short_Eye_Horns]
+#Wed Aug 18 09:14:43 EDT 2010
+is.asserted=true
+name=Two_Short_Eye_Horns
+Eye.example=Arrow26
+Eye_Horns.example=Arrow26
+parts=[]
+Number.example=Arrow26
+Short.example=Arrow26
+is.absent=false
+locations=[two short eye horns]
+Two.example=Arrow26
+
+[Two_Short_Forelimbs]
+#Wed Aug 18 09:14:43 EDT 2010
+is.asserted=true
+name=Two_Short_Forelimbs
+parts=[]
+Number.example=Arrow19
+Short.example=Arrow19
+is.absent=false
+locations=[two short forelimbs]
+Forelimbs.example=Arrow19
+Two.example=Arrow19
+
+[Short_Neck]
+#Wed Aug 18 09:14:43 EDT 2010
+Short.example=Arrow16
+locations=[short neck]
+name=Short_Neck
+is.asserted=true
+is.absent=false
+parts=[]
+Neck.example=Arrow16
+
+[Tail]
+#Wed Aug 18 09:14:43 EDT 2010
+locations=[tail]
+name=Tail
+is.asserted=true
+Tail.example=Arrow14
+is.absent=false
+parts=[]
+
+[Three_Digits]
+#Wed Aug 18 09:14:43 EDT 2010
+locations=[three digits]
+name=Three_Digits
+is.asserted=true
+Three.example=Arrow12
+is.absent=false
+Number.example=Arrow12
+Digits.example=Arrow12
+parts=[]
+
+[Two_Hindlimbs]
+#Wed Aug 18 09:14:43 EDT 2010
+locations=[two hindlimbs]
+Hindlimbs.example=Arrow9
+name=Two_Hindlimbs
+is.asserted=true
+is.absent=false
+Number.example=Arrow9
+parts=[]
+Two.example=Arrow9
+
+[Large_Body]
+#Wed Aug 18 09:14:43 EDT 2010
+locations=[large body]
+Large.example=Arrow6
+name=Large_Body
+is.asserted=true
+is.absent=false
+Body.example=Arrow6
+parts=[]
+
+[Snout_Horns]
+#Wed Aug 18 09:14:43 EDT 2010
+locations=[NO snout horns, Polygon29]
+name=Snout_Horns
+is.asserted=true
+Snout.example=null
+is.absent=true
+Snout_Horns.example=null
+parts=[]
+
+[Tail_Length_Number_Mm]
+#Wed Aug 18 09:14:43 EDT 2010
+Tail_Length.example=Ruler3
+is.asserted=true
+name=Tail_Length_Number_Mm
+numeric.value=0.24
+parts=[]
+Number.example=null
+Mm.example=Ruler3
+is.absent=false
+locations=[tail length]
+
+[Cretaceous]
+#Wed Aug 18 09:14:43 EDT 2010
+locations=[]
+name=Cretaceous
+is.asserted=true
+is.absent=false
+parts=[]
+Cretaceous.example=null
+
+[allosaurus.jpg]
+#Wed Aug 18 09:14:43 EDT 2010
+part=null
+slide.name=allosaurus.jpg
+is.primary=true
+path=dinosaurs
+server=http\://op-image-tutor.upmc.com/servlet/OpenSlideServlet
+block=null
+stain=null
+level=null
+
+[Arrow12]
+#Wed Aug 18 09:14:43 EDT 2010
+y.points=[]
+end.x=259
+name=Arrow12
+width=-31
+x.points=[]
+image=allosaurus.jpg
+view.y=0
+view.x=-1106
+color=GREEN
+view.zoom=0.61263406
+type=Arrow
+start.y=588
+height=131
+start.x=290
+end.y=719
+tag=three digits
+
+[Arrow14]
+#Wed Aug 18 09:14:43 EDT 2010
+y.points=[]
+end.x=917
+name=Arrow14
+width=64
+x.points=[]
+image=allosaurus.jpg
+view.y=0
+view.x=-1106
+color=GREEN
+view.zoom=0.61263406
+type=Arrow
+start.y=416
+height=-90
+start.x=853
+end.y=326
+tag=tail
+
+[Arrow16]
+#Wed Aug 18 09:14:43 EDT 2010
+y.points=[]
+end.x=287
+name=Arrow16
+width=39
+x.points=[]
+image=allosaurus.jpg
+view.y=0
+view.x=-1106
+color=GREEN
+view.zoom=0.61263406
+type=Arrow
+start.y=391
+height=-121
+start.x=248
+end.y=270
+tag=short neck
+
+[Arrow19]
+#Wed Aug 18 09:14:43 EDT 2010
+y.points=[]
+end.x=458
+name=Arrow19
+width=103
+x.points=[]
+image=allosaurus.jpg
+view.y=0
+view.x=-1106
+color=GREEN
+view.zoom=0.61263406
+type=Arrow
+start.y=554
+height=-55
+start.x=355
+end.y=499
+tag=two short forelimbs
+
+[Arrow26]
+#Wed Aug 18 09:14:43 EDT 2010
+y.points=[]
+end.x=183
+name=Arrow26
+width=54
+x.points=[]
+image=allosaurus.jpg
+view.y=167
+view.x=-213
+color=GREEN
+view.zoom=1.0
+type=Arrow
+start.y=366
+height=-75
+start.x=129
+end.y=291
+tag=two short eye horns
+
+[Arrow6]
+#Wed Aug 18 09:14:43 EDT 2010
+y.points=[]
+end.x=489
+name=Arrow6
+width=26
+x.points=[]
+image=allosaurus.jpg
+view.y=0
+view.x=-1106
+color=GREEN
+view.zoom=0.61263406
+type=Arrow
+start.y=411
+height=-144
+start.x=463
+end.y=267
+tag=large body
+
+[Arrow9]
+#Wed Aug 18 09:14:43 EDT 2010
+y.points=[]
+end.x=648
+name=Arrow9
+width=139
+x.points=[]
+image=allosaurus.jpg
+view.y=0
+view.x=-1106
+color=GREEN
+view.zoom=0.61263406
+type=Arrow
+start.y=571
+height=-93
+start.x=509
+end.y=478
+tag=two hindlimbs
+
+[Circle24]
+#Wed Aug 18 09:14:43 EDT 2010
+y.points=[]
+end.x=147
+name=Circle24
+width=43
+x.points=[]
+image=allosaurus.jpg
+view.y=167
+view.x=-213
+color=GREEN
+view.zoom=1.0
+type=Circle
+start.y=348
+height=37
+start.x=104
+end.y=385
+tag=two short eye horns
+
+[Circle25]
+#Wed Aug 18 09:14:43 EDT 2010
+y.points=[]
+end.x=177
+name=Circle25
+width=44
+x.points=[]
+image=allosaurus.jpg
+view.y=159
+view.x=-213
+color=GREEN
+view.zoom=1.0
+type=Circle
+start.y=360
+height=40
+start.x=133
+end.y=400
+tag=two short eye horns
+
+[Polygon10]
+#Wed Aug 18 09:14:43 EDT 2010
+y.points=[597, 594, 589, 584, 579, 574, 571, 566, 564, 561, 559, 559, 559, 561, 564, 566, 571, 576, 581, 585, 590, 595, 600, 605, 610, 615, 618, 621, 621, 621, 620, 618, 613, 608, 603, 599]
+end.x=315
+name=Polygon10
+width=56
+x.points=[313, 313, 313, 313, 313, 311, 306, 303, 298, 293, 288, 284, 279, 274, 269, 264, 261, 259, 259, 259, 261, 264, 269, 272, 277, 284, 288, 293, 298, 303, 308, 313, 315, 315, 315, 315]
+image=allosaurus.jpg
+view.y=0
+view.x=-1106
+color=BLUE
+view.zoom=0.61263406
+type=Polygon
+start.y=559
+height=62
+start.x=259
+end.y=621
+tag=three digits
+
+[Polygon11]
+#Wed Aug 18 09:14:43 EDT 2010
+y.points=[589, 589, 587, 582, 579, 577, 577, 577, 577, 582, 587, 592, 597, 602, 607, 612, 617, 621, 626, 631, 633, 636, 638, 638, 638, 634, 630, 625, 620, 615, 610, 605, 600, 597, 592]
+end.x=373
+name=Polygon11
+width=49
+x.points=[367, 364, 359, 354, 349, 344, 339, 334, 329, 324, 324, 324, 324, 324, 324, 324, 324, 324, 328, 332, 337, 342, 347, 352, 357, 362, 365, 370, 373, 373, 373, 373, 372, 367, 367]
+image=allosaurus.jpg
+view.y=0
+view.x=-1106
+color=BLUE
+view.zoom=0.61263406
+type=Polygon
+start.y=577
+height=61
+start.x=324
+end.y=638
+tag=three digits
+
+[Polygon13]
+#Wed Aug 18 09:14:43 EDT 2010
+y.points=[370, 377, 383, 388, 393, 398, 404, 409, 414, 419, 424, 429, 434, 439, 443, 448, 455, 460, 465, 470, 476, 481, 486, 491, 492, 492, 492, 492, 492, 492, 489, 489, 488, 486, 486, 484, 483, 481, 481, 479, 478, 476, 474, 474, 471, 470, 468, 466, 465, 465, 463, 461, 460, 460, 458, 457, 455, 455, 455, 455, 455, 455, 455, 455, 455, 455, 455, 455, 455, 455, 455, 457, 457, 457, 458, 458, 458, 461, 463, 463, 465, 466, 473, 476, 481, 486, 491, 496, 501, 506, 510, 514, 519, 522, 527, 528, 533, 535, 538, 541, 543, 546, 548, 548, 551, 553, 554, 550, 545, 540, 535, 530, 525, 520, 515, 510, 506, 502, 497, 492, 488, 483, 478, 474, 470, 466, 461, 458, 457, 452, 450, 445, 443, 440, 439, 435, 432, 429, 426, 422, 419, 414, 409, 406, 403, 399, 396, 395, 393, 393, 393, 393, 393, 393, 393, 393, 393, 393, 393, 391, 391, 390, 388, 386, 386, 385, 383, 381, 381, 381, 381, 381, 381, 381, 381, 381, 381, 381, 381, 381, 381, 381, 381, 381, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 381, 380, 378, 375, 373, 373, 372, 372, 370, 368, 367]
+end.x=1170
+name=Polygon13
+width=516
+x.points=[654, 654, 656, 657, 657, 657, 659, 659, 659, 659, 659, 659, 659, 659, 659, 659, 659, 661, 662, 664, 665, 669, 670, 674, 680, 690, 695, 701, 706, 711, 719, 724, 729, 734, 739, 747, 752, 757, 763, 768, 773, 778, 786, 794, 801, 807, 819, 825, 834, 839, 845, 850, 855, 860, 865, 873, 881, 886, 891, 897, 904, 912, 918, 925, 932, 938, 943, 948, 953, 958, 964, 972, 981, 989, 995, 1000, 1008, 1015, 1021, 1026, 1031, 1036, 1043, 1047, 1054, 1060, 1064, 1069, 1070, 1074, 1078, 1085, 1090, 1096, 1100, 1105, 1109, 1114, 1119, 1124, 1131, 1136, 1140, 1145, 1154, 1162, 1167, 1170, 1170, 1170, 1170, 1170, 1168, 1168, 1163, 1160, 1158, 1154, 1150, 1145, 1142, 1140, 1137, 1132, 1129, 1124, 1119, 1114, 1109, 1105, 1100, 1095, 1090, 1085, 1080, 1075, 1070, 1065, 1060, 1056, 1051, 1047, 1043, 1038, 1033, 1028, 1021, 1015, 1008, 1003, 997, 987, 977, 971, 966, 961, 956, 951, 946, 941, 936, 932, 927, 922, 917, 912, 907, 901, 892, 887, 883, 878, 873, 868, 863, 858, 853, 848, 843, 837, 832, 827, 819, 814, 806, 801, 794, 790, 783, 778, 773, 768, 763, 759, 754, 749, 744, 739, 732, 728, 723, 718, 713, 706, 701, 696, 692, 687, 682, 675, 670, 665, 661, 656]
+image=allosaurus.jpg
+view.y=0
+view.x=-1106
+color=BLUE
+view.zoom=0.61263406
+type=Polygon
+start.y=367
+height=187
+start.x=654
+end.y=554
+tag=tail
+
+[Polygon15]
+#Wed Aug 18 09:14:43 EDT 2010
+y.points=[486, 483, 478, 471, 466, 461, 452, 445, 439, 432, 427, 422, 416, 409, 403, 396, 390, 385, 380, 375, 368, 365, 362, 359, 357, 355, 355, 354, 352, 350, 349, 349, 347, 346, 346, 346, 346, 346, 346, 344, 344, 344, 344, 344, 349, 354, 359, 365, 370, 375, 380, 385, 390, 395, 401, 406, 411, 416, 421, 426, 432, 439, 443, 448, 453, 457, 460, 461, 461, 463, 465, 466, 466, 466, 466, 466, 466, 468, 470, 471, 471]
+end.x=323
+name=Polygon15
+width=129
+x.points=[280, 282, 285, 288, 293, 297, 301, 301, 303, 303, 305, 305, 306, 310, 313, 316, 319, 323, 323, 323, 323, 318, 313, 308, 303, 295, 290, 285, 280, 275, 269, 262, 257, 253, 248, 243, 238, 233, 228, 223, 218, 213, 208, 204, 200, 199, 199, 199, 199, 199, 197, 197, 195, 194, 194, 194, 194, 194, 194, 194, 194, 194, 194, 195, 195, 200, 205, 210, 217, 223, 228, 233, 238, 243, 249, 254, 259, 266, 270, 275, 280]
+image=allosaurus.jpg
+view.y=0
+view.x=-1106
+color=BLUE
+view.zoom=0.61263406
+type=Polygon
+start.y=344
+height=142
+start.x=194
+end.y=486
+tag=short neck
+
+[Polygon17]
+#Wed Aug 18 09:14:43 EDT 2010
+y.points=[488, 484, 478, 473, 471, 471, 471, 473, 474, 476, 478, 479, 483, 488, 492, 497, 502, 507, 512, 517, 522, 527, 532, 537, 543, 550, 554, 559, 564, 569, 574, 579, 584, 589, 594, 599, 603, 607, 603, 599, 595, 592, 587, 582, 577, 572, 568, 563, 558, 553, 548, 543, 538, 533, 528, 527, 520, 515, 510, 506, 501, 496, 491, 486]
+end.x=380
+name=Polygon17
+width=74
+x.points=[306, 306, 310, 315, 319, 324, 329, 334, 339, 344, 349, 354, 359, 360, 364, 367, 368, 370, 372, 375, 375, 375, 375, 375, 377, 378, 380, 380, 380, 380, 378, 377, 372, 370, 367, 364, 360, 355, 350, 347, 342, 337, 334, 331, 328, 328, 328, 329, 329, 332, 336, 337, 339, 337, 336, 331, 328, 324, 321, 318, 315, 311, 311, 310]
+image=allosaurus.jpg
+view.y=0
+view.x=-1106
+color=BLUE
+view.zoom=0.61263406
+type=Polygon
+start.y=471
+height=136
+start.x=306
+end.y=607
+tag=two short forelimbs
+
+[Polygon18]
+#Wed Aug 18 09:14:43 EDT 2010
+y.points=[517, 523, 528, 533, 538, 543, 546, 551, 556, 561, 566, 569, 569, 569, 569, 569, 568, 563, 558, 553, 548, 543, 538, 533, 528, 525, 522, 517, 512, 509, 507, 506, 506, 507, 512, 517]
+end.x=349
+name=Polygon18
+width=48
+x.points=[305, 306, 306, 306, 306, 306, 301, 301, 301, 301, 306, 311, 316, 321, 326, 331, 336, 341, 344, 346, 346, 349, 349, 349, 346, 341, 336, 332, 328, 323, 318, 313, 308, 303, 303, 303]
+image=allosaurus.jpg
+view.y=0
+view.x=-1106
+color=BLUE
+view.zoom=0.61263406
+type=Polygon
+start.y=506
+height=63
+start.x=301
+end.y=569
+tag=two short forelimbs
+
+[Polygon29]
+#Wed Aug 18 09:14:43 EDT 2010
+y.points=[401, 401, 401, 401, 401, 401, 401, 404, 409, 414, 419, 424, 429, 433, 438, 443, 448, 453, 455, 458, 461, 461, 463, 463, 463, 463, 458, 453, 448, 443, 438, 433, 429, 424, 420, 415, 411, 407, 402, 399]
+end.x=110
+name=Polygon29
+width=62
+x.points=[83, 79, 75, 70, 65, 60, 55, 50, 48, 48, 48, 48, 48, 50, 53, 58, 60, 63, 68, 73, 78, 83, 88, 92, 97, 102, 107, 110, 110, 110, 110, 110, 109, 106, 101, 97, 94, 89, 88, 83]
+image=allosaurus.jpg
+view.y=0
+view.x=-1104
+color=BLUE
+view.zoom=0.6130221
+type=Polygon
+start.y=399
+height=64
+start.x=48
+end.y=463
+tag=NO snout horns
+
+[Polygon5]
+#Wed Aug 18 09:14:43 EDT 2010
+y.points=[365, 373, 380, 385, 390, 395, 399, 406, 411, 416, 421, 426, 432, 437, 442, 448, 453, 458, 463, 468, 473, 478, 483, 488, 492, 497, 502, 506, 510, 512, 515, 517, 517, 517, 517, 519, 520, 522, 522, 522, 522, 522, 522, 522, 523, 523, 523, 523, 525, 528, 533, 537, 541, 545, 546, 548, 550, 550, 550, 551, 551, 551, 551, 551, 551, 551, 551, 551, 551, 551, 551, 551, 551, 551, 550, 548, 548, 545, 545, 543, 543, 541, 541, 541, 541, 541, 541, 540, 537, 533, 532, 527, 525, 522, 519, 517, 514, 509, 506, 501, 496, 491, 486, 481, 476, 471, 466, 461, 457, 452, 447, 442, 437, 432, 427, 422, 416, 411, 406, 401, 396, 391, 386, 383, 380, 378, 375, 372, 368, 365, 364, 360, 360, 359, 357, 357, 355, 355, 354, 352, 350, 349, 347, 346, 346, 346, 346, 346, 346, 346, 346, 346, 346, 346, 346, 346, 346, 346, 346, 346, 346, 346, 346, 346, 346, 346, 346, 346, 346, 346, 346, 346, 347, 349, 349, 350, 350, 350, 350, 354, 354, 354, 354]
+end.x=662
+name=Polygon5
+width=387
+x.points=[626, 633, 636, 641, 643, 646, 648, 649, 651, 651, 651, 652, 654, 654, 654, 657, 661, 662, 662, 662, 662, 662, 662, 661, 659, 656, 652, 648, 644, 639, 634, 630, 625, 620, 615, 610, 605, 600, 595, 589, 584, 579, 574, 569, 563, 558, 553, 548, 543, 538, 535, 530, 525, 520, 515, 510, 506, 501, 496, 491, 486, 481, 476, 471, 466, 461, 457, 452, 447, 442, 437, 432, 427, 422, 417, 412, 406, 399, 395, 390, 385, 378, 373, 368, 364, 359, 354, 349, 344, 337, 332, 328, 323, 318, 313, 308, 303, 298, 293, 290, 285, 284, 280, 277, 275, 275, 275, 275, 275, 275, 275, 275, 275, 275, 275, 275, 277, 279, 280, 280, 282, 288, 297, 301, 306, 311, 316, 321, 328, 332, 337, 342, 349, 354, 359, 365, 370, 375, 380, 385, 391, 396, 401, 408, 412, 417, 426, 432, 440, 447, 452, 457, 463, 471, 478, 484, 489, 494, 501, 506, 510, 515, 522, 528, 533, 538, 543, 548, 553, 558, 563, 568, 572, 577, 582, 587, 592, 597, 602, 607, 612, 617, 621]
+image=allosaurus.jpg
+view.y=0
+view.x=-1106
+color=BLUE
+view.zoom=0.61263406
+type=Polygon
+start.y=346
+height=205
+start.x=275
+end.y=551
+tag=large body
+
+[Polygon7]
+#Wed Aug 18 09:14:43 EDT 2010
+y.points=[515, 515, 515, 515, 515, 515, 515, 515, 515, 515, 515, 515, 515, 515, 519, 523, 528, 533, 538, 545, 550, 556, 561, 568, 572, 579, 584, 589, 594, 599, 605, 610, 615, 621, 626, 631, 636, 641, 646, 651, 656, 661, 665, 669, 672, 675, 677, 680, 682, 683, 685, 687, 687, 687, 687, 687, 687, 687, 685, 683, 679, 674, 669, 662, 657, 652, 649, 648, 646, 644, 644, 643, 639, 634, 630, 623, 618, 612, 607, 602, 599, 594, 589, 584, 579, 576, 572, 568, 563, 559, 554, 550, 545, 540, 535, 530, 525, 520, 519, 519]
+end.x=652
+name=Polygon7
+width=112
+x.points=[550, 558, 563, 571, 577, 582, 587, 592, 597, 602, 607, 612, 617, 621, 626, 631, 633, 636, 639, 641, 644, 646, 648, 648, 649, 651, 651, 651, 651, 651, 651, 651, 651, 651, 651, 651, 651, 651, 651, 652, 652, 652, 649, 644, 639, 634, 630, 625, 620, 613, 608, 603, 599, 594, 587, 582, 576, 571, 566, 561, 556, 554, 554, 554, 556, 559, 566, 572, 577, 582, 587, 592, 597, 602, 603, 603, 603, 603, 602, 600, 595, 592, 587, 582, 579, 574, 569, 564, 561, 556, 553, 550, 545, 541, 540, 540, 540, 541, 546, 553]
+image=allosaurus.jpg
+view.y=0
+view.x=-1106
+color=BLUE
+view.zoom=0.61263406
+type=Polygon
+start.y=515
+height=172
+start.x=540
+end.y=687
+tag=two hindlimbs
+
+[Polygon8]
+#Wed Aug 18 09:14:43 EDT 2010
+y.points=[414, 414, 414, 414, 414, 414, 414, 414, 416, 419, 424, 427, 432, 437, 439, 443, 448, 453, 458, 463, 470, 474, 481, 488, 494, 501, 506, 510, 517, 522, 527, 532, 538, 543, 548, 553, 558, 563, 568, 572, 577, 582, 587, 592, 597, 603, 608, 615, 621, 628, 634, 639, 644, 648, 652, 657, 662, 667, 672, 677, 682, 685, 690, 695, 698, 701, 703, 705, 705, 705, 705, 705, 705, 705, 705, 705, 705, 706, 706, 708, 708, 708, 708, 708, 706, 703, 698, 693, 688, 683, 680, 679, 677, 675, 674, 670, 667, 665, 664, 661, 657, 654, 651, 648, 643, 638, 634, 630, 626, 621, 617, 612, 607, 602, 597, 592, 587, 582, 577, 572, 568, 563, 558, 553, 548, 541, 537, 532, 527, 520, 515, 510, 504, 499, 494, 489, 484, 479, 473, 468, 460, 453, 448, 443, 439, 434, 430, 427, 424, 419, 416]
+end.x=572
+name=Polygon8
+width=192
+x.points=[491, 497, 504, 509, 514, 520, 525, 530, 535, 540, 545, 550, 553, 556, 561, 564, 568, 571, 572, 572, 572, 572, 572, 572, 571, 569, 566, 563, 558, 554, 551, 551, 548, 543, 543, 541, 541, 541, 541, 541, 541, 538, 537, 535, 535, 533, 532, 530, 528, 528, 528, 528, 525, 520, 519, 517, 514, 514, 512, 509, 507, 502, 497, 494, 489, 484, 479, 474, 470, 465, 460, 455, 450, 445, 440, 435, 430, 426, 421, 416, 411, 404, 399, 395, 390, 385, 381, 380, 380, 381, 386, 393, 398, 403, 408, 412, 417, 422, 427, 432, 439, 443, 448, 453, 458, 463, 468, 473, 478, 484, 484, 484, 484, 484, 484, 484, 483, 481, 479, 479, 479, 479, 478, 476, 473, 470, 468, 465, 461, 458, 455, 452, 452, 450, 450, 450, 450, 450, 450, 450, 450, 453, 455, 455, 458, 463, 468, 473, 478, 483, 488]
+image=allosaurus.jpg
+view.y=0
+view.x=-1106
+color=BLUE
+view.zoom=0.61263406
+type=Polygon
+start.y=414
+height=294
+start.x=380
+end.y=708
+tag=two hindlimbs
+
+[Rectangle23]
+#Wed Aug 18 09:14:43 EDT 2010
+y.points=[334, 400, 566, 498]
+end.x=1246
+name=Rectangle23
+width=612
+x.points=[677, 1246, 1205, 634]
+image=allosaurus.jpg
+view.y=211
+view.x=-213
+color=GREEN
+view.zoom=1.0
+type=Parallelogram
+start.y=334
+height=232
+start.x=634
+end.y=566
+tag=tail length
+
+[Ruler3]
+#Wed Aug 18 09:14:43 EDT 2010
+y.points=[]
+end.x=655
+name=Ruler3
+width=-509
+x.points=[]
+image=allosaurus.jpg
+view.y=0
+view.x=-1106
+color=ORANGE
+view.zoom=0.61263406
+type=Ruler
+start.y=457
+height=-10
+start.x=1164
+end.y=447
+tag=tail length
+

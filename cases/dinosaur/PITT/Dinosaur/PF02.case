@@ -1,0 +1,77 @@
+[CASE]
+name=PF02
+status=complete
+domain=http://slidetutor.upmc.edu/curriculum/owl/dinosaur/PITT/DinosaurInstances.owl#
+creator=kayse (PITT)
+
+[REPORT]
+PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+
+
+[DIAGNOSES]
+
+[DIAGNOSTIC_FINDINGS]
+Forelimbs
+
+[PROGNOSTIC_FINDINGS]
+Forelimbs
+
+[CLINICAL_FINDINGS]
+
+[ANCILLARY_STUDIES]
+
+[SLIDES]
+forelimbs.jpg
+
+[Forelimbs]
+#Mon Aug 23 13:59:22 EDT 2010
+locations=[]
+name=Forelimbs
+is.asserted=true
+Forelimbs.example=Arrow1
+is.absent=false
+parts=[]
+
+[forelimbs.jpg]
+#Mon Aug 23 13:59:22 EDT 2010
+part=null
+slide.name=forelimbs.jpg
+is.primary=true
+path=dinosaurs
+server=http\://op-image-tutor.upmc.com/servlet/OpenSlideServlet
+block=null
+stain=null
+level=null
+
+[Arrow1]
+#Mon Aug 23 13:59:22 EDT 2010
+y.points=null
+end.x=-88
+name=Arrow1
+width=-177
+x.points=null
+image=forelimbs.jpg
+view.y=0
+view.x=-355
+color=GREEN
+view.zoom=1.0
+type=Arrow
+start.y=133
+height=-21
+start.x=89
+end.y=112
+tag=Untagged
+

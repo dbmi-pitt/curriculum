@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Behavior>
+  <Task>
+    <Condition condition="Case Start"/>
+    <Action receiver="FeedbackModule" action="feedbackMode" input="none" />
+    <Action receiver="Interventions" action="solveCaseButton" input="How difficult do you think it will be to diagnose this case?[scale|0;6;very difficult;very easy]"/>
+  </Task>
+
+ <Task>
+	<Condition condition="Expression" operation="and">
+		<Condition condition="User Action" operation="=" input="type:Done"/>
+		<Condition condition="User Action" operation="=" input="label:ArcNodeInterface"/>
+		<Condition condition="User Type Count" operation="=" input="Done:1"/>
+	</Condition>
+	<Action receiver="Tutor" action="switchTutorModule" input="edu.pitt.dbmi.tutor.modules.interfaces.ColorBookInterface"/>
+ </Task>
+
+  <Task>
+	<Condition condition="Expression" operation="and">
+		<Condition condition="User Action" operation="=" input="type:Done"/>
+		<Condition condition="User Action" operation="=" input="label:ColorBookInterface"/>
+		<Condition condition="User Type Count" operation="=" input="Done:2"/>
+	</Condition>
+	<Action receiver="Tutor" action="switchTutorModule" input="edu.pitt.dbmi.tutor.modules.interfaces.ArcNodeInterface"/>
+	<Action receiver="MetaCognitiveSkillometer" action="showSkillometerQuestion" input=""/> 
+	<Action receiver="FeedbackModule" action="feedbackMode" input="error,color" />	
+	<Action receiver="FeedbackModule" action="autoHint" input="instant" />
+	<Action receiver="ArcNodeInterface" action="lockInterfaceTo" input="Done,Show Location,Lookup Glossary" />
+	<Action receiver="InterfaceModule" action="addMessageInput" input="Done:auto=true"/> 
+  </Task>
+  
+ <Task>
+	<Condition condition="Expression" operation="and">
+		<Condition condition="User Action" operation="=" input="type:Done"/>
+		<Condition condition="User Action" operation="=" input="label:ArcNodeInterface"/>
+		<Condition condition="User Type Count" operation="=" input="Done:3"/>
+	</Condition>
+	<Action receiver="MetaCognitiveSkillometer" action="showSkillometerDialog" input=""/> 
+	<Action reciever="Tutor" action="promptUser" input="Now that you have seen your mistakes and the tutor's response,&lt;p&gt;how confident will you be in solving similar cases?[scale|0;6;not confident;very confident]"/>
+	<Action receiver="Tutor" action="finishCase" input="SlideTutor"/> 
+ </Task>
+
+</Behavior>

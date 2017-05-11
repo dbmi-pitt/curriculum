@@ -1,0 +1,167 @@
+[CASE]
+name=PL01
+status=complete
+domain=http://slidetutor.upmc.edu/curriculum/owl/dinosaur/PITT/DinosaurInstances.owl#
+tags=question.type=link
+question.type=link
+creator=kayse (PITT)
+title=PL01
+
+[REPORT]
+PATIENT HISTORY:
+
+
+FINAL DIAGNOSIS:
+
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+
+
+MICROSCOPIC:
+
+
+[DIAGNOSES]
+IGUANODON
+TRICERATOPS
+ALLOSAURUS
+TYRANNOSAURUS_REX
+CENTROSAURUS
+
+[DIAGNOSTIC_FINDINGS]
+Medium_Body
+Large_Body
+One_Short_Snout_Horns
+One_Long_Snout_Horns
+Two_Short_Eye_Horns
+Forelimbs
+
+[PROGNOSTIC_FINDINGS]
+Medium_Body
+Large_Body
+One_Short_Snout_Horns
+One_Long_Snout_Horns
+Two_Short_Eye_Horns
+Forelimbs
+
+[CLINICAL_FINDINGS]
+
+[ANCILLARY_STUDIES]
+
+[SLIDES]
+
+[IGUANODON]
+#Wed Aug 18 10:31:35 EDT 2010
+locations=[]
+name=IGUANODON
+is.asserted=true
+is.absent=false
+IGUANODON.example=null
+parts=[]
+
+[TRICERATOPS]
+#Wed Aug 18 10:31:35 EDT 2010
+locations=[]
+name=TRICERATOPS
+TRICERATOPS.example=null
+is.asserted=true
+is.absent=false
+parts=[]
+
+[ALLOSAURUS]
+#Wed Aug 18 10:31:35 EDT 2010
+locations=[]
+name=ALLOSAURUS
+is.asserted=true
+is.absent=false
+parts=[]
+ALLOSAURUS.example=null
+
+[TYRANNOSAURUS_REX]
+#Wed Aug 18 10:31:35 EDT 2010
+locations=[]
+name=TYRANNOSAURUS_REX
+is.asserted=true
+is.absent=false
+TYRANNOSAURUS_REX.example=null
+parts=[]
+
+[CENTROSAURUS]
+#Wed Aug 18 10:31:35 EDT 2010
+locations=[]
+name=CENTROSAURUS
+is.asserted=true
+is.absent=false
+CENTROSAURUS.example=null
+parts=[]
+
+[Medium_Body]
+#Wed Aug 18 10:31:35 EDT 2010
+locations=[]
+Medium.example=null
+name=Medium_Body
+is.asserted=true
+is.absent=false
+Body.example=null
+parts=[]
+
+[Large_Body]
+#Wed Aug 18 10:31:35 EDT 2010
+locations=[]
+Large.example=null
+name=Large_Body
+is.asserted=true
+is.absent=false
+Body.example=null
+parts=[]
+
+[One_Short_Snout_Horns]
+#Wed Aug 18 10:31:35 EDT 2010
+One.example=null
+is.asserted=true
+name=One_Short_Snout_Horns
+Snout.example=null
+parts=[]
+Snout_Horns.example=null
+Number.example=null
+Short.example=null
+is.absent=false
+locations=[]
+
+[One_Long_Snout_Horns]
+#Wed Aug 18 10:31:35 EDT 2010
+One.example=null
+is.asserted=true
+name=One_Long_Snout_Horns
+Snout.example=null
+parts=[]
+Snout_Horns.example=null
+Number.example=null
+is.absent=false
+locations=[]
+Long.example=null
+
+[Two_Short_Eye_Horns]
+#Wed Aug 18 10:31:35 EDT 2010
+is.asserted=true
+name=Two_Short_Eye_Horns
+Eye.example=null
+Eye_Horns.example=null
+parts=[]
+Number.example=null
+Short.example=null
+is.absent=false
+locations=[]
+Two.example=null
+
+[Forelimbs]
+#Wed Aug 18 10:31:35 EDT 2010
+locations=[]
+name=Forelimbs
+is.asserted=true
+Forelimbs.example=null
+is.absent=false
+parts=[]
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Behavior>
+  <Task>
+    <Condition condition="Case Start" input="null" operation="null">
+    </Condition>
+    <Action action="feedbackMode" input="summary" receiver="FeedbackModule">
+    </Action>
+  </Task>
+  <Task>
+    <Condition condition="Expression" operation="and">
+      <Condition condition="User Action" input="type:Done" operation="=">
+      </Condition>
+      <Condition condition="User Type Count" input="Done:2" operation="=">
+      </Condition>
+    </Condition>
+    <Action action="finishCase" input="" receiver="Tutor">
+    </Action>
+  </Task>
+  <Task>
+    <Condition condition="Expression" operation="and">
+      <Condition condition="User Action" input="type:Done" operation="=">
+      </Condition>
+      <Condition condition="User Type Count" input="Done:1" operation="=">
+      </Condition>
+    </Condition>
+    <Action action="feedbackMode" input="error|color" receiver="FeedbackModule">
+    </Action>
+    <Action action="autoHint" input="instant" receiver="FeedbackModule">
+    </Action>
+    <Action action="lockInterfaceTo" input="Done,Glossary,Location" receiver="InterfaceModule">
+    </Action>
+  </Task>
+</Behavior>

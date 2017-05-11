@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Behavior>
+  <!--
+  <Task>
+    <Condition condition="User Action Count" operation="interval" input="(6)"/>
+    <Action action="feedbackMode" input="hint,error,color" receiver="FeedbackModule"/>
+  </Task>
+  <Task>
+    <Condition condition="User Action Count" operation="interval" input="(6,3)"/>
+    <Action action="feedbackMode" input="none" receiver="FeedbackModule"/>
+  </Task>
+-->
+  <Task>
+    <Condition condition="Case Start"/>
+    <Action receiver="FeedbackModule" action="feedbackMode" input="none" />
+  </Task>
+
+ <Task>
+	<Condition condition="Expression" operation="and">
+		<Condition condition="User Action" operation="=" input="type:Done"/>
+		<Condition condition="User Action" operation="=" input="label:ArcNodeInterface"/>
+		<Condition condition="User Type Count" operation="=" input="Done:1"/>
+	</Condition>
+	<Action receiver="Tutor" action="switchTutorModule" input="edu.pitt.dbmi.tutor.modules.interfaces.ColorBookInterface"/>
+ </Task>
+
+  <Task>
+	<Condition condition="Expression" operation="and">
+		<Condition condition="User Action" operation="=" input="type:Done"/>
+		<Condition condition="User Action" operation="=" input="label:ColorBookInterface"/>
+		<Condition condition="User Type Count" operation="=" input="Done:2"/>
+	</Condition>
+	<Action receiver="Tutor" action="switchTutorModule" input="edu.pitt.dbmi.tutor.modules.interfaces.ArcNodeInterface"/>
+	<Action receiver="MetaCognitiveSkillometer" action="showSkillometerQuestion" input=""/> 
+	<Action receiver="FeedbackModule" action="feedbackMode" input="error,color" />	
+	<Action receiver="FeedbackModule" action="autoHint" input="instant" />
+	<Action receiver="ArcNodeInterface" action="lockInterfaceTo" input="Done,DynamicBook" />
+  </Task>
+  
+ <Task>
+	<Condition condition="Expression" operation="and">
+		<Condition condition="User Action" operation="=" input="type:Done"/>
+		<Condition condition="User Action" operation="=" input="label:ArcNodeInterface"/>
+		<Condition condition="User Type Count" operation="=" input="Done:3"/>
+	</Condition>
+	<Action receiver="Tutor" action="finishCase" input="SlideTutor"/> 
+ </Task>
+
+</Behavior>

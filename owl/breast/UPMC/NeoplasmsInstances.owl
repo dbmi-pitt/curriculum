@@ -1,0 +1,275 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+    xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+    xmlns:j.0="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+    xmlns="http://slidetutor.upmc.edu/curriculum/owl/breast/UPMC/NeoplasmsInstances.owl#"
+    xmlns:neoplasms="http://slidetutor.upmc.edu/curriculum/owl/breast/UPMC/Neoplasms.owl#"
+    xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://slidetutor.upmc.edu/curriculum/owl/breast/UPMC/NeoplasmsInstances.owl">
+  <owl:Ontology rdf:about="">
+    <owl:imports rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/breast/UPMC/Neoplasms.owl"/>
+  </owl:Ontology>
+  <j.0:CASES rdf:ID="HA_1368">
+    <j.0:hasPrognostic>
+      <neoplasms:Left rdf:ID="left"/>
+    </j.0:hasPrognostic>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >HA_1368_HE_1A_L3.vms</j.0:hasImage>
+    <j.0:hasPrognostic>
+      <neoplasms:Core_Needle_Biopsy rdf:ID="core_needle_biopsy"/>
+    </j.0:hasPrognostic>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >incomplete</j.0:hasStatus>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >HA_1368</rdfs:label>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >HA_1368_HE_1A_L4.vms</j.0:hasImage>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >HA_1368_HE_1A_L1.vms</j.0:hasImage>
+    <j.0:hasPrognostic>
+      <neoplasms:Breast rdf:ID="breast"/>
+    </j.0:hasPrognostic>
+    <j.0:hasFinding>
+      <neoplasms:Non-caseating_Granuloma_Centered_around_Lobule rdf:ID="non-caseating_granuloma_centered_around_lobule"/>
+    </j.0:hasFinding>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >HA_1368_HE_1A_L2.vms</j.0:hasImage>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >HA_1368_HE_1A_L5.vms</j.0:hasImage>
+    <j.0:hasFinding>
+      <neoplasms:Microabscess rdf:ID="microabscess"/>
+    </j.0:hasFinding>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/breast/UPMC/Neoplasms.owl#IDIOPATHIC_GRANULOMATOUS_MASTITIS"/>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+New lump in left breast, ill-defined on mammogram an ultrasound.
+PRE-OP DIAGNOSIS: Rule out invasive lobular carcinoma.
+POST-OP DIAGNOSIS: Same.
+PROCEDURE: 1. Ultrasound core biopsy of a 2.2 cm mass at 8 o'clock in the left breast, 4 passes.
+
+FINAL DIAGNOSIS:
+PART 1: BREAST, LEFT, 8 O'CLOCK, ULTRASOUND GUIDED CORE BIOPSY
+CHRONIC GRANULOMATOUS LOBULAR MASTITIS
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+The specimen is received in formalin in two parts.
+
+Part 1 is labeled with the patient's name, initials, and "left breast at 8 o'clock". It consists of four cylindrical fragments of pink-yellow fibroadipose measuring up to 1.6 cm in length and up to 0.2 cm in diameter. The specimen is submitted entirely in cassette 1A.
+
+MICROSCOPIC:
+Microscopic examination substantiates the above diagnosis.
+</j.0:hasReport>
+  </j.0:CASES>
+  <j.0:CASES rdf:ID="HA_1352">
+    <j.0:hasFinding>
+      <neoplasms:Irregular_Slit-like_Lumina rdf:ID="irregular_slit-like_lumina"/>
+    </j.0:hasFinding>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+The patient is a 50-year-old female.
+
+Indeterminate calcifications.
+LMP: Not provided.
+PRE-OP DIAGNOSIS: Fibrocystic.
+POST-OP DIAGNOSIS: Same.
+PROCEDURE: Stereotactic core biopsy of calcifications in the right breast at 10:30 with 10 passes.
+
+FINAL DIAGNOSIS:
+PART 2: BREAST, RIGHT, 10:30, NO CALCIFICATIONS, STEREOTACTIC CORE BIOPSY
+A. BREAST TISSUE WITH FIBROCYSTIC CHANGES, DUCTAL EPITHELIAL HYPERPLASIA AND PSEUDOANGIOMATOUS STROMA HYPERPLASIA (PASH).
+B. FEW MICROCALCIFICATIONS.
+
+COMMENT:
+Correlated with Fine needle Aspiration Cytology reported as negative for malignant cells.
+
+GROSS DESCRIPTION:
+The specimen is received in formalin in two parts.
+
+Part 2 is labeled with the patient's name, initials, and "right breast at 10:30, no calcs". It consists of white and yellow fibroadipose cores, which range from 1.7 to 2.2 cm in length and measure 0.4 cm in diameter. The specimen is submitted entirely in two cassettes labeled 2A and 2B.
+
+MICROSCOPIC:
+Microscopic examination substantiates the above diagnosis.</j.0:hasReport>
+    <j.0:hasPrognostic>
+      <neoplasms:microcalcifications rdf:ID="microcalcifications1"/>
+    </j.0:hasPrognostic>
+    <j.0:hasPrognostic rdf:resource="#core_needle_biopsy"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/breast/UPMC/Neoplasms.owl#HYPERPLASIA"/>
+    <j.0:hasFinding>
+      <neoplasms:Calcification rdf:ID="calcification"/>
+    </j.0:hasFinding>
+    <j.0:hasFinding>
+      <neoplasms:Three_or_More_Cells_Above_Basement_Membrane rdf:ID="three_or_more_cells_above_basement_membrane"/>
+    </j.0:hasFinding>
+    <j.0:hasPrognostic rdf:resource="#breast"/>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >HA_1352_HE_2B_L3.vms</j.0:hasImage>
+    <j.0:hasFinding>
+      <neoplasms:Slit-like_Spaces rdf:ID="slit-like_spaces"/>
+    </j.0:hasFinding>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >HA_1352</rdfs:label>
+    <j.0:hasFinding>
+      <neoplasms:Myofibroblasts_Line_Slit-like_Spaces rdf:ID="myofibroblasts_line_slit-like_spaces"/>
+    </j.0:hasFinding>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/breast/UPMC/Neoplasms.owl#PSEUDOANGIOMATOUS_STROMAL_HYPERPLASIA"/>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >incomplete</j.0:hasStatus>
+    <j.0:hasClinicalFinding>
+      <neoplasms:Patient_Age_Number rdf:ID="patient_age_50_0">
+        <j.0:hasNumericValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+        >50.0</j.0:hasNumericValue>
+      </neoplasms:Patient_Age_Number>
+    </j.0:hasClinicalFinding>
+    <j.0:hasClinicalFinding>
+      <neoplasms:Female rdf:ID="female"/>
+    </j.0:hasClinicalFinding>
+    <j.0:hasFinding>
+      <neoplasms:Overgrowth_of_Stroma rdf:ID="overgrowth_of_stroma"/>
+    </j.0:hasFinding>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >1.0</owl:versionInfo>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >HA_1352_HE_2A_L3.vms</j.0:hasImage>
+    <j.0:hasFinding>
+      <neoplasms:Dense_Collagen rdf:ID="dense_collagen"/>
+    </j.0:hasFinding>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+    <j.0:hasPrognostic>
+      <neoplasms:Right rdf:ID="right"/>
+    </j.0:hasPrognostic>
+  </j.0:CASES>
+  <neoplasms:Micro-organism rdf:ID="no_micro-organism">
+    <j.0:isAbsent rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</j.0:isAbsent>
+  </neoplasms:Micro-organism>
+  <j.0:CASES rdf:ID="HA_1381">
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >HA_1381_HE_2A.vms</j.0:hasImage>
+    <j.0:hasClinicalFinding>
+      <neoplasms:Patient_Age_Number rdf:ID="patient_age_21_0">
+        <j.0:hasNumericValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+        >21.0</j.0:hasNumericValue>
+      </neoplasms:Patient_Age_Number>
+    </j.0:hasClinicalFinding>
+    <j.0:hasClinicalFinding rdf:resource="#female"/>
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >incomplete</j.0:hasStatus>
+    <j.0:hasPrognostic>
+      <j.0:Procedure rdf:ID="procedure"/>
+    </j.0:hasPrognostic>
+    <j.0:hasPrognostic rdf:resource="#left"/>
+    <j.0:hasFinding rdf:resource="#dense_collagen"/>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >HA_1381_HE_2B.vms</j.0:hasImage>
+    <j.0:hasPrognostic rdf:resource="#breast"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/breast/UPMC/Neoplasms.owl#PSEUDOANGIOMATOUS_STROMAL_HYPERPLASIA"/>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+The patient is a 21 year old female.
+LMP: Not provided.
+PRE-OP DIAGNOSIS: Cosmetic.
+POST-OP DIAGNOSIS: Same.
+PROCEDURE: Bilateral mastopexy, bilateral breast reduction.
+
+FINAL DIAGNOSIS:
+PART 2: BREAST, LEFT, REDUCTION MAMMOPLASTY
+A. BREAST PARENCHYMA (216 GM).
+B. PSEUDOANGIOMATOUS STROMAL HYPERPLASIA.
+C. SKIN HISTOLOGICALLY UNREMARKABLE.
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+The specimen is received in two parts.
+
+Part 2 is labeled with the patient's name, initials and "left breast tissue". It consists of a 12.0 x 10.0 x 4.0 cm aggregate of tan-yellow fibroadipose tissue with attached unremarkable tan skin, which weighs 216 g in total. The tissue is serially sectioned to reveal unremarkable tan-yellow fibroadipose tissue, which is comprised of approximately 70% yellow adipose tissue and 30 % white fibrous breast tissue. Representative sections of the specimen are submitted in two cassettes labeled 2A and 2B.
+
+MICROSCOPIC:
+Microscopic examination substantiates the above diagnosis.
+</j.0:hasReport>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+    <j.0:hasFinding rdf:resource="#myofibroblasts_line_slit-like_spaces"/>
+    <j.0:hasFinding rdf:resource="#overgrowth_of_stroma"/>
+    <j.0:hasFinding rdf:resource="#slit-like_spaces"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >HA_1381</rdfs:label>
+  </j.0:CASES>
+  <neoplasms:Neutrophil_Polymorphs rdf:ID="neutrophil_polymorphs"/>
+  <neoplasms:Hyperplasia rdf:ID="hyperplasia"/>
+  <neoplasms:Stroma rdf:ID="stroma"/>
+  <neoplasms:Patient_Age_Number rdf:ID="patient_age_number"/>
+  <neoplasms:Calcification rdf:ID="no_calcification">
+    <j.0:isAbsent rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</j.0:isAbsent>
+  </neoplasms:Calcification>
+  <neoplasms:Biopsy rdf:ID="biopsy"/>
+  <neoplasms:PSEUDOANGIOMATOUS_STROMAL_HYPERPLASIA rdf:ID="HA_1380">
+    <j.0:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >incomplete</j.0:hasStatus>
+    <j.0:hasFinding rdf:resource="#overgrowth_of_stroma"/>
+    <j.0:hasFinding rdf:resource="#dense_collagen"/>
+    <j.0:hasPrognostic rdf:resource="#right"/>
+    <j.0:hasFinding rdf:resource="#myofibroblasts_line_slit-like_spaces"/>
+    <j.0:hasPrognostic rdf:resource="#breast"/>
+    <j.0:hasPrognostic>
+      <neoplasms:Excision rdf:ID="excision"/>
+    </j.0:hasPrognostic>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >HA_1380</rdfs:label>
+    <j.0:hasReport rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PATIENT HISTORY:
+None given.
+LMP: Not provided.
+PRE-OP DIAGNOSIS: Cosmetic.
+POST-OP DIAGNOSIS: Same.
+PROCEDURE: Bilateral mastopexy, bilateral breast reduction.
+
+FINAL DIAGNOSIS:
+PART 1: BREAST, RIGHT, REDUCTION MAMMOPLASTY
+A. BREAST PARENCHYMA (296 GM).
+B. PSEUDOANGIOMATOUS STROMAL HYPERPLASIA.
+C. SKIN HISTOLOGICALLY UNREMARKABLE.
+
+COMMENT:
+
+
+GROSS DESCRIPTION:
+The specimen is received fresh in two parts.
+
+Part 1 is labeled with the patient's name, initials, and "right breast tissue". It consists of a 14.0 x 12.0 x 4.0 cm aggregate of tan-yellow fibroadipose tissue with attached unremarkable tan skin, which weighs 296 g in total. The tissue is serially sectioned to reveal unremarkable tan-yellow fibroadipose tissue, which is comprised of approximately 60% yellow adipose tissue and 40% white fibrous breast tissue. Representative sections of the specimen are submitted in two cassettes labeled 1A and 1B.
+
+
+MICROSCOPIC:
+Microscopic examination substantiates the above diagnosis.</j.0:hasReport>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >HA_1380_HE_1A.vms</j.0:hasImage>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >melissa (UPMC)</dc:creator>
+    <j.0:hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >HA_1380_HE_1B.vms</j.0:hasImage>
+    <j.0:hasFinding rdf:resource="#slit-like_spaces"/>
+    <rdf:type rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+  </neoplasms:PSEUDOANGIOMATOUS_STROMAL_HYPERPLASIA>
+  <neoplasms:Right_Breast rdf:ID="right_breast"/>
+  <neoplasms:Foreign_Body rdf:ID="no_foreign_body">
+    <j.0:isAbsent rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</j.0:isAbsent>
+  </neoplasms:Foreign_Body>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.4.1, Build 536)  http://protege.stanford.edu -->

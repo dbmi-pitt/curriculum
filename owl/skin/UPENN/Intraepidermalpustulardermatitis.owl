@@ -1,0 +1,1610 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+    xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+    xmlns:knowledgebase="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#"
+    xmlns="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+    xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="file:/home/tseytlin/Work/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl">
+  <owl:Ontology rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl">
+    <owl:imports rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl"/>
+  </owl:Ontology>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#ALLERGIC_CONTACT_DERMATITIS">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >allergic contact dermatitis, unspecified cause</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A contact dermatitis due to allergic sensitization to various substances. These substances subsequently produce inflammatory reactions in the skin of those who have acquired hypersensitivity to them as a result of prior exposure.</rdfs:comment>
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C0162820</knowledgebase:code>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ALLERGIC CONTACT DERMATITIS</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >acd - allergic contact dermatitis</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >allergic contact dermatitis</rdfs:label>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Hyphae"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Spongiotic_Vesicles"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#INTRAEPIDERMAL_PUSTULAR_DERMATITIS"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dermatitis, allergic eczematous</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Subcorneal">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >subcorneal</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#STAPHYLOCOCCAL_SCALDED_SKIN_SYNDROME">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#INTRAEPIDERMAL_PUSTULAR_DERMATITIS"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >STAPHYLOCOCCAL SCALDED SKIN SYNDROME</rdfs:label>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Bacteria_within_Pustules"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Acantholysis"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Subcorneal"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#CANDIDIASIS">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >muguet</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >thrush</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >candidiasis of unspecified site</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >monilial infection</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#INTRAEPIDERMAL_PUSTULAR_DERMATITIS"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >candidiasis, unspecified</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >candida nos</rdfs:label>
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C0006840</knowledgebase:code>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CANDIDIASIS</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >candidosis</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >candidiasis site nos</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >monilia infection</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A condition in which Candida albicans, a type of yeast, grows out of control in moist skin areas of the body. It is usually a result of a weakened immune system, but can be a side effect of chemotherapy or treatment with antibiotics. Thrush usually affects the mouth (oral thrush); however, rarely, it spreads throughout the entire body.</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >candidal infection nos</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >candidiasis</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >moniliasis monilia</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >monilia nos</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >[x]candidiasis, unspecified</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >moniliasis</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >infection by candida species</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >candida infections</rdfs:label>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Pseudohyphae"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Intracorneal"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Subcorneal"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Intraspinous"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Intracorneal">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >intracorneal</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#IMPETIGO">
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C0021099</knowledgebase:code>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >impetigo [any organism] [any site]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >impetigo</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >IMPETIGO</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#INTRAEPIDERMAL_PUSTULAR_DERMATITIS"/>
+    </rdfs:subClassOf>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Bacteria_within_Pustules"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Acantholysis"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Subcorneal"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A common superficial bacterial infection caused by STAPHYLOCOCCUS AUREUS or group A beta-hemolytic streptococci. Characteristics include pustular lesions that rupture and discharge a thin, amber-colored fluid that dries and forms a crust. This condition is commonly located on the face, especially about the mouth and nose.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Bacteria_within_Pustules">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >bacteria within pustules</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#DYSHIDROTIC_DERMATITIS">
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C1535513</knowledgebase:code>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#INTRAEPIDERMAL_PUSTULAR_DERMATITIS"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dyshidrotic dermatitis</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >pompholyx of hands</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >vesicular hand eczema</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A recurrent eczematous reaction characterized by the development of vesicular eruptions on the palms and soles, particularly along the sides and between the digits. It is accompanied by pruritus, a burning sensation, and hyperhidrosis. The disease is self-limiting, lasting only a few weeks. (Dorland, 27th ed)</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dyshydrotic eczema</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >cheiropodopompholyx</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dyshidrotic eczema</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dyshidrotic eczema of hands</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >vesicular eczema of hands and/or feet</rdfs:label>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Hyphae"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Spongiotic_Vesicles"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dishydrosis</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dyshidria</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dyshidrosis nos</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >DYSHIDROTIC DERMATITIS</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >chiropompholyx</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >vesicular eczema of hands and feet</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dyshidrosis unspecified</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >cheiropompholyx</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dyshidrosis</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >vesicular palmoplantar eczema</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >pompholyx eczema</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >pompholyx unspecified</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >pompholyx</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#RUPIAL_SYPHILIS">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >RUPIAL SYPHILIS</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#INTRAEPIDERMAL_PUSTULAR_DERMATITIS"/>
+    </rdfs:subClassOf>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Histiocytes"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Plasma_Cells"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Intracorneal"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Subcorneal"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Intraspinous"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#BULLOUS_IMPETIGO">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >circinate impetigo</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >impetigo contagiosa of any site and any organism, bullous</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >impetigo contagiosa, bullous</rdfs:label>
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C0021100</knowledgebase:code>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a form of impetigo in which the skin lesions are bullae instead of vesicles. The crusts are thin and greenish yellow.</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >bullous staphylococcal impetigo</rdfs:label>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Bacteria_within_Pustules"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Acantholysis"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Subcorneal"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >impetigo circinata</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >bullous impetigo</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#INTRAEPIDERMAL_PUSTULAR_DERMATITIS"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >impetigo due to staphylococcus aureus</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >impetigo contagiosa bullosa</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >impetigo bullosa</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >BULLOUS IMPETIGO</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Hyphae">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >hyphae</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#NUMMULAR_DERMATITIS">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >nummular eczematous dermatitis</rdfs:label>
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C0085656</knowledgebase:code>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Hyphae"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Spongiotic_Vesicles"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >NUMMULAR DERMATITIS</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nummular (meaning "coin-shaped") dermatitis is a form of eczema.</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >nummular dermatitis</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#INTRAEPIDERMAL_PUSTULAR_DERMATITIS"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >eczema nummular</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >exudative neurodermatitis</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >nummular eczema</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#PEMPHIGUS_FOLIACEUS">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PEMPHIGUS FOLIACEUS</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >pemphigus foliaceus</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#INTRAEPIDERMAL_PUSTULAR_DERMATITIS"/>
+    </rdfs:subClassOf>
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C0263313</knowledgebase:code>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >cazenave</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >pf - pemphigus foliaceous</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >pemphigus foliaceous</rdfs:label>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Bacteria_within_Pustules"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Acantholysis"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Subcorneal"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pemphigus foliaceus is an autoimmune blistering disease of the skin and mucous membranes with characteristic lesions that are scaly, crusted erosions, often on an erythematous base</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Intraepidermal_Pustular_Dermatitis">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >INTRAEPIDERMALPUSTULARDERMATITIS</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#MILIARIA_CRYSTALLINA">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >miliaria rubra</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >sweat rash</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >miliaria tropicalis</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >prickly heat</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#INTRAEPIDERMAL_PUSTULAR_DERMATITIS"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    > A syndrome of cutaneous changes associated with sweat retention and extravasation of sweat at different levels in the skin. Miliaria rubra, or prickly heat, results from apocrine duct obstruction. The sweat then seeps into the epidermis, producing pruritic erythematous papulovesicles.</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >MILIARIA CRYSTALLINA</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >heat rash</rdfs:label>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Neutrophils"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Acantholysis"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Subcorneal"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C0162423</knowledgebase:code>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >sudamina</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >miliaria crystallina</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#PUSTULAR_PSORIASIS">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#INTRAEPIDERMAL_PUSTULAR_DERMATITIS"/>
+    </rdfs:subClassOf>
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C0152081</knowledgebase:code>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >pseudopsoriasis, pustular</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >pustular psoriasis</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PUSTULAR PSORIASIS</rdfs:label>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Other_Findings"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Intracorneal"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Subcorneal"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Intraspinous"/>
+            </owl:someValuesFrom>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >It is a distinctive acute variant of psoriasis, characterized by a fever and sudden generalized eruption of sterile pustules 2 to 3mm in diameter. </rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#DERMATOPHYTOSIS">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >[x]dermatophytosis, unspecified</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >DERMATOPHYTOSIS</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#INTRAEPIDERMAL_PUSTULAR_DERMATITIS"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dermatophytosis</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An infection of the skin, hair, or nails caused by a dermatophyte and characterized by redness of the skin, small papular vesicles, fissures, and scaling.</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dermatophytosis site nos</rdfs:label>
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C0011636</knowledgebase:code>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dermatophytosis, unspecified</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dermatophytosis of unspecified site</rdfs:label>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Hyphae"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Intracorneal"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Subcorneal"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Intraspinous"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#IMPETIGINIZED_ID_REACTION">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dermatitis autosensitisation</rdfs:label>
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C0263236</knowledgebase:code>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Hyphae"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Spongiotic_Vesicles"/>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >IMPETIGINIZED ID REACTION</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >autoeczematization</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#INTRAEPIDERMAL_PUSTULAR_DERMATITIS"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >sensitization dermatitis</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >id reaction</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >cutaneous autosensitization</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A sudden generalized or localized vesicular dermatitis developing in association with a defined local dermatitis or infection is known as id reaction. </rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#INTRAEPIDERMAL_PUSTULAR_DERMATITIS">
+    <knowledgebase:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >C0263003</knowledgebase:code>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >INTRAEPIDERMAL PUSTULAR DERMATITIS</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >intraepidermal pustular dermatitis</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSES"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Spongiotic_Vesicles">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >spongiotic vesicles</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Acantholysis">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >acantholysis</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Plasma_Cells">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >plasma cells</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Neutrophils">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >neutrophils</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Histiocytes">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >histiocytes</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Intraspinous">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >intraspinous</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Pseudohyphae">
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >pseudohyphae</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Other_Findings">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >other findings</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSTIC_FINDINGS"/>
+  </owl:Class>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest>
+          <rdf:List>
+            <rdf:first>
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Subcorneal"/>
+              </owl:Restriction>
+            </rdf:first>
+            <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+          </rdf:List>
+        </rdf:rest>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Acantholysis"/>
+          </owl:Restriction>
+        </rdf:first>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Bacteria_within_Pustules"/>
+      </owl:Restriction>
+    </rdf:first>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Neutrophils"/>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+      </owl:Restriction>
+    </rdf:first>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest>
+          <rdf:List>
+            <rdf:first>
+              <owl:Restriction>
+                <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Subcorneal"/>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+              </owl:Restriction>
+            </rdf:first>
+            <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+          </rdf:List>
+        </rdf:rest>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Acantholysis"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+          </owl:Restriction>
+        </rdf:first>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Hyphae"/>
+      </owl:Restriction>
+    </rdf:first>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest>
+          <rdf:List>
+            <rdf:rest>
+              <rdf:List>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                <rdf:first>
+                  <owl:Restriction>
+                    <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                    <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Intraspinous"/>
+                  </owl:Restriction>
+                </rdf:first>
+              </rdf:List>
+            </rdf:rest>
+            <rdf:first>
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Subcorneal"/>
+              </owl:Restriction>
+            </rdf:first>
+          </rdf:List>
+        </rdf:rest>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Intracorneal"/>
+          </owl:Restriction>
+        </rdf:first>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Hyphae"/>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+      </owl:Restriction>
+    </rdf:first>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Spongiotic_Vesicles"/>
+          </owl:Restriction>
+        </rdf:first>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest>
+          <rdf:List>
+            <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            <rdf:first>
+              <owl:Restriction>
+                <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Subcorneal"/>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+              </owl:Restriction>
+            </rdf:first>
+          </rdf:List>
+        </rdf:rest>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Acantholysis"/>
+          </owl:Restriction>
+        </rdf:first>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Neutrophils"/>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+      </owl:Restriction>
+    </rdf:first>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSES"/>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Hyphae"/>
+      </owl:Restriction>
+    </rdf:first>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Spongiotic_Vesicles"/>
+          </owl:Restriction>
+        </rdf:first>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <owl:DataRange>
+    <owl:oneOf rdf:parseType="Resource">
+      <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+      >incomplete</rdf:first>
+      <rdf:rest rdf:parseType="Resource">
+        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >complete</rdf:first>
+        <rdf:rest rdf:parseType="Resource">
+          <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+          >tested</rdf:first>
+          <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        </rdf:rest>
+      </rdf:rest>
+    </owl:oneOf>
+  </owl:DataRange>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Acantholysis"/>
+          </owl:Restriction>
+        </rdf:first>
+        <rdf:rest>
+          <rdf:List>
+            <rdf:first>
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Subcorneal"/>
+              </owl:Restriction>
+            </rdf:first>
+            <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+          </rdf:List>
+        </rdf:rest>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Bacteria_within_Pustules"/>
+      </owl:Restriction>
+    </rdf:first>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Hyphae"/>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+      </owl:Restriction>
+    </rdf:first>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Spongiotic_Vesicles"/>
+          </owl:Restriction>
+        </rdf:first>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#TEMPLATES"/>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest>
+          <rdf:List>
+            <rdf:first>
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Subcorneal"/>
+              </owl:Restriction>
+            </rdf:first>
+            <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+          </rdf:List>
+        </rdf:rest>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Acantholysis"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </rdf:first>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Bacteria_within_Pustules"/>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+      </owl:Restriction>
+    </rdf:first>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSES"/>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest>
+          <rdf:List>
+            <rdf:first>
+              <owl:Restriction>
+                <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Intracorneal"/>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+              </owl:Restriction>
+            </rdf:first>
+            <rdf:rest>
+              <rdf:List>
+                <rdf:first>
+                  <owl:Restriction>
+                    <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Subcorneal"/>
+                    <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                  </owl:Restriction>
+                </rdf:first>
+                <rdf:rest>
+                  <rdf:List>
+                    <rdf:first>
+                      <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Intraspinous"/>
+                      </owl:Restriction>
+                    </rdf:first>
+                    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                  </rdf:List>
+                </rdf:rest>
+              </rdf:List>
+            </rdf:rest>
+          </rdf:List>
+        </rdf:rest>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Plasma_Cells"/>
+          </owl:Restriction>
+        </rdf:first>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Histiocytes"/>
+      </owl:Restriction>
+    </rdf:first>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest>
+          <rdf:List>
+            <rdf:rest>
+              <rdf:List>
+                <rdf:rest>
+                  <rdf:List>
+                    <rdf:first>
+                      <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Intraspinous"/>
+                      </owl:Restriction>
+                    </rdf:first>
+                    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                  </rdf:List>
+                </rdf:rest>
+                <rdf:first>
+                  <owl:Restriction>
+                    <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                    <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Subcorneal"/>
+                  </owl:Restriction>
+                </rdf:first>
+              </rdf:List>
+            </rdf:rest>
+            <rdf:first>
+              <owl:Restriction>
+                <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Intracorneal"/>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+              </owl:Restriction>
+            </rdf:first>
+          </rdf:List>
+        </rdf:rest>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Plasma_Cells"/>
+          </owl:Restriction>
+        </rdf:first>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Histiocytes"/>
+      </owl:Restriction>
+    </rdf:first>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Pseudohyphae"/>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+      </owl:Restriction>
+    </rdf:first>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Intracorneal"/>
+          </owl:Restriction>
+        </rdf:first>
+        <rdf:rest>
+          <rdf:List>
+            <rdf:rest>
+              <rdf:List>
+                <rdf:first>
+                  <owl:Restriction>
+                    <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Intraspinous"/>
+                    <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                  </owl:Restriction>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+              </rdf:List>
+            </rdf:rest>
+            <rdf:first>
+              <owl:Restriction>
+                <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Subcorneal"/>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+              </owl:Restriction>
+            </rdf:first>
+          </rdf:List>
+        </rdf:rest>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Spongiotic_Vesicles"/>
+          </owl:Restriction>
+        </rdf:first>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Hyphae"/>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+      </owl:Restriction>
+    </rdf:first>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#FINDINGS"/>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#VALUES"/>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Bacteria_within_Pustules"/>
+      </owl:Restriction>
+    </rdf:first>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest>
+          <rdf:List>
+            <rdf:first>
+              <owl:Restriction>
+                <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Subcorneal"/>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+              </owl:Restriction>
+            </rdf:first>
+            <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+          </rdf:List>
+        </rdf:rest>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Acantholysis"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </rdf:first>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSES"/>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Hyphae"/>
+      </owl:Restriction>
+    </rdf:first>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Spongiotic_Vesicles"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </rdf:first>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Hyphae"/>
+      </owl:Restriction>
+    </rdf:first>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Spongiotic_Vesicles"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </rdf:first>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Other_Findings"/>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+      </owl:Restriction>
+    </rdf:first>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest>
+          <rdf:List>
+            <rdf:first>
+              <owl:Restriction>
+                <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Subcorneal"/>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+              </owl:Restriction>
+            </rdf:first>
+            <rdf:rest>
+              <rdf:List>
+                <rdf:first>
+                  <owl:Restriction>
+                    <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Intraspinous"/>
+                    <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                  </owl:Restriction>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+              </rdf:List>
+            </rdf:rest>
+          </rdf:List>
+        </rdf:rest>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Intracorneal"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </rdf:first>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Bacteria_within_Pustules"/>
+      </owl:Restriction>
+    </rdf:first>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest>
+          <rdf:List>
+            <rdf:first>
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Subcorneal"/>
+              </owl:Restriction>
+            </rdf:first>
+            <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+          </rdf:List>
+        </rdf:rest>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Acantholysis"/>
+          </owl:Restriction>
+        </rdf:first>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSES"/>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest>
+          <rdf:List>
+            <rdf:rest>
+              <rdf:List>
+                <rdf:first>
+                  <owl:Restriction>
+                    <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Intraspinous"/>
+                    <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                  </owl:Restriction>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+              </rdf:List>
+            </rdf:rest>
+            <rdf:first>
+              <owl:Restriction>
+                <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Subcorneal"/>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+              </owl:Restriction>
+            </rdf:first>
+          </rdf:List>
+        </rdf:rest>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Intracorneal"/>
+          </owl:Restriction>
+        </rdf:first>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Pseudohyphae"/>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+      </owl:Restriction>
+    </rdf:first>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSES"/>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSES"/>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSES"/>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#FINDINGS"/>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSES"/>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Spongiotic_Vesicles"/>
+          </owl:Restriction>
+        </rdf:first>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Hyphae"/>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+      </owl:Restriction>
+    </rdf:first>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest>
+          <rdf:List>
+            <rdf:first>
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Subcorneal"/>
+              </owl:Restriction>
+            </rdf:first>
+            <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+          </rdf:List>
+        </rdf:rest>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Acantholysis"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </rdf:first>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Bacteria_within_Pustules"/>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+      </owl:Restriction>
+    </rdf:first>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSES"/>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Acantholysis"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </rdf:first>
+        <rdf:rest>
+          <rdf:List>
+            <rdf:first>
+              <owl:Restriction>
+                <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Subcorneal"/>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+              </owl:Restriction>
+            </rdf:first>
+            <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+          </rdf:List>
+        </rdf:rest>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Bacteria_within_Pustules"/>
+      </owl:Restriction>
+    </rdf:first>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Other_Findings"/>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+      </owl:Restriction>
+    </rdf:first>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Intracorneal"/>
+          </owl:Restriction>
+        </rdf:first>
+        <rdf:rest>
+          <rdf:List>
+            <rdf:first>
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Subcorneal"/>
+              </owl:Restriction>
+            </rdf:first>
+            <rdf:rest>
+              <rdf:List>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                <rdf:first>
+                  <owl:Restriction>
+                    <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                    <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Intraspinous"/>
+                  </owl:Restriction>
+                </rdf:first>
+              </rdf:List>
+            </rdf:rest>
+          </rdf:List>
+        </rdf:rest>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSES"/>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#FINDINGS"/>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSES"/>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#PROGNOSTIC_FINDINGS"/>
+  </rdf:List>
+  <owl:DataRange>
+    <owl:oneOf rdf:parseType="Resource">
+      <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+      >low</rdf:first>
+      <rdf:rest rdf:parseType="Resource">
+        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >medium</rdf:first>
+        <rdf:rest rdf:parseType="Resource">
+          <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+          <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+          >high</rdf:first>
+        </rdf:rest>
+      </rdf:rest>
+    </owl:oneOf>
+  </owl:DataRange>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Intracorneal"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </rdf:first>
+        <rdf:rest>
+          <rdf:List>
+            <rdf:rest>
+              <rdf:List>
+                <rdf:first>
+                  <owl:Restriction>
+                    <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Intraspinous"/>
+                    <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                  </owl:Restriction>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+              </rdf:List>
+            </rdf:rest>
+            <rdf:first>
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Subcorneal"/>
+              </owl:Restriction>
+            </rdf:first>
+          </rdf:List>
+        </rdf:rest>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Hyphae"/>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+      </owl:Restriction>
+    </rdf:first>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#CASES"/>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#TEMPLATES"/>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#DIAGNOSES"/>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#PROGNOSTIC_FINDINGS"/>
+  </rdf:List>
+  <rdf:List>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Spongiotic_Vesicles"/>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+          </owl:Restriction>
+        </rdf:first>
+      </rdf:List>
+    </rdf:rest>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Hyphae"/>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+      </owl:Restriction>
+    </rdf:first>
+  </rdf:List>
+  <rdf:List>
+    <rdf:first>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Bacteria_within_Pustules"/>
+        <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasAbsentFinding"/>
+      </owl:Restriction>
+    </rdf:first>
+    <rdf:rest>
+      <rdf:List>
+        <rdf:first>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+            <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Acantholysis"/>
+          </owl:Restriction>
+        </rdf:first>
+        <rdf:rest>
+          <rdf:List>
+            <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            <rdf:first>
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/KnowledgeBase.owl#hasFinding"/>
+                <owl:someValuesFrom rdf:resource="http://slidetutor.upmc.edu/curriculum/owl/skin/UPENN/Intraepidermalpustulardermatitis.owl#Subcorneal"/>
+              </owl:Restriction>
+            </rdf:first>
+          </rdf:List>
+        </rdf:rest>
+      </rdf:List>
+    </rdf:rest>
+  </rdf:List>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.4.1, Build 536)  http://protege.stanford.edu -->
